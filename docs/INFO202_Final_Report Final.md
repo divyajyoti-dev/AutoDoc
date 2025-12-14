@@ -129,7 +129,7 @@ AI was effective as a productivity multiplier for planning, boilerplate generati
 
 ## Conclusion
 
-AutoDoc demonstrates that information organization principles—developed for libraries, archives, and databases—apply directly to software documentation. The system achieves 81.67% overall accuracy across 30 diverse repositories, with structural field extraction exceeding 90% for well-structured Python and JavaScript projects.
+AutoDoc demonstrates that information organization principles, developed for libraries, archives, and databases, apply directly to software documentation. The system achieves 81.67% overall accuracy across 30 diverse repositories, with structural field extraction exceeding 90% for well-structured Python and JavaScript projects.
 
 Key findings:
 
