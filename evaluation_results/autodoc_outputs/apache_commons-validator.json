@@ -1,0 +1,148 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "Apache Commons Validator",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "Apache Commons Validator provides the building blocks for both client-side and server-side data validation.\n    It may be used standalone or with a framework like Struts.",
+      "confidence": "EXPLICIT"
+    },
+    "primary_language": {
+      "value": "Java",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": "1.10.2-SNAPSHOT",
+      "confidence": "EXPLICIT"
+    },
+    "entry_points": [
+      {
+        "path": "src/test/java/org/apache/commons/validator/UrlTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/org/apache/commons/validator/routines/UrlValidatorTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/org/apache/commons/validator/routines/DomainValidatorTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/org/apache/commons/validator/routines/EmailValidatorTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/example/org/apache/commons/validator/example/ValidateExample.java",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "commons-beanutils:commons-beanutils",
+        "version": "1.11.0"
+      },
+      {
+        "name": "commons-digester:commons-digester",
+        "version": "2.1"
+      },
+      {
+        "name": "commons-logging:commons-logging",
+        "version": "1.3.5"
+      },
+      {
+        "name": "commons-collections:commons-collections",
+        "version": "3.2.2"
+      },
+      {
+        "name": "org",
+        "version": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "Don Brown",
+        "email": "mrdon@apache.org"
+      },
+      {
+        "name": "Martin Cooper",
+        "email": "martinc@apache.org"
+      },
+      {
+        "name": "David Graham",
+        "email": "dgraham@apache.org"
+      },
+      {
+        "name": "Ted Husted",
+        "email": "husted@apache.org"
+      },
+      {
+        "name": "Rob Leland",
+        "email": "rleland at apache.org"
+      },
+      {
+        "name": "Craig McClanahan",
+        "email": "craigmcc@apache.org"
+      },
+      {
+        "name": "James Mitchell",
+        "email": "jmitchell NOSPAM apache.org"
+      },
+      {
+        "name": "Niall Pemberton",
+        "email": null
+      },
+      {
+        "name": "James Turner",
+        "email": "turner@apache.org"
+      },
+      {
+        "name": "David Winterfeldt",
+        "email": "dwinterfeldt@apache.org"
+      },
+      {
+        "name": "Henri Yandell",
+        "email": null
+      },
+      {
+        "name": "Ben Speakmon",
+        "email": null
+      },
+      {
+        "name": "Nick Burch",
+        "email": null
+      },
+      {
+        "name": "SimoneTripodi",
+        "email": null
+      },
+      {
+        "name": "Benedikt Ritter",
+        "email": null
+      },
+      {
+        "name": "Gary Gregory",
+        "email": "ggregory at apache.org"
+      }
+    ],
+    "has_tests": false,
+    "has_ci_config": true,
+    "file_count": 242,
+    "installation_method": "maven",
+    "usage_type": "library"
+  },
+  "readme": "# Apache Commons Validator\n![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)\n![Python: Java 1.8](https://img.shields.io/badge/Python-Java 1.8-blue.svg)\n\nApache Commons Validator provides the building blocks for both client-side and server-side data validation.\n    It may be used standalone or with a framework like Struts.\n\n## Key Features\n\n- Supports continuous integration workflows\n\n**Primary Language:** Java\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n**Requires Python Java 1.8**\n\n```bash\n# Clone the repository\ngit clone https://github.com/apache/commons-validator\ncd Apache Commons Validator\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython src/test/java/org/apache/commons/validator/UrlTest.java\npython src/test/java/org/apache/commons/validator/routines/UrlValidatorTest.java\npython src/test/java/org/apache/commons/validator/routines/DomainValidatorTest.java\npython src/test/java/org/apache/commons/validator/routines/EmailValidatorTest.java\npython src/example/org/apache/commons/validator/example/ValidateExample.java\n```\n\n\n## Project Structure\n\n```\nApache Commons Validator/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 build/                                  # Gradle build output\n\u2502   \u251c\u2500\u2500 classes/                            # Compiled classes\n\u2502   \u251c\u2500\u2500 reports/                            # Test reports\n\u2502   \u2514\u2500\u2500 libs/                               # Generated JARs\n\u2502\n\u251c\u2500\u2500 target/                                 # Maven build output\n\u2502   \u251c\u2500\u2500 classes/                            # Compiled classes\n\u2502   \u251c\u2500\u2500 generated-sources/                  # Generated code\n\u2502   \u2514\u2500\u2500 test-classes/                       # Test classes\n\u2502\n\u251c\u2500\u2500 src/\n\u2502   \u251c\u2500\u2500 main/\n\u2502   \u2502   \u251c\u2500\u2500 java/\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 com/example/project/\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 Application.java          # Main application\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 config/                   # Configuration\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 AppConfig.java        # App config\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 SecurityConfig.java   # Security config\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 DatabaseConfig.java   # Database config\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 controller/               # REST controllers\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 UserController.java   # User endpoints\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 AdminController.java  # Admin endpoints\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 HealthController.java # Health check\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 service/                  # Business logic\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 UserService.java      # User service\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 AuthService.java      # Auth service\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 impl/                 # Implementations\n\u2502   \u2502   \u2502       \u2502       \u251c\u2500\u2500 UserServiceImpl.java\n\u2502   \u2502   \u2502       \u2502       \u2514\u2500\u2500 AuthServiceImpl.java\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 repository/               # Data access\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 UserRepository.java   # User repo\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 RoleRepository.java   # Role repo\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 impl/                 # JPA impls\n\u2502   \u2502   \u2502       \u2502       \u2514\u2500\u2500 JpaUserRepository.java\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 model/                    # Domain models\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 User.java             # User entity\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 Role.java             # Role entity\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 AuditLog.java         # Audit entity\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 dto/                      # DTOs\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 UserRequestDTO.java   # Request DTO\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 UserResponseDTO.java  # Response DTO\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 ErrorResponseDTO.java # Error DTO\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 exception/                # Exceptions\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 GlobalExceptionHandler.java\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 ResourceNotFoundException.java\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 ValidationException.java\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 util/                     # Utilities\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 DateUtils.java        # Date helpers\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 ValidationUtils.java  # Validation\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 Constants.java        # Constants\n\u2502   \u2502   \u2502       \u2502\n\u2502   \u2502   \u2502       \u2514\u2500\u2500 security/                 # Security\n\u2502   \u2502   \u2502           \u251c\u2500\u2500 JwtTokenProvider.java # JWT handler\n\u2502   \u2502   \u2502           \u251c\u2500\u2500 AuthFilter.java       # Auth filter\n\u2502   \u2502   \u2502           \u2514\u2500\u2500 SecurityUtils.java    # Security utils\n\u2502   \u2502   \u2502\n\u2502   \u2502   \u251c\u2500\u2500 resources/\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 application.yml               # Main config\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 application-dev.yml           # Dev config\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 application-prod.yml          # Prod config\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 logback.xml                   # Logging config\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 db/                           # Database\n\u2502   \u2502   \u2502   \u2502   \u251c\u2500\u2500 migration/                # Flyway migrations\n\u2502   \u2502   \u2502   \u2502   \u2502   \u251c\u2500\u2500 V1__init.sql          # Initial schema\n\u2502   \u2502   \u2502   \u2502   \u2502   \u2514\u2500\u2500 V2__add_roles.sql     # Add roles\n\u2502   \u2502   \u2502   \u2502   \u2514\u2500\u2500 seed/                     # Seed data\n\u2502   \u2502   \u2502   \u2502       \u2514\u2500\u2500 test-data.sql         # Test data\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 templates/                    # Templates\n\u2502   \u2502   \u2502       \u251c\u2500\u2500 email/                    # Email templates\n\u2502   \u2502   \u2502       \u2502   \u251c\u2500\u2500 welcome.html          # Welcome email\n\u2502   \u2502   \u2502       \u2502   \u2514\u2500\u2500 reset-password.html   # Reset password\n\u2502   \u2502   \u2502       \u2514\u2500\u2500 error/                    # Error pages\n\u2502   \u2502   \u2502           \u2514\u2500\u2500 error.html            # Error template\n\u2502   \u2502   \u2502\n\u2502   \u2502   \u2514\u2500\u2500 webapp/                           # Web resources\n\u2502   \u2502       \u251c\u2500\u2500 WEB-INF/\n\u2502   \u2502       \u2502   \u251c\u2500\u2500 web.xml                   # Web config\n\u2502   \u2502       \u2502   \u2514\u2500\u2500 views/                    # JSP views\n\u2502   \u2502       \u2502       \u251c\u2500\u2500 index.jsp             # Index page\n\u2502   \u2502       \u2502       \u2514\u2500\u2500 login.jsp             # Login page\n\u2502   \u2502       \u2514\u2500\u2500 static/                       # Static assets\n\u2502   \u2502           \u251c\u2500\u2500 css/\n\u2502   \u2502           \u2502   \u2514\u2500\u2500 main.css              # Main styles\n\u2502   \u2502           \u251c\u2500\u2500 js/\n\u2502   \u2502           \u2502   \u2514\u2500\u2500 app.js                # Main script\n\u2502   \u2502           \u2514\u2500\u2500 images/\n\u2502   \u2502               \u2514\u2500\u2500 logo.png              # Logo image\n\u2502   \u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 run-local.sh                        # Local run\n\u2502   \u251c\u2500\u2500 deploy.sh                           # Deploy script\n\u2502   \u2514\u2500\u2500 cleanup.sh                          # Cleanup script\n\u2502\n\u251c\u2500\u2500 pom.xml                                 # Maven config\n\u251c\u2500\u2500 build.gradle                            # Gradle config\n\u251c\u2500\u2500 settings.gradle                         # Gradle settings\n\u251c\u2500\u2500 gradle.properties                       # Gradle properties\n\u251c\u2500\u2500 gradlew                                 # Gradle wrapper\n\u2514\u2500\u2500 gradlew.bat                             # Gradle wrapper (Win)\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `src/main/java/` | Java source files |\n| `src/main/resources/` | Configuration and resources |\n| `src/test/java/` | Test classes |\n| `target/` | Maven build output |\n| `build/` | Gradle build output |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: commons-beanutils:commons-beanutils, commons-digester:commons-digester, commons-logging:commons-logging, commons-collections:commons-collections, org\n\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| commons-beanutils:commons-beanutils | 1.11.0 | pom.xml |\n| commons-digester:commons-digester | 2.1 | pom.xml |\n| commons-logging:commons-logging | 1.3.5 | pom.xml |\n| commons-collections:commons-collections | 3.2.2 | pom.xml |\n| org | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| org.apache.commons:commons-csv | 1.14.1 | pom.xml |\n| org.junit.jupiter:junit-jupiter | \u26a0\ufe0f Version unknown | pom.xml |\n| org.junit-pioneer:junit-pioneer | \u26a0\ufe0f Version unknown | pom.xml |\n| org.bitstrings.test:junit-clptr | 1.2.2 | pom.xml |\n| org.apache.commons:commons-lang3 | 3.20.0 | pom.xml |\n\n> **Note:** 3 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **Apache-2.0** license.\n\n## Authors\n\n- **Don Brown** - mrdon@apache.org (developer)\n- **Martin Cooper** - martinc@apache.org (developer)\n- **David Graham** - dgraham@apache.org (developer)\n- **Ted Husted** - husted@apache.org (developer)\n- **Rob Leland** - rleland at apache.org (developer)\n- **Craig McClanahan** - craigmcc@apache.org (developer)\n- **James Mitchell** - jmitchell NOSPAM apache.org (developer)\n- **Niall Pemberton** (developer)\n- **James Turner** - turner@apache.org (developer)\n- **David Winterfeldt** - dwinterfeldt@apache.org (developer)\n- **Henri Yandell** (developer)\n- **Ben Speakmon** (developer)\n- **Nick Burch** (developer)\n- **SimoneTripodi** (developer)\n- **Benedikt Ritter** (developer)\n- **Gary Gregory** - ggregory at apache.org (developer)\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "apache/commons-validator"
+}

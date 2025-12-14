@@ -1,0 +1,864 @@
+Metadata-Version: 2.4
+Name: autodoc-cli
+Version: 0.1.0
+Summary: Automatic README generation through metadata extraction
+Author-email: Divya Jyoti <divya@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/divyajyoti/autodoc
+Project-URL: Repository, https://github.com/divyajyoti/autodoc
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Provides-Extra: api
+Requires-Dist: flask>=3.0.0; extra == "api"
+Provides-Extra: llm
+Requires-Dist: google-generativeai>=0.3.0; extra == "llm"
+Requires-Dist: anthropic>=0.18.0; extra == "llm"
+Requires-Dist: openai>=1.0.0; extra == "llm"
+Provides-Extra: all
+Requires-Dist: autodoc-cli[api,dev,llm]; extra == "all"
+
+# AutoDoc
+
+**Status**: ✅ Core Features Complete - Ready for testing
+
+## Overview
+
+AutoDoc is a lightweight, metadata-driven documentation tool that automatically generates structured README.md files for software repositories by extracting and organizing project metadata.
+
+### What AutoDoc Does
+
+AutoDoc analyzes a repository's files to extract structured information (dependencies, license, entry points, etc.) and generates a first-draft README.md following established documentation best practices.
+
+**Key principle**: AutoDoc produces an _initial draft that requires human review_, not a final document. The goal is to formalize what information belongs in a good README and automate the tedious parts of gathering that information.
+
+### What AutoDoc Is NOT
+
+- ❌ Not an AI code generation agent
+- ❌ Not a tool for analyzing enterprise-scale monorepos
+- ❌ Not a replacement for human judgment in documentation
+- ❌ Not designed to handle repositories with 1000+ files
+
+AutoDoc is an **academic implementation project** focused on information organization principles: metadata extraction, schema normalization, categorization, and structured data representation.
+
+---
+
+## Design Philosophy
+
+### 1. README-First Workflow
+Every design decision, new module, or discovered limitation is documented in this README **before or alongside** implementation. The README is the source of truth for what exists, what's planned, and what's out of scope.
+
+### 2. Transparency Over Magic
+- Heuristic approaches are documented explicitly
+- Limitations are stated upfront
+- Approximations and assumptions are never hidden
+- Partial implementations are clearly marked
+
+### 3. Human-in-the-Loop
+AutoDoc generates an **initial draft** README. Users are expected to:
+- Review generated content for accuracy
+- Fill in missing context
+- Refine descriptions
+- Add project-specific details
+
+The system actively encourages this review process rather than presenting output as "final."
+
+### 4. Information Organization Principles
+This project is grounded in:
+- **Metadata extraction**: Identifying structured information from semi-structured sources
+- **Schema design**: Formalizing what information constitutes "good documentation"
+- **Categorization**: Organizing information into logical sections
+- **Structured/semi-structured data handling**: Parsing various file formats
+
+---
+
+## Functional Goals
+
+### Core Metadata Fields (Must-Haves)
+
+When detectable, AutoDoc aims to extract and include:
+
+1. **Project Identification**
+   - Project title
+   - Short description
+
+2. **Setup Information**
+   - Installation instructions
+   - Setup steps
+   - Dependencies and version requirements
+
+3. **Usage Information**
+   - Main entry point(s)
+   - Basic usage examples or commands
+
+4. **Project Metadata**
+   - License information
+   - Author/maintainer information
+
+5. **Special Considerations**
+   - Security or permission-related notes (when inferable)
+   - Environment requirements
+
+### Handling Missing Information
+
+When information cannot be confidently inferred:
+- ✅ Leave a **clearly marked placeholder** (e.g., `<!-- TODO: Add project description -->`)
+- ✅ Include a brief note explaining why the field is missing or uncertain
+- ❌ **Never** fabricate or guess critical information
+
+---
+
+## Current Status
+
+### ✅ Implemented
+
+- **Metadata Schema** (`autodoc/schema.py`)
+  - `ProjectMetadata`: Central dataclass holding all extracted information
+  - `MetadataField`: Individual field with value, confidence, source, and notes
+  - `Confidence` enum: Semantic confidence levels (EXPLICIT → UNKNOWN)
+  - `Dependency`, `Author`, `EntryPoint`: Supporting data structures
+  - Merge logic for combining results from multiple extractors
+  - Helper methods: `get_placeholder_fields()`, `get_low_confidence_fields()`
+
+- **Project Structure**
+  - `autodoc/` package initialized
+  - `autodoc/extractors/` subpackage for future extractors
+
+- **File Discovery** (`autodoc/discovery.py`)
+  - `FileDiscovery` class: Walks directory tree with configurable options
+  - `DiscoveryResult`: Contains all discovered files with statistics and warnings
+  - `DiscoveredFile`: Individual file with path, category, and size info
+  - `FileCategory` enum: 12 categories (PACKAGE_MANIFEST, LICENSE, SOURCE_CODE, etc.)
+  - .gitignore parsing (root-level, simplified pattern matching)
+  - Default ignore patterns for common build/dependency directories
+  - Repository size limit detection (warns if >500 files)
+  - Convenience function: `discover_files(path)` for simple usage
+
+- **Extractor Framework** (`autodoc/extractors/`)
+  - `BaseExtractor`: Abstract base class defining the extractor interface
+  - `ExtractorRegistry`: Manages extractors and coordinates extraction
+  - Safe file reading with error handling and warnings
+  - Automatic result merging (higher confidence wins)
+
+- **Python Extractor** (`autodoc/extractors/python.py`)
+  - Parses pyproject.toml (PEP 621 and Poetry formats)
+  - Parses setup.cfg (declarative setuptools)
+  - Parses setup.py (regex-based, handles simple cases)
+  - Parses requirements.txt and requirements-dev.txt
+  - Extracts: name, version, description, authors, license, dependencies, entry points, URLs
+  - Detects Python version requirements
+  - Identifies dev vs runtime dependencies
+
+- **Generic Extractor** (`autodoc/extractors/generic.py`)
+  - Language-agnostic fallback extraction
+  - License detection from LICENSE file content (MIT, Apache, GPL, BSD, etc.)
+  - Repository URL from git remote origin
+  - Primary language detection from file extensions
+  - Documentation hints (docs/, examples/, tests)
+
+- **Test Suite** (`tests/`)
+  - 77 unit tests covering all modules
+  - Tests for schema, discovery, extractors, and renderer
+  - Uses pytest with tempfile-based fixtures
+
+- **Markdown Renderer** (`autodoc/renderer.py`)
+  - `ReadmeRenderer`: Generates README from ProjectMetadata
+  - `RenderOptions`: Configurable output (badges, TOC, provenance comments)
+  - Conditional sections (only included when data exists)
+  - TODO placeholders for missing fields (HTML comments)
+  - Review markers for low-confidence data
+  - Generation notice encouraging human review
+  - Convenience function: `render_readme(metadata)`
+
+- **CLI Interface** (`autodoc/cli.py`)
+  - Full pipeline orchestration: discovery -> extraction -> rendering
+  - `--dry-run`: Preview output without writing files
+  - `--output`: Custom output path
+  - `--verbose`: Detailed progress information
+  - `--badges`, `--toc`: Optional README enhancements
+  - `--force`: Overwrite existing files
+  - Entry point: `python -m autodoc.cli` or `autodoc` (when installed)
+
+- **Web API** (`autodoc/api.py`)
+  - Flask-based REST API for remote README generation
+  - `/api/generate`: Generate README from zip upload or GitHub URL
+  - `/api/metadata`: Get raw metadata without rendering
+  - `/api/health`: Health check endpoint
+  - Configurable output format (markdown, JSON, or both)
+  - Path traversal protection for zip uploads
+  - Entry point: `autodoc-api` (when installed with `[api]` extras)
+
+### 🚧 In Progress
+
+- Testing on diverse Python repositories
+- Documentation improvements
+
+### 📋 Planned - Core Features
+
+All core features are now implemented:
+
+1. ~~**File Discovery & Traversal**~~ (Implemented)
+   - ~~Recursive directory walking~~
+   - ~~File type identification~~
+   - ~~Ignore patterns (.gitignore respect, common build directories)~~
+
+2. ~~**Metadata Extraction**~~ (Python implemented; other languages planned)
+   - ~~Dependency file parsing (requirements.txt, package.json, Cargo.toml, etc.)~~ (Python done)
+   - ~~License detection (LICENSE files, package metadata)~~ (Python done)
+   - ~~Entry point detection (main files, setup scripts)~~ (Python done)
+   - ~~Author/maintainer extraction (package metadata, git config)~~ (Python done)
+
+3. ~~**Schema Normalization**~~ (Implemented)
+   - ~~Unified metadata schema across different project types~~
+   - ~~Confidence scoring for extracted information~~
+   - ~~Placeholder generation for missing fields~~
+
+4. ~~**Markdown Rendering**~~ (Implemented)
+   - ~~Template-based README generation~~
+   - ~~Section ordering and formatting~~
+   - ~~Human-readable placeholder comments~~
+
+5. ~~**CLI Interface**~~ (Implemented)
+   - ~~Basic command-line tool~~
+   - ~~Configuration options (output path, verbosity, etc.)~~
+   - ~~Dry-run mode for preview~~
+
+### 🎯 Stretch Goals (Optional, If Feasible)
+
+These features are **clearly marked as experimental** and will only be attempted if core functionality is solid:
+
+- 📊 **AI-assisted summary generation**: Use LLM to generate one-paragraph project description from code/comments
+  - _Trade-off_: Adds external dependency, may produce inaccurate summaries
+  - _Mitigation_: Clearly mark as AI-generated, encourage review
+
+- 🏷️ **README badges**: Auto-generate shields.io badges for license, build status
+  - _Limitation_: Build status requires CI/CD detection
+
+- ✅ **Missing section detection**: Prompt user for specific missing information
+  - _Approach_: Interactive mode with targeted questions
+
+- 📦 **Modular language support**: Plugin-like architecture for different ecosystems
+  - _Trade-off_: Increased complexity vs better extensibility
+
+### ❌ Explicitly Out of Scope
+
+- Large monorepo analysis (>500 files)
+- Deep code semantic analysis (AST parsing, call graphs)
+- Automatic code example generation
+- Documentation deployment or hosting
+- Version control integration beyond basic git metadata
+- Real-time documentation updates
+- Multi-repository analysis
+
+---
+
+## Architecture
+
+### Metadata Schema Design
+
+The schema (`autodoc/schema.py`) is the heart of AutoDoc's information organization. It defines:
+
+#### Confidence Scoring System
+
+Every extracted field carries a confidence score indicating reliability:
+
+| Level | Value | Meaning | Example |
+|-------|-------|---------|---------|
+| EXPLICIT | 1.0 | Directly stated in a file | `name` field in package.json |
+| STRONG | 0.8 | Strongly inferred | "MIT" detected in LICENSE file |
+| REASONABLE | 0.6 | Reasonably inferred | `main.py` as entry point |
+| WEAK | 0.4 | Weakly inferred | Project name from folder name |
+| GUESS | 0.2 | Educated guess | Author from git config |
+| UNKNOWN | 0.0 | No information; placeholder needed | Missing description |
+
+#### Core Data Structures
+
+```
+ProjectMetadata (central container)
+├── Project Identification
+│   ├── name: MetadataField
+│   ├── description: MetadataField
+│   └── version: MetadataField
+├── Authors & Maintainers
+│   └── authors: list[Author]
+├── License
+│   └── license: MetadataField
+├── Dependencies
+│   ├── dependencies: list[Dependency]
+│   ├── dev_dependencies: list[Dependency]
+│   └── python_version: MetadataField
+├── Entry Points
+│   └── entry_points: list[EntryPoint]
+├── Repository Info
+│   ├── repository_url: MetadataField
+│   └── homepage_url: MetadataField
+├── Documentation Hints (booleans)
+│   ├── has_tests, has_docs_folder
+│   └── has_examples, has_ci_config
+└── Analysis Metadata
+    ├── file_count: int
+    ├── primary_language: MetadataField
+    └── extraction_warnings: list[str]
+```
+
+#### Design Decisions
+
+1. **MetadataField wrapper**: Every extractable field includes `value`, `confidence`, `source`, and `note`. This enables:
+   - Tracking provenance (where did this info come from?)
+   - Flagging low-confidence fields for human review
+   - Generating helpful placeholder comments
+
+2. **Merge logic**: Multiple extractors can contribute to the same `ProjectMetadata` object. Higher confidence values take precedence, enabling graceful combination of information sources.
+
+3. **Placeholder detection**: Methods like `get_placeholder_fields()` identify what's missing, enabling the renderer to insert appropriate TODO comments.
+
+### File Discovery Design
+
+The discovery module (`autodoc/discovery.py`) is the first stage of the pipeline. It identifies which files exist and categorizes them for downstream extractors.
+
+#### File Categories
+
+Files are classified into categories that determine which extractors will process them:
+
+| Category | Description | Examples |
+|----------|-------------|----------|
+| PACKAGE_MANIFEST | Package/dependency definitions | package.json, Cargo.toml, setup.py |
+| DEPENDENCY_LOCK | Lock files | package-lock.json, Cargo.lock |
+| REQUIREMENTS | Python requirements files | requirements.txt, requirements-dev.txt |
+| README | Project documentation | README.md, README.rst |
+| LICENSE | License files | LICENSE, COPYING |
+| CI_CONFIG | CI/CD configuration | .github/workflows/*, .gitlab-ci.yml |
+| CONFIG | Project configuration | tsconfig.json, Makefile |
+| SOURCE_CODE | Source code files | *.py, *.js, *.ts, *.rs |
+| TEST_FILE | Test files | test_*.py, *.test.js |
+| ENTRY_POINT | Likely entry points | main.py, index.js, cli.py |
+| ENV_CONFIG | Environment templates | .env.example |
+| OTHER | Uncategorized files | Everything else |
+
+#### Ignore Patterns
+
+The discovery module skips files using two mechanisms:
+
+1. **Default ignores**: Common directories that are never relevant:
+   - Version control: `.git`, `.svn`, `.hg`
+   - Dependencies: `node_modules`, `venv`, `__pycache__`, `target`
+   - Build outputs: `build`, `dist`, `.next`
+   - IDE directories: `.idea`, `.vscode`
+
+2. **.gitignore parsing**: Respects root-level .gitignore patterns (simplified matching; does not support negation patterns or nested .gitignore files)
+
+#### Scope Enforcement
+
+AutoDoc is designed for small to medium repositories (10-500 files). The discovery module:
+- Counts all discovered files
+- Issues a warning if the count exceeds 500
+- Continues processing but notes the limitation in the result
+
+### Extractor Architecture
+
+Extractors are modular components that parse specific file types and produce `ProjectMetadata`. The framework is designed for extensibility.
+
+#### Extractor Interface
+
+All extractors implement the `BaseExtractor` abstract class:
+
+```python
+class BaseExtractor(ABC):
+    name: str                           # Human-readable name
+
+    def can_handle(self, discovery_result) -> bool:
+        """Check if this extractor has relevant files to process."""
+
+    def extract(self, discovery_result, root_path) -> ProjectMetadata:
+        """Parse files and return populated metadata."""
+```
+
+#### Registry Pattern
+
+The `ExtractorRegistry` coordinates multiple extractors:
+
+```python
+registry = ExtractorRegistry()
+registry.register(PythonExtractor())
+# registry.register(JavaScriptExtractor())  # Future
+
+metadata = registry.extract_all(discovery_result, root_path)
+```
+
+The registry:
+1. Finds extractors whose `can_handle()` returns True
+2. Runs each applicable extractor
+3. Merges results (higher confidence values win)
+4. Collects all warnings
+
+#### Python Extractor Details
+
+The Python extractor parses files in priority order:
+
+| File | Priority | Parsing Method | Confidence |
+|------|----------|----------------|------------|
+| pyproject.toml | 1 (highest) | TOML parsing | EXPLICIT |
+| setup.cfg | 2 | ConfigParser | EXPLICIT |
+| setup.py | 3 | Regex matching | STRONG |
+| requirements.txt | 4 | Line parsing | REASONABLE |
+
+**Heuristics and Limitations:**
+- setup.py uses regex, not AST; may miss dynamic values
+- Only root-level pyproject.toml is parsed
+- License detection from classifiers maps to SPDX identifiers
+- Entry point detection uses filename patterns (main.py, cli.py, etc.)
+
+### Renderer Design
+
+The renderer (`autodoc/renderer.py`) transforms `ProjectMetadata` into Markdown. It emphasizes the human-in-the-loop philosophy.
+
+#### Output Sections
+
+The renderer generates these sections (conditionally, based on data availability):
+
+| Section | Condition | Content |
+|---------|-----------|---------|
+| Title | Always | Project name as H1 |
+| Badges | If enabled | License, Python version badges |
+| Description | Always | Project description or placeholder |
+| TOC | If enabled | Links to sections |
+| Installation | Always | pip install instructions |
+| Usage | If entry points exist | CLI/module usage examples |
+| Dependencies | If deps exist | Runtime and dev dependency tables |
+| License | Always | License name or placeholder |
+| Authors | Always | Author list or placeholder |
+| Generation Notice | If enabled | Review encouragement |
+
+#### Placeholder Handling
+
+Missing data is handled with TODO comments:
+
+```markdown
+<!-- TODO: Add project description - Briefly describe what this project does -->
+```
+
+Low-confidence data gets review markers:
+
+```markdown
+<!-- Review suggested: weak confidence from setup.py (Extracted via regex) -->
+```
+
+#### Render Options
+
+```python
+RenderOptions(
+    include_provenance=False,   # Add source comments
+    include_toc=False,          # Generate table of contents
+    include_badges=False,       # Add shields.io badges
+    include_generation_notice=True,  # Add review notice
+    confidence_threshold=0.6,   # Below this gets review markers
+    placeholder_style="html_comment",  # or "markdown"
+)
+```
+
+### Pipeline Overview
+
+```
+┌─────────────────────────────────────────────────────────┐
+│ 1. File Discovery & Traversal                          │
+│    - Walk directory tree                               │
+│    - Respect .gitignore                                │
+│    - Identify relevant files                           │
+└─────────────────────┬───────────────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────────────┐
+│ 2. Metadata Extraction                                  │
+│    - Parse dependency files                             │
+│    - Extract license info                               │
+│    - Detect entry points                                │
+│    - Gather author/maintainer data                      │
+└─────────────────────┬───────────────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────────────┐
+│ 3. Schema Normalization                                 │
+│    - Map to unified schema                              │
+│    - Assign confidence scores                           │
+│    - Generate placeholders for missing data             │
+└─────────────────────┬───────────────────────────────────┘
+                      │
+┌─────────────────────▼───────────────────────────────────┐
+│ 4. Markdown Rendering                                   │
+│    - Apply template                                     │
+│    - Format sections                                    │
+│    - Insert human-review markers                        │
+└─────────────────────┬───────────────────────────────────┘
+                      │
+                      ▼
+               README.md (Draft)
+```
+
+### Module Structure (Tentative)
+
+```
+autodoc/
+├── __init__.py         # Package initialization
+├── api.py              # Flask REST API
+├── cli.py              # Command-line interface
+├── discovery.py        # File discovery and traversal
+├── extractors/         # Metadata extraction modules
+│   ├── __init__.py     # Extractor exports
+│   ├── base.py         # Base extractor interface
+│   ├── python.py       # Python-specific extraction
+│   └── generic.py      # Language-agnostic extraction
+├── schema.py           # Unified metadata schema
+└── renderer.py         # Markdown template rendering
+```
+
+_Note: This structure may evolve during implementation_
+
+---
+
+## Known Limitations
+
+### 1. Repository Size Constraints
+- **Target**: Small to medium repositories (10–500 files)
+- **Reason**: Academic scope, not production-scale tool
+- **Mitigation**: Detect oversized repos and warn user
+
+### 2. Heuristic-Based Detection
+- Many metadata fields rely on **heuristics** (filename patterns, common conventions)
+- Cannot guarantee 100% accuracy
+- Examples:
+  - Entry point detection assumes common naming (main.py, index.js, etc.)
+  - License detection depends on standard filenames (LICENSE, COPYING, etc.)
+
+### 3. Language Coverage
+- Initial implementation focuses on **Python**
+- Support for other languages (JavaScript, Rust, Go) is planned but may be limited
+- Language-specific idioms may not be fully captured
+
+### 4. Dynamic Configuration
+- Cannot analyze runtime behavior
+- Cannot detect dynamically generated configurations
+- Relies on static file analysis only
+
+### 5. Context Understanding
+- AutoDoc does **not** understand project context or domain
+- Cannot infer project purpose from code alone
+- Human input required for high-level descriptions
+
+---
+
+## Installation
+
+### From Source (Recommended for Development)
+
+```bash
+# Clone the repository
+git clone https://github.com/divyajyoti/autodoc
+cd AutoDoc
+
+# Install in development mode
+pip install -e .
+
+# Or install dependencies only
+pip install .
+```
+
+### Requirements
+
+- Python 3.10 or higher
+- No external dependencies for core functionality
+- Optional: `tomli` package for Python < 3.11 (for pyproject.toml parsing)
+
+---
+
+## Usage
+
+### Basic Usage
+
+```bash
+# Generate README for current directory
+autodoc .
+
+# Generate README for a specific repository
+autodoc /path/to/repository
+
+# Preview without writing (dry-run)
+autodoc . --dry-run
+
+# Show detailed progress
+autodoc . --verbose
+```
+
+### CLI Options
+
+```bash
+autodoc [path] [options]
+
+Options:
+  -o, --output PATH   Write to custom path (default: README.md in repo root)
+  --dry-run           Print to stdout instead of writing file
+  --force             Overwrite existing README without prompting
+  --badges            Include shields.io badges
+  --toc               Include table of contents
+  --no-notice         Omit auto-generation notice
+  --provenance        Add source comments (for debugging)
+  -v, --verbose       Show detailed progress
+  -q, --quiet         Suppress non-error output
+  --version           Show version
+  --help              Show help
+```
+
+### Examples
+
+```bash
+# Generate with badges and table of contents
+autodoc . --badges --toc
+
+# Custom output location
+autodoc . --output docs/README.md
+
+# Verbose dry-run to see what would be generated
+autodoc . --dry-run --verbose
+
+# Quiet mode (only errors)
+autodoc . --quiet --force
+```
+
+### Programmatic Usage
+
+```python
+from pathlib import Path
+from autodoc.discovery import discover_files
+from autodoc.extractors import ExtractorRegistry, PythonExtractor
+from autodoc.renderer import render_readme, RenderOptions
+
+# Discover and extract
+root = Path("/path/to/project")
+discovery = discover_files(root)
+
+registry = ExtractorRegistry()
+registry.register(PythonExtractor())
+metadata = registry.extract_all(discovery, root)
+
+# Render with options
+options = RenderOptions(include_badges=True)
+readme_content = render_readme(metadata, options)
+print(readme_content)
+```
+
+### Web API
+
+AutoDoc also provides a REST API and web interface for generating READMEs over HTTP.
+
+#### Starting the Server
+
+```bash
+# Install with API dependencies
+pip install -e ".[api]"
+
+# Start the development server
+autodoc-api
+
+# Or run directly
+python -m autodoc.api
+```
+
+The server runs on `http://localhost:5001` by default.
+
+#### Web Interface
+
+Open `http://localhost:5001` in your browser to access the web interface. Features:
+- Enter a GitHub repository URL or upload a ZIP file
+- Toggle options: badges, table of contents, source comments
+- View generated README with syntax highlighting
+- Copy to clipboard or download as file
+- View extracted metadata in JSON format
+
+#### API Endpoints
+
+**Health Check**
+```bash
+GET /api/health
+```
+Returns server status and version.
+
+**Generate README**
+```bash
+POST /api/generate
+```
+
+Generate a README from either:
+1. An uploaded zip file
+2. A GitHub repository URL
+
+**Request Options:**
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `file` | File | - | Uploaded zip file (multipart/form-data) |
+| `github_url` | string | - | GitHub repository URL (JSON body) |
+| `include_badges` | boolean | false | Include shields.io badges |
+| `include_toc` | boolean | false | Include table of contents |
+| `include_provenance` | boolean | false | Add source comments |
+| `include_generation_notice` | boolean | true | Add review notice |
+| `format` | string | "both" | Output format: "markdown", "json", or "both" |
+
+**Example: Upload a zip file**
+```bash
+curl -X POST http://localhost:5001/api/generate \
+  -F "file=@myproject.zip" \
+  -F "include_badges=true"
+```
+
+**Example: From GitHub URL**
+```bash
+curl -X POST http://localhost:5001/api/generate \
+  -H "Content-Type: application/json" \
+  -d '{
+    "github_url": "https://github.com/example/repo",
+    "include_badges": true,
+    "include_toc": true
+  }'
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "readme": "# project-name\n\n...",
+  "metadata": {
+    "name": {
+      "value": "project-name",
+      "confidence": "EXPLICIT",
+      "confidence_score": 1.0,
+      "source": "pyproject.toml"
+    },
+    ...
+  },
+  "warnings": []
+}
+```
+
+**Get Metadata Only**
+```bash
+POST /api/metadata
+```
+Same input options as `/api/generate` but returns only the extracted metadata without rendering to Markdown.
+
+---
+
+## How to Improve Generated READMEs
+
+### Philosophy on Human Editing
+
+AutoDoc-generated READMEs are **starting points**, not finished documents. Users should:
+
+1. **Review all generated content** for accuracy
+2. **Add context** that only humans know (project motivation, design decisions, history)
+3. **Refine descriptions** to match project's tone and audience
+4. **Fill in placeholders** marked with `<!-- TODO -->` comments
+5. **Add examples** and usage scenarios based on actual use cases
+
+### Common Fields Requiring Manual Review
+
+- **Project description**: Auto-generated summaries may miss nuance
+- **Motivation/Background**: Why the project exists (context AutoDoc cannot infer)
+- **Design decisions**: Architectural choices and rationale
+- **Roadmap**: Future plans and priorities
+- **Contributing guidelines**: Project-specific contribution workflow
+- **Examples**: Real-world usage examples
+
+**Remember**: A README is a living document. AutoDoc helps you start; you refine it over time.
+
+---
+
+## Contributing & Development
+
+_Will be updated as project develops_
+
+This is an academic project. Development priorities:
+1. Clarity over cleverness
+2. Documentation over speed
+3. Correctness over feature completeness
+
+Testing approach (planned):
+- Unit tests for metadata extractors
+- Integration tests with sample repositories
+- Manual testing with diverse project types
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2025 Divya Jyoti
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Authors
+
+**Divya Jyoti**
+
+Academic implementation project for INFO-202.
+
+---
+
+## Evaluation Criteria (Academic Context)
+
+This project will be evaluated on:
+
+- ✅ **Clarity of information organization**: Is the metadata schema well-designed?
+- ✅ **Quality and consistency of metadata extraction**: Are heuristics documented and reasonable?
+- ✅ **Transparency of limitations**: Are constraints and trade-offs explicit?
+- ✅ **Documentation quality**: Is this README maintained and accurate?
+- ✅ **Alignment between claims and behavior**: Does the tool do what the README says?
+
+**Not** evaluated on:
+- ❌ Feature count or "impressiveness"
+- ❌ Production readiness or scalability
+- ❌ Autonomous capabilities
+
+---
+
+## Changelog
+
+- **2025-12-12**: Initial README created (design phase)
+- **2025-12-12**: Implemented core metadata schema (`autodoc/schema.py`) with confidence scoring
+- **2025-12-12**: Implemented file discovery module (`autodoc/discovery.py`) with categorization and .gitignore support
+- **2025-12-12**: Implemented extractor framework (`autodoc/extractors/base.py`) with registry pattern
+- **2025-12-12**: Implemented Python extractor (`autodoc/extractors/python.py`) supporting pyproject.toml, setup.py, setup.cfg, requirements.txt
+- **2025-12-12**: Added `pyproject.toml` for AutoDoc itself
+- **2025-12-12**: Implemented Markdown renderer (`autodoc/renderer.py`) with configurable output and placeholder handling
+- **2025-12-12**: Implemented CLI interface (`autodoc/cli.py`) with full pipeline orchestration
+- **2025-12-12**: Core features complete; updated documentation with usage examples
+- **2025-12-12**: Added generic extractor for LICENSE file parsing and git remote detection
+- **2025-12-12**: Created comprehensive test suite (77 tests) covering all modules
+- **2025-12-12**: Added Flask-based REST API (`autodoc/api.py`) with endpoints for remote README generation
+- **2025-12-12**: Added web interface for browser-based README generation (GitHub URL or ZIP upload)

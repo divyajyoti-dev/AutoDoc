@@ -1,0 +1,367 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "scikit-learn",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "A set of python modules for machine learning and data mining",
+      "confidence": "EXPLICIT"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "BSD-3-Clause",
+      "confidence": "EXPLICIT"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "sklearn/_min_dependencies.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "sklearn/tests/test_docstrings.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "sklearn/utils/tests/test_estimator_checks.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "sklearn/_build_utils/tempita.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "maint_tools/bump-dependencies-versions.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_mnist.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/plot_tsne_mnist.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_neighbors.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_tsne_mnist.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_randomized_svd.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_omp_lars.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_lasso.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_svd.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_sample_without_replacement.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_covertype.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_isotonic.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_fastkmeans.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_nmf.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_lasso_path.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_tree.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_multilabel_metrics.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_20newsgroups.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_sgd_regression.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_saga.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_plot_hierarchical.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_random_projections.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_isolation_forest_predict.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_glmnet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/bench_glm.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build_tools/check-meson-openmp-dependencies.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build_tools/get_comment.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build_tools/generate_authors_table.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build_tools/update_environments_and_lock_files.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build_tools/azure/get_commit_message.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build_tools/azure/get_selected_tests.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build_tools/github/vendor.py",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "numpy",
+        "version": ">=1.24.1"
+      },
+      {
+        "name": "scipy",
+        "version": ">=1.10.0"
+      },
+      {
+        "name": "joblib",
+        "version": ">=1.3.0"
+      },
+      {
+        "name": "threadpoolctl",
+        "version": ">=3.2.0"
+      },
+      {
+        "name": "cython",
+        "version": ">=3.1.2"
+      },
+      {
+        "name": "meson-python",
+        "version": ">=0.17.1"
+      },
+      {
+        "name": "matplotlib",
+        "version": ">=3.6.1"
+      },
+      {
+        "name": "pandas",
+        "version": ">=1.5.0"
+      },
+      {
+        "name": "memory_profiler",
+        "version": ">=0.57.0"
+      },
+      {
+        "name": "scikit-image",
+        "version": ">=0.22.0"
+      },
+      {
+        "name": "seaborn",
+        "version": ">=0.13.0"
+      },
+      {
+        "name": "sphinx",
+        "version": ">=7.3.7"
+      },
+      {
+        "name": "sphinx-copybutton",
+        "version": ">=0.5.2"
+      },
+      {
+        "name": "sphinx-gallery",
+        "version": ">=0.17.1"
+      },
+      {
+        "name": "numpydoc",
+        "version": ">=1.2.0"
+      },
+      {
+        "name": "Pillow",
+        "version": ">=10.1.0"
+      },
+      {
+        "name": "pooch",
+        "version": ">=1.8.0"
+      },
+      {
+        "name": "sphinx-prompt",
+        "version": ">=1.4.0"
+      },
+      {
+        "name": "sphinxext-opengraph",
+        "version": ">=0.9.1"
+      },
+      {
+        "name": "plotly",
+        "version": ">=5.18.0"
+      },
+      {
+        "name": "polars",
+        "version": ">=0.20.30"
+      },
+      {
+        "name": "sphinx-design",
+        "version": ">=0.6.0"
+      },
+      {
+        "name": "sphinxcontrib-sass",
+        "version": ">=0.3.4"
+      },
+      {
+        "name": "pydata-sphinx-theme",
+        "version": ">=0.15.3"
+      },
+      {
+        "name": "sphinx-remove-toctrees",
+        "version": ">=1.0.0.post1"
+      },
+      {
+        "name": "towncrier",
+        "version": ">=24.8.0"
+      },
+      {
+        "name": "pytest",
+        "version": ">=7.1.2"
+      },
+      {
+        "name": "pytest-cov",
+        "version": ">=2.9.0"
+      },
+      {
+        "name": "ruff",
+        "version": ">=0.11.7"
+      },
+      {
+        "name": "mypy",
+        "version": ">=1.15"
+      },
+      {
+        "name": "pyamg",
+        "version": ">=5.0.0"
+      },
+      {
+        "name": "pyarrow",
+        "version": ">=12.0.0"
+      },
+      {
+        "name": "conda-lock",
+        "version": "==3.0.1"
+      },
+      {
+        "name": "earn",
+        "version": null
+      },
+      {
+        "name": "sklearn",
+        "version": null
+      },
+      {
+        "name": "numbers",
+        "version": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "scikit-learn developers",
+        "email": "scikit-learn@python.org"
+      }
+    ],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 1703,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# scikit-learn\n![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)\n![Python: >=3.11](https://img.shields.io/badge/Python-%3E%3D3.11-blue.svg)\n\nA set of python modules for machine learning and data mining\n\nIt leverages numpy, scipy, joblib, threadpoolctl as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing, detailed documentation for users.\n\nInstall scikit-learn using pip for seamless integration into your Python environment.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\nframeworks: NumPy\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n**Requires Python >=3.11**\n\n```bash\n# Clone the repository\ngit clone https://github.com/scikit-learn/scikit-learn\ncd scikit-learn\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython sklearn/_min_dependencies.py\npython sklearn/tests/test_docstrings.py\npython sklearn/utils/tests/test_estimator_checks.py\npython sklearn/_build_utils/tempita.py\npython maint_tools/bump-dependencies-versions.py\npython benchmarks/bench_mnist.py\npython benchmarks/plot_tsne_mnist.py\npython benchmarks/bench_plot_neighbors.py\npython benchmarks/bench_tsne_mnist.py\npython benchmarks/bench_plot_randomized_svd.py\npython benchmarks/bench_plot_omp_lars.py\npython benchmarks/bench_lasso.py\npython benchmarks/bench_plot_svd.py\npython benchmarks/bench_sample_without_replacement.py\npython benchmarks/bench_covertype.py\npython benchmarks/bench_isotonic.py\npython benchmarks/bench_plot_fastkmeans.py\npython benchmarks/bench_plot_nmf.py\npython benchmarks/bench_plot_lasso_path.py\npython benchmarks/bench_tree.py\npython benchmarks/bench_multilabel_metrics.py\npython benchmarks/bench_20newsgroups.py\npython benchmarks/bench_sgd_regression.py\npython benchmarks/bench_saga.py\npython benchmarks/bench_plot_hierarchical.py\npython benchmarks/bench_random_projections.py\npython benchmarks/bench_isolation_forest_predict.py\npython benchmarks/bench_glmnet.py\npython benchmarks/bench_glm.py\npython build_tools/check-meson-openmp-dependencies.py\npython build_tools/get_comment.py\npython build_tools/generate_authors_table.py\npython build_tools/update_environments_and_lock_files.py\npython build_tools/azure/get_commit_message.py\npython build_tools/azure/get_selected_tests.py\npython build_tools/github/vendor.py\n```\n\n\n## Project Structure\n\n```\nscikit-learn/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 scikit_learn/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 tests/                                  # Test suite\n\u2502   \u251c\u2500\u2500 __init__.py                         # Tests init\n\u2502   \u251c\u2500\u2500 conftest.py                         # Pytest fixtures\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Unit tests init\n\u2502   \u2502   \u251c\u2500\u2500 test_core.py                    # Core module tests\n\u2502   \u2502   \u251c\u2500\u2500 test_models.py                  # Model tests\n\u2502   \u2502   \u2514\u2500\u2500 test_utils.py                   # Utility tests\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 integration/                        # Integration tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Integration init\n\u2502   \u2502   \u2514\u2500\u2500 test_api.py                     # API integration\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 fixtures/                           # Test fixtures\n\u2502       \u251c\u2500\u2500 sample_data.json                # Sample test data\n\u2502       \u2514\u2500\u2500 mock_responses.py               # Mock responses\n\u2502\n\u251c\u2500\u2500 examples/                               # Usage examples\n\u2502   \u251c\u2500\u2500 basic_usage.py                      # Basic example\n\u2502   \u251c\u2500\u2500 advanced_usage.py                   # Advanced example\n\u2502   \u2514\u2500\u2500 README.md                           # Examples guide\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `scikit_learn/` | Main package containing all source modules |\n| `scikit_learn/cli/` | Command-line interface implementation |\n| `scikit_learn/core/` | Core business logic and processing |\n| `scikit_learn/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n| `examples/` | Usage examples |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: numpy, scipy, joblib, threadpoolctl, cython\n\n\n## Testing\n\nRun the test suite:\n\n```bash\npytest\n# or\npython -m pytest\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| numpy | >=1.24.1 | pyproject.toml [project.dependencies] |\n| scipy | >=1.10.0 | pyproject.toml [project.dependencies] |\n| joblib | >=1.3.0 | pyproject.toml [project.dependencies] |\n| threadpoolctl | >=3.2.0 | pyproject.toml [project.dependencies] |\n| cython | >=3.1.2 | pyproject.toml [project.optional-dependencies.build] |\n| meson-python | >=0.17.1 | pyproject.toml [project.optional-dependencies.build] |\n| matplotlib | >=3.6.1 | pyproject.toml [project.optional-dependencies.benchmark] |\n| pandas | >=1.5.0 | pyproject.toml [project.optional-dependencies.benchmark] |\n| memory_profiler | >=0.57.0 | pyproject.toml [project.optional-dependencies.benchmark] |\n| scikit-image | >=0.22.0 | pyproject.toml [project.optional-dependencies.docs] |\n| seaborn | >=0.13.0 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinx | >=7.3.7 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinx-copybutton | >=0.5.2 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinx-gallery | >=0.17.1 | pyproject.toml [project.optional-dependencies.docs] |\n| numpydoc | >=1.2.0 | pyproject.toml [project.optional-dependencies.docs] |\n| Pillow | >=10.1.0 | pyproject.toml [project.optional-dependencies.docs] |\n| pooch | >=1.8.0 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinx-prompt | >=1.4.0 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinxext-opengraph | >=0.9.1 | pyproject.toml [project.optional-dependencies.docs] |\n| plotly | >=5.18.0 | pyproject.toml [project.optional-dependencies.docs] |\n| polars | >=0.20.30 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinx-design | >=0.6.0 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinxcontrib-sass | >=0.3.4 | pyproject.toml [project.optional-dependencies.docs] |\n| pydata-sphinx-theme | >=0.15.3 | pyproject.toml [project.optional-dependencies.docs] |\n| sphinx-remove-toctrees | >=1.0.0.post1 | pyproject.toml [project.optional-dependencies.docs] |\n| towncrier | >=24.8.0 | pyproject.toml [project.optional-dependencies.docs] |\n| pytest | >=7.1.2 | pyproject.toml [project.optional-dependencies.tests] |\n| pytest-cov | >=2.9.0 | pyproject.toml [project.optional-dependencies.tests] |\n| ruff | >=0.11.7 | pyproject.toml [project.optional-dependencies.tests] |\n| mypy | >=1.15 | pyproject.toml [project.optional-dependencies.tests] |\n| pyamg | >=5.0.0 | pyproject.toml [project.optional-dependencies.tests] |\n| pyarrow | >=12.0.0 | pyproject.toml [project.optional-dependencies.tests] |\n| conda-lock | ==3.0.1 | pyproject.toml [project.optional-dependencies.maintenance] |\n| earn | \u26a0\ufe0f Version unknown | Makefile [-l flag] |\n| sklearn | \u26a0\ufe0f Version unknown | Code import analysis |\n| numbers | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| meson-python | >=0.17.1 | pyproject.toml [build-system] |\n| cython | >=3.1.2 | pyproject.toml [build-system] |\n| numpy | >=2 | pyproject.toml [build-system] |\n| scipy | >=1.10.0 | pyproject.toml [build-system] |\n\n> **Note:** 3 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **BSD-3-Clause** license.\n\n## Authors\n\n- **scikit-learn developers** - scikit-learn@python.org (maintainer)\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "scikit-learn/scikit-learn"
+}

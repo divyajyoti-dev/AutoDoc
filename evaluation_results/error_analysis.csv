@@ -1,0 +1,47 @@
+repo,field,error_type,gold_value,pred_value,explanation
+psf/requests-html,description,INCORRECT_INFERENCE,"requests-html is a library project primarily written in Python. It is designed to provide
+a focused ...",\n,"AutoDoc extracted '\n' but gold standard is 'requests-html is a library project primarily written in Python. It is designed to provide
+a focused ...'. The extraction heuristics may have matched incorrect patterns."
+junit-team/junit4,primary_language,OVERCONFIDENT_EXTRACTION,Java,JavaScript,Partial match detected. AutoDoc may have extracted a related but not equivalent value.
+curl/trurl,primary_language,LANGUAGE_MISMATCH,C,Python,Language detection returned 'Python' but expected 'C'. This may be due to mixed-language projects or unconventional file structures.
+curl/trurl,license_name,INCORRECT_INFERENCE,curl,Custom,AutoDoc extracted 'Custom' but gold standard is 'curl'. The extraction heuristics may have matched incorrect patterns.
+curl/trurl,description,MISSING_INFORMATION,"trurl is a cli project primarily written in C. It is designed to provide a focused and
+reusable solu...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+curl/trurl,usage_type,INCORRECT_INFERENCE,cli,library,AutoDoc extracted 'library' but gold standard is 'cli'. The extraction heuristics may have matched incorrect patterns.
+benhoyt/inih,description,MISSING_INFORMATION,"inih is a library project primarily written in C. It is designed to provide a focused and
+reusable s...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+jarro2783/cxxopts,description,MISSING_INFORMATION,"cxxopts is a library project primarily written in C++. It is designed to provide a focused
+and reusa...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+tensorflow/tensorflow,primary_language,LANGUAGE_MISMATCH,C++,Python,Language detection returned 'Python' but expected 'C++'. This may be due to mixed-language projects or unconventional file structures.
+tensorflow/tensorflow,description,MISSING_INFORMATION,"TensorFlow is a library project primarily written in C++. It is designed to provide a
+focused and re...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+torvalds/linux,project_title,INCORRECT_INFERENCE,Linux Kernel,Baby,AutoDoc extracted 'Baby' but gold standard is 'Linux Kernel'. The extraction heuristics may have matched incorrect patterns.
+torvalds/linux,primary_language,LANGUAGE_MISMATCH,C,Python,Language detection returned 'Python' but expected 'C'. This may be due to mixed-language projects or unconventional file structures.
+torvalds/linux,description,MISSING_INFORMATION,"Linux Kernel is a system project primarily written in C. It is designed to provide a
+focused and reu...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+gohugoio/hugo,project_title,INCORRECT_INFERENCE,Hugo,project,AutoDoc extracted 'project' but gold standard is 'Hugo'. The extraction heuristics may have matched incorrect patterns.
+gohugoio/hugo,primary_language,LANGUAGE_MISMATCH,Go,JavaScript,Language detection returned 'JavaScript' but expected 'Go'. This may be due to mixed-language projects or unconventional file structures.
+gohugoio/hugo,description,MISSING_INFORMATION,"Hugo is a cli project primarily written in Go. It is designed to provide a focused and
+reusable solu...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+gohugoio/hugo,usage_type,INCORRECT_INFERENCE,cli,library,AutoDoc extracted 'library' but gold standard is 'cli'. The extraction heuristics may have matched incorrect patterns.
+vuejs/core,description,MISSING_INFORMATION,"Vue.js is a framework project primarily written in JavaScript. It is designed to provide a
+focused a...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+spring-projects/spring-boot,primary_language,OVERCONFIDENT_EXTRACTION,Java,JavaScript,Partial match detected. AutoDoc may have extracted a related but not equivalent value.
+spring-projects/spring-boot,description,MISSING_INFORMATION,"Spring Boot is a framework project primarily written in Java. It is designed to provide a
+focused an...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+spring-projects/spring-boot,installation_method,INCORRECT_INFERENCE,maven,npm,AutoDoc extracted 'npm' but gold standard is 'maven'. The extraction heuristics may have matched incorrect patterns.
+elastic/elasticsearch,primary_language,LANGUAGE_MISMATCH,Java,Python,Language detection returned 'Python' but expected 'Java'. This may be due to mixed-language projects or unconventional file structures.
+elastic/elasticsearch,license_name,INCORRECT_INFERENCE,Elastic License 2.0,Custom,AutoDoc extracted 'Custom' but gold standard is 'Elastic License 2.0'. The extraction heuristics may have matched incorrect patterns.
+elastic/elasticsearch,description,MISSING_INFORMATION,"Elasticsearch is a service project primarily written in Java. It is designed to provide a
+focused an...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+elastic/elasticsearch,usage_type,INCORRECT_INFERENCE,service,library,AutoDoc extracted 'library' but gold standard is 'service'. The extraction heuristics may have matched incorrect patterns.
+opencv/opencv,primary_language,LANGUAGE_MISMATCH,C++,Python,Language detection returned 'Python' but expected 'C++'. This may be due to mixed-language projects or unconventional file structures.
+protocolbuffers/protobuf,primary_language,LANGUAGE_MISMATCH,C++,Python,Language detection returned 'Python' but expected 'C++'. This may be due to mixed-language projects or unconventional file structures.
+energyaudit/typicodeJsonServerWithAuthenticationBilly,description,MISSING_INFORMATION,A Fake REST API using json-server with JWT authentication changed some code from https://github.com/...,,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+gpanther/fastutil-guava-tests,primary_language,LANGUAGE_MISMATCH,Generic,Python,Language detection returned 'Python' but expected 'Generic'. This may be due to mixed-language projects or unconventional file structures.
+gpanther/fastutil-guava-tests,description,MISSING_INFORMATION,"fastutil-guava-tests is a library project primarily written in Generic. It is designed to
+provide a ...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+gpanther/fastutil-guava-tests,installation_method,INCORRECT_INFERENCE,maven,pip,AutoDoc extracted 'pip' but gold standard is 'maven'. The extraction heuristics may have matched incorrect patterns.
+dinocore1/DevsmartLib-Android,license_name,MISSING_INFORMATION,Apache-2.0,,AutoDoc did not extract any value for license_name. This may indicate the field was not present in standard locations or the extractor does not support this project type.
+dinocore1/DevsmartLib-Android,description,MISSING_INFORMATION,"DevsmartLib-Android is a library project primarily written in Java. It is designed to
+provide a focu...",,AutoDoc did not extract any value for description. This may indicate the field was not present in standard locations or the extractor does not support this project type.

@@ -1,0 +1,112 @@
+repo,primary_language,project_title,description,installation_method,installation_command,usage_type,usage_entry_point,license_name,license_source,maintainers,security_relevant,security_risk_type,repo_size_bucket,supported_by_autodoc
+ahupp/python-magic,Python,python-magic,"python-magic is a library project primarily written in Python. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via pip, and includes
+documented usage examples to help users get started quickly.",pip,pip install python-magic,library,import magic,MIT,LICENSE,Adam Hupp,False,none,small(<50),full
+simonw/sqlite-utils,Python,sqlite-utils,"sqlite-utils is a library+cli project primarily written in Python. It is designed to
+provide a focused and reusable solution within its domain, and is commonly integrated into
+larger systems or workflows. The project supports standard installation via pip, and
+includes documented usage examples to help users get started quickly.",pip,pip install sqlite-utils,library+cli,sqlite-utils / sqlite_utils.Database,Apache-2.0,LICENSE file,Simon Willison,False,none,medium(50-500),full
+psf/requests-html,Python,requests-html,"requests-html is a library project primarily written in Python. It is designed to provide
+a focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via pip, and includes
+documented usage examples to help users get started quickly.",pip,pip install requests-html,library,HTMLSession,MIT,LICENSE file,PSF,True,network_service,medium(50-500),full
+jazzband/contextlib2,Python,contextlib2,Backport of Python 3 contextlib features to Python 2.7.,pip,pip install contextlib2,library,contextlib2.contextmanager,PSF,LICENSE file,Jazzband,False,none,small(<50),full
+sindresorhus/is,JavaScript,is,"is is a library project primarily written in JavaScript. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via npm, and includes
+documented usage examples to help users get started quickly.",npm,npm install is,library,is(),MIT,LICENSE file,Sindre Sorhus,False,none,small(<50),full
+vercel/serve-handler,JavaScript,serve-handler,"serve-handler is a library project primarily written in JavaScript. It is designed to
+provide a focused and reusable solution within its domain, and is commonly integrated into
+larger systems or workflows. The project supports standard installation via npm, and
+includes documented usage examples to help users get started quickly.",npm,npm install serve-handler,library,"serveHandler(req, res)",MIT,LICENSE file,Vercel,True,network_service,medium(50-500),full
+feross/simple-peer,JavaScript,simple-peer,"simple-peer is a library project primarily written in JavaScript. It is designed to
+provide a focused and reusable solution within its domain, and is commonly integrated into
+larger systems or workflows. The project supports standard installation via npm, and
+includes documented usage examples to help users get started quickly.",npm,npm install simple-peer,library,new Peer(),MIT,LICENSE file,Feross Aboukhadijeh,True,network_service,medium(50-500),full
+tj/commander.js,JavaScript,commander.js,Complete solution for building Node.js command-line interfaces.,npm,npm install commander,library,program.command(),MIT,LICENSE file,TJ Holowaychuk,False,none,medium(50-500),full
+apache/commons-validator,Java,Apache Commons Validator,"Apache Commons Validator is a library project primarily written in Java. It is designed to
+provide a focused and reusable solution within its domain, and is commonly integrated into
+larger systems or workflows. The project supports standard installation via maven, and
+includes documented usage examples to help users get started quickly.",maven,mvn install,library,org.apache.commons.validator,Apache-2.0,LICENSE file,Apache Software Foundation,False,none,medium(50-500),full
+junit-team/junit4,Java,JUnit 4,"JUnit 4 is a library project primarily written in Java. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via maven, and includes
+documented usage examples to help users get started quickly.",maven,mvn test,library,@Test annotations,EPL-1.0,LICENSE file,JUnit Team,False,none,medium(50-500),full
+curl/trurl,C,trurl,"trurl is a cli project primarily written in C. It is designed to provide a focused and
+reusable solution within its domain, and is commonly integrated into larger systems or
+workflows. The project supports standard installation via make, and includes documented
+usage examples to help users get started quickly.",make,make,cli,trurl,curl,LICENSE file,curl,True,network_service,small(<50),partial
+benhoyt/inih,C,inih,"inih is a library project primarily written in C. It is designed to provide a focused and
+reusable solution within its domain, and is commonly integrated into larger systems or
+workflows. The project supports standard installation via make, and includes documented
+usage examples to help users get started quickly.",make,make,library,ini_parse(),BSD-3-Clause,LICENSE file,Ben Hoyt,False,none,small(<50),partial
+jarro2783/cxxopts,C++,cxxopts,"cxxopts is a library project primarily written in C++. It is designed to provide a focused
+and reusable solution within its domain, and is commonly integrated into larger systems or
+workflows. The project supports standard installation via cmake, and includes documented
+usage examples to help users get started quickly.",cmake,cmake . && make,library,cxxopts::Options,MIT,LICENSE file,jarro2783,False,none,small(<50),partial
+tensorflow/tensorflow,C++,TensorFlow,"TensorFlow is a library project primarily written in C++. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via pip, and includes
+documented usage examples to help users get started quickly.",pip,pip install tensorflow,library,import tensorflow as tf,Apache-2.0,LICENSE file,Google,True,ml_model_execution,large(>500),partial
+torvalds/linux,C,Linux Kernel,"Linux Kernel is a system project primarily written in C. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via make, and includes
+documented usage examples to help users get started quickly.",make,make,system,kernel build system,GPL-2.0,LICENSE file,Linus Torvalds,True,kernel_code,large(>500),none
+pytorch/vision,Python,torchvision,"torchvision is a library project primarily written in Python. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via pip, and includes
+documented usage examples to help users get started quickly.",pip,pip install torchvision,library,import torchvision,BSD-3-Clause,LICENSE file,PyTorch Team,True,ml_model_execution,medium(50-500),full
+gohugoio/hugo,Go,Hugo,"Hugo is a cli project primarily written in Go. It is designed to provide a focused and
+reusable solution within its domain, and is commonly integrated into larger systems or
+workflows. The project supports standard installation via brew, and includes documented
+usage examples to help users get started quickly.",brew,brew install hugo,cli,hugo,Apache-2.0,LICENSE file,Hugo Authors,False,none,medium(50-500),partial
+django/django,Python,Django,"Django is a framework project primarily written in Python. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via pip, and includes
+documented usage examples to help users get started quickly.",pip,pip install django,framework,django-admin,BSD-3-Clause,LICENSE file,Django Software Foundation,True,network_service,large(>500),partial
+pandas-dev/pandas,Python,pandas,"pandas is a library project primarily written in Python. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via pip, and includes
+documented usage examples to help users get started quickly.",pip,pip install pandas,library,import pandas as pd,BSD-3-Clause,LICENSE file,pandas-dev,False,none,large(>500),partial
+scikit-learn/scikit-learn,Python,scikit-learn,"scikit-learn is a library project primarily written in Python. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via pip, and includes
+documented usage examples to help users get started quickly.",pip,pip install scikit-learn,library,from sklearn import ...,BSD-3-Clause,LICENSE file,scikit-learn developers,True,ml_model_execution,large(>500),partial
+facebook/react,JavaScript,React,"React is a library project primarily written in JavaScript. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via npm, and includes
+documented usage examples to help users get started quickly.",npm,npm install react,library,import React from 'react',MIT,LICENSE file,Meta,False,none,large(>500),partial
+vuejs/core,JavaScript,Vue.js,"Vue.js is a framework project primarily written in JavaScript. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via npm, and includes
+documented usage examples to help users get started quickly.",npm,npm install vue,framework,createApp(),MIT,LICENSE file,Vue Core Team,False,none,large(>500),partial
+vercel/next.js,JavaScript,Next.js,"Next.js is a framework project primarily written in JavaScript. It is designed to provide
+a focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via npm, and includes
+documented usage examples to help users get started quickly.",npm,npx create-next-app,framework,next dev,MIT,LICENSE file,Vercel,True,network_service,large(>500),partial
+spring-projects/spring-boot,Java,Spring Boot,"Spring Boot is a framework project primarily written in Java. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via maven, and includes
+documented usage examples to help users get started quickly.",maven,mvn spring-boot:run,framework,@SpringBootApplication,Apache-2.0,LICENSE file,Spring Team,True,network_service,large(>500),partial
+elastic/elasticsearch,Java,Elasticsearch,"Elasticsearch is a service project primarily written in Java. It is designed to provide a
+focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via docker, and includes
+documented usage examples to help users get started quickly.",docker,docker run elasticsearch,service,REST API,Elastic License 2.0,LICENSE file,Elastic,True,network_service,large(>500),none
+opencv/opencv,C++,OpenCV,"OpenCV is a library project primarily written in C++. It is designed to provide a focused
+and reusable solution within its domain, and is commonly integrated into larger systems or
+workflows. The project supports standard installation via cmake, and includes documented
+usage examples to help users get started quickly.",cmake,cmake . && make,library,#include <opencv2/opencv.hpp>,Apache-2.0,LICENSE file,OpenCV Team,True,ml_model_execution,large(>500),partial
+protocolbuffers/protobuf,C++,Protocol Buffers,"Protocol Buffers is a library project primarily written in C++. It is designed to provide
+a focused and reusable solution within its domain, and is commonly integrated into larger
+systems or workflows. The project supports standard installation via cmake, and includes
+documented usage examples to help users get started quickly.",cmake,cmake . && make,library,protoc compiler,BSD-3-Clause,LICENSE file,Google,False,none,large(>500),partial
+energyaudit/typicodeJsonServerWithAuthenticationBilly,JavaScript,JSONServer + JWT Auth,A Fake REST API using json-server with JWT authentication changed some code from https://github.com/techiediaries/fake-api-jwt-json-server.,npm,npm install,library,require(...),MIT,LICENSE,UNKNOWN,True,network_service,small(<50),full
+gpanther/fastutil-guava-tests,Generic,fastutil-guava-tests,"fastutil-guava-tests is a library project primarily written in Generic. It is designed to
+provide a focused and reusable solution within its domain, and is commonly integrated into
+larger systems or workflows. The project supports standard installation via maven, and
+includes documented usage examples to help users get started quickly.",maven,mvn test,library,(Java package),Apache-2.0,LICENSE,UNKNOWN,False,none,small(<50),full
+dinocore1/DevsmartLib-Android,Java,DevsmartLib-Android,"DevsmartLib-Android is a library project primarily written in Java. It is designed to
+provide a focused and reusable solution within its domain, and is commonly integrated into
+larger systems or workflows. The project supports standard installation via gradle, and
+includes documented usage examples to help users get started quickly.",gradle,implementation project(':devsmartlib'),library,Android library modules,Apache-2.0,LICENSE file,dinocore1,False,none,small(<50),partial

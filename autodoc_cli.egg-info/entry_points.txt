@@ -1,0 +1,3 @@
+[console_scripts]
+autodoc = autodoc.cli:main
+autodoc-api = autodoc.api:main

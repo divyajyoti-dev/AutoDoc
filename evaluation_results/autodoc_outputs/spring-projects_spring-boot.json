@@ -1,0 +1,1497 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "spring-boot-build",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "primary_language": {
+      "value": "JavaScript",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/io/restclient/httpservice/groups/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/io/restclient/httpservice/groups/repeat/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/io/restclient/httpservice/importing/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/test/TestMyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/test/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/launch/TestMyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/launch/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/logexample/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/startuptracking/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/customizingspringapplication/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/applicationexit/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/usingthespringbootapplicationannotation/springapplication/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/usingthespringbootapplicationannotation/individualannotations/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/structuringyourcode/locatingthemainclass/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/devtools/restart/disable/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/testing/springbootapplications/usingmain/typical/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/testing/springbootapplications/usingmain/custom/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/gettingstarted/firstapplication/code/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/actuator/micrometertracing/gettingstarted/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/traditionaldeployment/convertexistingapplication/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/traditionaldeployment/convertexistingapplication/both/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/traditionaldeployment/war/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/propertiesandconfiguration/externalizeconfiguration/application/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/propertiesandconfiguration/externalizeconfiguration/builder/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/nativeimage/developingyourfirstapplication/sampleapplication/MyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "core/spring-boot-test/src/test/java/org/springframework/boot/test/context/SpringBootContextLoaderTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "core/spring-boot-test/src/test/java/org/springframework/boot/test/context/SpringBootTestUseMainMethodWithPropertiesTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "core/spring-boot-test/src/main/java/org/springframework/boot/test/context/SpringBootTestAotProcessor.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "core/spring-boot/src/test/java/org/springframework/boot/SpringApplicationAotProcessorTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "core/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "core/spring-boot/src/main/java/org/springframework/boot/SpringApplicationAotProcessor.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/AbstractBootArchiveIntegrationTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/plugin/NativeImagePluginActionIntegrationTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/plugin/SpringBootAotPluginIntegrationTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/docs/RunningDocumentationTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootjar/classpath/BootJarClasspathApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootjar/main/CustomMainClass.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/boottestrun/classpath/BootTestRunClasspathApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/boottestrun/jvmargs/BootTestRunJvmArgsApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootwar/main/CustomMainClass.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootrun/classpath/BootRunClasspathApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootrun/jvmargs/BootRunJvmArgsApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootrun/main/CustomMainClass.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/dockerTest/java/org/springframework/boot/gradle/tasks/bundling/BootBuildImageIntegrationTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-gradle-plugin/src/dockerTest/java/org/springframework/boot/gradle/tasks/bundling/BootBuildImageRegistryIntegrationTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/sample/ClassWithMainMethod.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-network/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-cmd-line/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-current-created-date/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-app-dir/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-caches-multiple/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-volume-caches/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-zip-packaging/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-war-packaging/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-platform-linux-arm/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-security-opts/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-final-name/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-builder-error/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier-source-with-repackage/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-tags/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier-source/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-empty-env-entry/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier-with-repackage/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-publish/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-trust-builder/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-created-date/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-custom-buildpacks/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-bad-buildpack/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-bindings/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-custom-name/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-bind-caches/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-custom-builder/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-fork-classifier/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-multi-module/app/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-with-repackage/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvmargs/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-signed/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-main-attach-disabled/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-arguments/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-class-proxy/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-system-scope/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvmargs-commandline/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-additional-classpath-directory/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-attach-disabled/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-jdk-proxy/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-test/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/start-stop-skip/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-output-timestamp/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-source/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-arguments/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-use-test-classpath/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-custom-layout/default/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-custom-layout/custom/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-custom-build-time/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-exclude-devtools/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-profile/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-layered/war/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-exclude-group/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-layered-disabled/jar/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-exclude-entry/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-custom-file/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-include-entry/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-layered-custom/war/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-envargs/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-fork/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-module-info/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-working-directory/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-with-unpack/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/start-stop/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-no-tools/jar/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-exclude-entry/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-exclude-build-time/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-test-scope/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-system-properties/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-reactor/war/src/main/java/com/example/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-signed/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvm-system-props/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-jvm-arguments/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-lib-name-conflict/test-project/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-custom-dir/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-disable-build-time/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-no-tools/war/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-resource-generation/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-reproducible-epoch-seconds/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-profiles/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-reproducible/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-output-timestamp/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-layered/jar/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-release/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-with-unpack/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/test-run/src/test/java/org/test/TestSampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/test-run/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-create-dir/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-with-zip-layout/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-layered-disabled/war/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-with-layout-property/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-system-scope/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-system-scope-default/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-additional-classpath-jar/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-optional-default/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-main/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-compiler-arguments/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-optional-exclude/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-optional-include/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-test-exclude-devtools/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-arguments-commandline/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-layered-custom/jar/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-source-attach-disabled/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-exclude/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-toolchains/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-exclude-build-properties/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-additional-properties/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-plugin/spring-boot-antlib/src/it/sample/src/main/java/org/test/SampleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "system-test/spring-boot-image-system-tests/src/systemTest/java/org/springframework/boot/image/paketo/PaketoBuilderTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "module/spring-boot-devtools/src/test/java/org/springframework/boot/devtools/restart/MainMethodTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "module/spring-boot-devtools/src/test/java/org/springframework/boot/loader/launch/FakeJarLauncher.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "module/spring-boot-devtools/src/intTest/java/com/example/DevToolsTestApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "module/spring-boot-devtools/src/main/java/org/springframework/boot/devtools/RemoteSpringApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "integration-test/spring-boot-server-integration-tests/spring-boot-server-tests-app/src/main/java/com/example/ResourceHandlingApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "integration-test/spring-boot-sni-integration-tests/spring-boot-sni-client-app/src/main/java/org/springframework/boot/sni/client/SniClientApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "integration-test/spring-boot-sni-integration-tests/spring-boot-sni-servlet-app/src/main/java/org/springframework/boot/sni/server/SniServerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "integration-test/spring-boot-sni-integration-tests/spring-boot-sni-reactive-app/src/main/java/org/springframework/boot/sni/server/SniServerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "integration-test/spring-boot-loader-integration-tests/spring-boot-loader-tests-app/src/main/java/org/springframework/boot/loaderapp/LoaderTestApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "integration-test/spring-boot-loader-integration-tests/spring-boot-loader-tests-signed-jar/src/main/java/org/springframework/boot/loaderapp/LoaderSignedJarTestApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-war/src/main/java/smoketest/war/SampleWarApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-websocket-tomcat/src/main/java/smoketest/websocket/tomcat/SampleTomcatWebSocketApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-reactive-oauth2-resource-server/src/main/java/smoketest/oauth2/resource/SampleReactiveOAuth2ResourceServerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-graphql/src/main/java/smoketest/graphql/SampleGraphQlApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-amqp/src/main/java/smoketest/amqp/SampleAmqpSimpleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-traditional/src/main/java/smoketest/traditional/SampleTraditionalApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-structured-logging/src/main/java/smoketest/structuredlogging/SampleStructuredLoggingApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-simple/src/main/java/smoketest/simple/SampleSimpleApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestServiceConnectionSampleSessionRedisApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestPropertiesImportSampleSessionRedisApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestServiceConnectionImportSampleSessionRedisApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestPropertiesSampleSessionRedisApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-session-data-redis/src/main/java/smoketest/session/redis/SampleSessionRedisApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-prometheus/src/main/java/smoketest/prometheus/SamplePrometheusApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-parent-context/src/test/java/smoketest/parent/producer/ProducerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-parent-context/src/main/java/smoketest/parent/SampleParentContextApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-saml2-service-provider/src/main/java/smoketest/saml2/serviceprovider/SampleSaml2RelyingPartyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-activemq/src/main/java/smoketest/activemq/SampleActiveMQApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-logback/src/main/java/smoketest/logback/SampleLogbackApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-secure-custom/src/main/java/smoketest/web/secure/custom/SampleWebSecureCustomApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-jdbc/src/main/java/smoketest/data/jdbc/SampleDataJdbcApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-rsocket/src/main/java/smoketest/rsocket/SampleRSocketApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-actuator-ui/src/main/java/smoketest/actuator/ui/SampleActuatorUiApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-r2dbc-flyway/src/main/java/smoketest/data/r2dbc/SampleR2dbcFlywayApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-batch/src/main/java/smoketest/batch/SampleBatchApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-profile/src/main/java/smoketest/profile/SampleProfileApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-kafka/src/main/java/smoketest/kafka/SampleKafkaApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-kafka/src/main/java/smoketest/kafka/ssl/SampleKafkaSslApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-tomcat-jsp/src/main/java/smoketest/tomcat/jsp/SampleTomcatJspApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-testng/src/main/java/smoketest/testng/SampleTestNGApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-secure-jdbc/src/main/java/smoketest/web/secure/jdbc/SampleWebSecureJdbcApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-structured-logging-log4j2/src/main/java/smoketest/structuredlogging/log4j2/SampleLog4j2StructuredLoggingApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-log4j2/src/main/java/smoketest/log4j2/SampleLog4j2Application.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-property-validation/src/main/java/smoketest/propertyvalidation/SamplePropertyValidationApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-secure/src/main/java/smoketest/web/secure/SampleWebSecureApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-tomcat/src/test/java/smoketest/tomcat/NonAutoConfigurationSampleTomcatApplicationTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-tomcat/src/main/java/smoketest/tomcat/SampleTomcatApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-jersey/src/main/java/smoketest/jersey/SampleJerseyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-static/src/main/java/smoketest/web/staticcontent/SampleWebStaticApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-config/src/main/java/smoketest/config/SampleConfigApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-hateoas/src/main/java/smoketest/hateoas/SampleHateoasApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-oauth2-client/src/main/java/smoketest/oauth2/client/SampleOAuth2ClientApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-jpa/src/main/java/smoketest/data/jpa/SampleDataJpaApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-rest/src/main/java/smoketest/data/rest/SampleDataRestApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-tomcat-multi-connectors/src/main/java/smoketest/tomcat/multiconnector/SampleTomcatTwoConnectorsApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-test/src/main/java/smoketest/test/SampleTestApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-secure-webflux/src/main/java/smoketest/secure/webflux/SampleSecureWebFluxApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-batch-jdbc/src/main/java/smoketest/batch/SampleBatchApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-groovy-templates/src/main/java/smoketest/groovytemplates/SampleGroovyTemplateApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-websocket-jetty/src/main/java/smoketest/websocket/jetty/SampleJettyWebSocketsApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-actuator-custom-security/src/main/java/smoketest/actuator/customsecurity/SampleActuatorCustomSecurityApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-jetty-jsp/src/main/java/smoketest/jetty/jsp/SampleJettyJspApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-liquibase/src/main/java/smoketest/liquibase/SampleLiquibaseApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-mustache/src/main/java/smoketest/mustache/SampleWebMustacheApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-freemarker/src/main/java/smoketest/freemarker/SampleWebFreeMarkerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-elasticsearch/src/main/java/smoketest/data/elasticsearch/SampleDataElasticsearchApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-jsp/src/main/java/smoketest/jsp/SampleWebJspApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-webflux/src/main/java/smoketest/webflux/SampleWebFluxApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-devtools/src/main/java/smoketest/devtools/SampleDevToolsApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-flyway/src/main/java/smoketest/flyway/SampleFlywayApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-thymeleaf/src/main/java/smoketest/web/thymeleaf/SampleWebUiApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-jetty-ssl/src/main/java/smoketest/jetty/ssl/SampleJettySslApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-actuator-log4j2/src/main/java/smoketest/actuator/log4j2/SampleActuatorLog4J2Application.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-jackson2-mixed/src/main/java/smoketest/jackson2/mixed/SampleJackson2MixedApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-actuator/src/main/java/smoketest/actuator/SampleActuatorApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-pulsar/src/main/java/smoketest/pulsar/SamplePulsarApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-quartz/src/main/java/smoketest/quartz/SampleQuartzApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-ant/src/main/java/smoketest/ant/SampleAntApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-webservices/src/main/java/smoketest/webservices/SampleWebServicesApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-servlet/src/main/java/smoketest/servlet/SampleServletApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-oauth2-authorization-server/src/main/java/smoketest/oauth2/server/SampleOAuth2AuthorizationServerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-cache/src/main/java/smoketest/cache/SampleCacheApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-hibernate/src/main/java/smoketest/jpa/SampleJpaApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-integration/src/test/java/smoketest/integration/producer/ProducerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-integration/src/main/java/smoketest/integration/SampleIntegrationApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-actuator-noweb/src/main/java/smoketest/actuator/noweb/SampleActuatorNoWebApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-application-type/src/main/java/smoketest/webapplicationtype/SampleWebApplicationTypeApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-r2dbc-liquibase/src/main/java/smoketest/data/r2dbc/SampleR2dbcLiquibaseApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-autoconfigure-classic/src/main/java/smoketest/autoconfigureclassic/SampleAutoConfigureClassicApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-jetty/src/main/java/smoketest/jetty/SampleJettyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-tomcat-ssl/src/main/java/smoketest/tomcat/ssl/SampleTomcatSslApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-xml/src/main/java/smoketest/xml/SampleSpringXmlApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-secure/src/main/java/smoketest/secure/SampleSecureApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-aspectj/src/main/java/smoketest/aspectj/SampleAspectJApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-actuator-extension/src/main/java/smoketest/actuator/extension/SampleActuatorExtensionApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-bootstrap-registry/src/main/java/smoketest/bootstrapregistry/app/SampleBootstrapRegistryApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-secure-jersey/src/main/java/smoketest/secure/jersey/SampleSecureJerseyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-artemis/src/main/java/smoketest/artemis/SampleArtemisApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-activemq-embedded/src/main/java/smoketest/activemq/embedded/SampleActiveMQApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-jackson2-only/src/main/java/smoketest/jackson2/only/SampleJackson2OnlyApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-oauth2-resource-server/src/main/java/smoketest/oauth2/resource/SampleOauth2ResourceServerApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-ldap/src/main/java/smoketest/data/ldap/SampleDataLdapApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-test-nomockito/src/main/java/smoketest/testnomockito/SampleTestNoMockitoApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-web-method-security/src/main/java/smoketest/security/method/SampleMethodSecurityApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-reactive-oauth2-client/src/main/java/smoketest/oauth2/client/SampleReactiveOAuth2ClientApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-session-data-redis-webflux/src/main/java/smoketest/session/SampleSessionWebFluxRedisApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-session-jdbc/src/main/java/smoketest/session/SampleSessionJdbcApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "smoke-test/spring-boot-smoke-test-data-r2dbc/src/main/java/smoketest/data/r2dbc/SampleR2dbcApplication.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cli/spring-boot-cli/src/main/java/org/springframework/boot/cli/SpringCli.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "loader/spring-boot-loader-tools/src/test/java/org/springframework/boot/loader/tools/sample/ClassWithMainMethod.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "loader/spring-boot-loader-tools/src/test/java/org/springframework/boot/loader/tools/sample/AnnotatedClassWithMainMethod.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "loader/spring-boot-loader/src/test/java/org/springframework/boot/loader/launch/LauncherTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/JarLauncher.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/PropertiesLauncher.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/Launcher.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/WarLauncher.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "configuration-metadata/spring-boot-configuration-metadata-changelog-generator/src/main/java/org/springframework/boot/configurationmetadata/changelog/ChangelogGenerator.java",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "org",
+        "version": null
+      },
+      {
+        "name": "jakarta",
+        "version": null
+      },
+      {
+        "name": "com",
+        "version": null
+      },
+      {
+        "name": "tools",
+        "version": null
+      },
+      {
+        "name": "reactor",
+        "version": null
+      },
+      {
+        "name": "ch",
+        "version": null
+      },
+      {
+        "name": "smoketest",
+        "version": null
+      },
+      {
+        "name": "brave",
+        "version": null
+      },
+      {
+        "name": "co",
+        "version": null
+      },
+      {
+        "name": "zipkin2",
+        "version": null
+      },
+      {
+        "name": "liquibase",
+        "version": null
+      },
+      {
+        "name": "okhttp3",
+        "version": null
+      },
+      {
+        "name": "graphql",
+        "version": null
+      },
+      {
+        "name": "lombok",
+        "version": null
+      },
+      {
+        "name": "oracle",
+        "version": null
+      },
+      {
+        "name": "kotlinx",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": false,
+    "has_ci_config": true,
+    "file_count": 10723,
+    "installation_method": "npm",
+    "usage_type": "library"
+  },
+  "readme": "# spring-boot-build\n![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)\n\nspring-boot-build is a JavaScript project.\n\nIt leverages org, jakarta, com, tools as core dependencies.\n\nThe project includes continuous integration for automated testing.\n\nInstall spring-boot-build via npm to add it to your Node.js project.\n\n<!-- TODO: Add detailed project description - Expand with specific use cases, key differentiators, and target audience -->\n\n## Key Features\n\n- Supports continuous integration workflows\n- Enables modern JavaScript/TypeScript development patterns\n\n**Primary Language:** JavaScript\n\nframeworks: Spring\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/spring-projects/spring-boot\ncd spring-boot-build\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/io/restclient/httpservice/groups/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/io/restclient/httpservice/groups/repeat/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/io/restclient/httpservice/importing/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/test/TestMyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/test/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/launch/TestMyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/devservices/testcontainers/atdevelopmenttime/launch/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/logexample/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/startuptracking/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/customizingspringapplication/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/features/springapplication/applicationexit/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/usingthespringbootapplicationannotation/springapplication/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/usingthespringbootapplicationannotation/individualannotations/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/structuringyourcode/locatingthemainclass/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/using/devtools/restart/disable/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/testing/springbootapplications/usingmain/typical/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/testing/springbootapplications/usingmain/custom/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/gettingstarted/firstapplication/code/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/actuator/micrometertracing/gettingstarted/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/traditionaldeployment/convertexistingapplication/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/traditionaldeployment/convertexistingapplication/both/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/traditionaldeployment/war/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/propertiesandconfiguration/externalizeconfiguration/application/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/propertiesandconfiguration/externalizeconfiguration/builder/MyApplication.java\npython documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/nativeimage/developingyourfirstapplication/sampleapplication/MyApplication.java\npython core/spring-boot-test/src/test/java/org/springframework/boot/test/context/SpringBootContextLoaderTests.java\npython core/spring-boot-test/src/test/java/org/springframework/boot/test/context/SpringBootTestUseMainMethodWithPropertiesTests.java\npython core/spring-boot-test/src/main/java/org/springframework/boot/test/context/SpringBootTestAotProcessor.java\npython core/spring-boot/src/test/java/org/springframework/boot/SpringApplicationAotProcessorTests.java\npython core/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java\npython core/spring-boot/src/main/java/org/springframework/boot/SpringApplicationAotProcessor.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/tasks/bundling/AbstractBootArchiveIntegrationTests.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/plugin/NativeImagePluginActionIntegrationTests.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/plugin/SpringBootAotPluginIntegrationTests.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/org/springframework/boot/gradle/docs/RunningDocumentationTests.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootjar/classpath/BootJarClasspathApplication.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootjar/main/CustomMainClass.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/boottestrun/classpath/BootTestRunClasspathApplication.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/boottestrun/jvmargs/BootTestRunJvmArgsApplication.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootwar/main/CustomMainClass.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootrun/classpath/BootRunClasspathApplication.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootrun/jvmargs/BootRunJvmArgsApplication.java\npython build-plugin/spring-boot-gradle-plugin/src/test/java/com/example/bootrun/main/CustomMainClass.java\npython build-plugin/spring-boot-gradle-plugin/src/dockerTest/java/org/springframework/boot/gradle/tasks/bundling/BootBuildImageIntegrationTests.java\npython build-plugin/spring-boot-gradle-plugin/src/dockerTest/java/org/springframework/boot/gradle/tasks/bundling/BootBuildImageRegistryIntegrationTests.java\npython build-plugin/spring-boot-maven-plugin/src/test/java/org/springframework/boot/maven/sample/ClassWithMainMethod.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-network/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-cmd-line/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-current-created-date/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-app-dir/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-caches-multiple/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-volume-caches/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-zip-packaging/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-war-packaging/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-platform-linux-arm/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-security-opts/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-final-name/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-builder-error/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier-source-with-repackage/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-tags/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier-source/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-empty-env-entry/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-classifier-with-repackage/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-publish/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-trust-builder/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-created-date/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-custom-buildpacks/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-bad-buildpack/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-bindings/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-custom-name/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-bind-caches/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-custom-builder/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-fork-classifier/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-multi-module/app/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/dockerTest/projects/build-image-with-repackage/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvmargs/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-signed/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-main-attach-disabled/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-arguments/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-class-proxy/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-system-scope/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvmargs-commandline/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-additional-classpath-directory/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-attach-disabled/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-jdk-proxy/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-test/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/start-stop-skip/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-output-timestamp/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-source/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-arguments/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-use-test-classpath/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-custom-layout/default/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-custom-layout/custom/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-custom-build-time/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-exclude-devtools/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-profile/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-layered/war/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-exclude-group/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-layered-disabled/jar/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-exclude-entry/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-custom-file/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-include-entry/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-layered-custom/war/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-envargs/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-fork/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-module-info/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-working-directory/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-with-unpack/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/start-stop/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-no-tools/jar/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-exclude-entry/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-exclude-build-time/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-test-scope/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-system-properties/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-reactor/war/src/main/java/com/example/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-signed/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-jvm-system-props/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-jvm-arguments/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-lib-name-conflict/test-project/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-custom-dir/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-disable-build-time/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-no-tools/war/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-resource-generation/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-reproducible-epoch-seconds/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-profiles/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-reproducible/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-output-timestamp/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-layered/jar/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-release/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-with-unpack/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/test-run/src/test/java/org/test/TestSampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/test-run/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-create-dir/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-with-zip-layout/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/war-layered-disabled/war/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-with-layout-property/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-system-scope/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-system-scope-default/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-additional-classpath-jar/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-optional-default/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-main/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-compiler-arguments/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-optional-exclude/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-optional-include/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot-test-exclude-devtools/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-arguments-commandline/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-layered-custom/jar/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/jar-classifier-source-attach-disabled/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-exclude/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/aot/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/run-toolchains/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-exclude-build-properties/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-maven-plugin/src/intTest/projects/build-info-additional-properties/src/main/java/org/test/SampleApplication.java\npython build-plugin/spring-boot-antlib/src/it/sample/src/main/java/org/test/SampleApplication.java\npython system-test/spring-boot-image-system-tests/src/systemTest/java/org/springframework/boot/image/paketo/PaketoBuilderTests.java\npython module/spring-boot-devtools/src/test/java/org/springframework/boot/devtools/restart/MainMethodTests.java\npython module/spring-boot-devtools/src/test/java/org/springframework/boot/loader/launch/FakeJarLauncher.java\npython module/spring-boot-devtools/src/intTest/java/com/example/DevToolsTestApplication.java\npython module/spring-boot-devtools/src/main/java/org/springframework/boot/devtools/RemoteSpringApplication.java\npython integration-test/spring-boot-server-integration-tests/spring-boot-server-tests-app/src/main/java/com/example/ResourceHandlingApplication.java\npython integration-test/spring-boot-sni-integration-tests/spring-boot-sni-client-app/src/main/java/org/springframework/boot/sni/client/SniClientApplication.java\npython integration-test/spring-boot-sni-integration-tests/spring-boot-sni-servlet-app/src/main/java/org/springframework/boot/sni/server/SniServerApplication.java\npython integration-test/spring-boot-sni-integration-tests/spring-boot-sni-reactive-app/src/main/java/org/springframework/boot/sni/server/SniServerApplication.java\npython integration-test/spring-boot-loader-integration-tests/spring-boot-loader-tests-app/src/main/java/org/springframework/boot/loaderapp/LoaderTestApplication.java\npython integration-test/spring-boot-loader-integration-tests/spring-boot-loader-tests-signed-jar/src/main/java/org/springframework/boot/loaderapp/LoaderSignedJarTestApplication.java\npython smoke-test/spring-boot-smoke-test-war/src/main/java/smoketest/war/SampleWarApplication.java\npython smoke-test/spring-boot-smoke-test-websocket-tomcat/src/main/java/smoketest/websocket/tomcat/SampleTomcatWebSocketApplication.java\npython smoke-test/spring-boot-smoke-test-reactive-oauth2-resource-server/src/main/java/smoketest/oauth2/resource/SampleReactiveOAuth2ResourceServerApplication.java\npython smoke-test/spring-boot-smoke-test-graphql/src/main/java/smoketest/graphql/SampleGraphQlApplication.java\npython smoke-test/spring-boot-smoke-test-amqp/src/main/java/smoketest/amqp/SampleAmqpSimpleApplication.java\npython smoke-test/spring-boot-smoke-test-traditional/src/main/java/smoketest/traditional/SampleTraditionalApplication.java\npython smoke-test/spring-boot-smoke-test-structured-logging/src/main/java/smoketest/structuredlogging/SampleStructuredLoggingApplication.java\npython smoke-test/spring-boot-smoke-test-simple/src/main/java/smoketest/simple/SampleSimpleApplication.java\npython smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestServiceConnectionSampleSessionRedisApplication.java\npython smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestPropertiesImportSampleSessionRedisApplication.java\npython smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestServiceConnectionImportSampleSessionRedisApplication.java\npython smoke-test/spring-boot-smoke-test-session-data-redis/src/dockerTest/java/smoketest/session/redis/TestPropertiesSampleSessionRedisApplication.java\npython smoke-test/spring-boot-smoke-test-session-data-redis/src/main/java/smoketest/session/redis/SampleSessionRedisApplication.java\npython smoke-test/spring-boot-smoke-test-prometheus/src/main/java/smoketest/prometheus/SamplePrometheusApplication.java\npython smoke-test/spring-boot-smoke-test-parent-context/src/test/java/smoketest/parent/producer/ProducerApplication.java\npython smoke-test/spring-boot-smoke-test-parent-context/src/main/java/smoketest/parent/SampleParentContextApplication.java\npython smoke-test/spring-boot-smoke-test-saml2-service-provider/src/main/java/smoketest/saml2/serviceprovider/SampleSaml2RelyingPartyApplication.java\npython smoke-test/spring-boot-smoke-test-activemq/src/main/java/smoketest/activemq/SampleActiveMQApplication.java\npython smoke-test/spring-boot-smoke-test-logback/src/main/java/smoketest/logback/SampleLogbackApplication.java\npython smoke-test/spring-boot-smoke-test-web-secure-custom/src/main/java/smoketest/web/secure/custom/SampleWebSecureCustomApplication.java\npython smoke-test/spring-boot-smoke-test-data-jdbc/src/main/java/smoketest/data/jdbc/SampleDataJdbcApplication.java\npython smoke-test/spring-boot-smoke-test-rsocket/src/main/java/smoketest/rsocket/SampleRSocketApplication.java\npython smoke-test/spring-boot-smoke-test-actuator-ui/src/main/java/smoketest/actuator/ui/SampleActuatorUiApplication.java\npython smoke-test/spring-boot-smoke-test-data-r2dbc-flyway/src/main/java/smoketest/data/r2dbc/SampleR2dbcFlywayApplication.java\npython smoke-test/spring-boot-smoke-test-batch/src/main/java/smoketest/batch/SampleBatchApplication.java\npython smoke-test/spring-boot-smoke-test-profile/src/main/java/smoketest/profile/SampleProfileApplication.java\npython smoke-test/spring-boot-smoke-test-kafka/src/main/java/smoketest/kafka/SampleKafkaApplication.java\npython smoke-test/spring-boot-smoke-test-kafka/src/main/java/smoketest/kafka/ssl/SampleKafkaSslApplication.java\npython smoke-test/spring-boot-smoke-test-tomcat-jsp/src/main/java/smoketest/tomcat/jsp/SampleTomcatJspApplication.java\npython smoke-test/spring-boot-smoke-test-testng/src/main/java/smoketest/testng/SampleTestNGApplication.java\npython smoke-test/spring-boot-smoke-test-web-secure-jdbc/src/main/java/smoketest/web/secure/jdbc/SampleWebSecureJdbcApplication.java\npython smoke-test/spring-boot-smoke-test-structured-logging-log4j2/src/main/java/smoketest/structuredlogging/log4j2/SampleLog4j2StructuredLoggingApplication.java\npython smoke-test/spring-boot-smoke-test-log4j2/src/main/java/smoketest/log4j2/SampleLog4j2Application.java\npython smoke-test/spring-boot-smoke-test-property-validation/src/main/java/smoketest/propertyvalidation/SamplePropertyValidationApplication.java\npython smoke-test/spring-boot-smoke-test-web-secure/src/main/java/smoketest/web/secure/SampleWebSecureApplication.java\npython smoke-test/spring-boot-smoke-test-tomcat/src/test/java/smoketest/tomcat/NonAutoConfigurationSampleTomcatApplicationTests.java\npython smoke-test/spring-boot-smoke-test-tomcat/src/main/java/smoketest/tomcat/SampleTomcatApplication.java\npython smoke-test/spring-boot-smoke-test-jersey/src/main/java/smoketest/jersey/SampleJerseyApplication.java\npython smoke-test/spring-boot-smoke-test-web-static/src/main/java/smoketest/web/staticcontent/SampleWebStaticApplication.java\npython smoke-test/spring-boot-smoke-test-config/src/main/java/smoketest/config/SampleConfigApplication.java\npython smoke-test/spring-boot-smoke-test-hateoas/src/main/java/smoketest/hateoas/SampleHateoasApplication.java\npython smoke-test/spring-boot-smoke-test-oauth2-client/src/main/java/smoketest/oauth2/client/SampleOAuth2ClientApplication.java\npython smoke-test/spring-boot-smoke-test-data-jpa/src/main/java/smoketest/data/jpa/SampleDataJpaApplication.java\npython smoke-test/spring-boot-smoke-test-data-rest/src/main/java/smoketest/data/rest/SampleDataRestApplication.java\npython smoke-test/spring-boot-smoke-test-tomcat-multi-connectors/src/main/java/smoketest/tomcat/multiconnector/SampleTomcatTwoConnectorsApplication.java\npython smoke-test/spring-boot-smoke-test-test/src/main/java/smoketest/test/SampleTestApplication.java\npython smoke-test/spring-boot-smoke-test-secure-webflux/src/main/java/smoketest/secure/webflux/SampleSecureWebFluxApplication.java\npython smoke-test/spring-boot-smoke-test-batch-jdbc/src/main/java/smoketest/batch/SampleBatchApplication.java\npython smoke-test/spring-boot-smoke-test-web-groovy-templates/src/main/java/smoketest/groovytemplates/SampleGroovyTemplateApplication.java\npython smoke-test/spring-boot-smoke-test-websocket-jetty/src/main/java/smoketest/websocket/jetty/SampleJettyWebSocketsApplication.java\npython smoke-test/spring-boot-smoke-test-actuator-custom-security/src/main/java/smoketest/actuator/customsecurity/SampleActuatorCustomSecurityApplication.java\npython smoke-test/spring-boot-smoke-test-jetty-jsp/src/main/java/smoketest/jetty/jsp/SampleJettyJspApplication.java\npython smoke-test/spring-boot-smoke-test-liquibase/src/main/java/smoketest/liquibase/SampleLiquibaseApplication.java\npython smoke-test/spring-boot-smoke-test-web-mustache/src/main/java/smoketest/mustache/SampleWebMustacheApplication.java\npython smoke-test/spring-boot-smoke-test-web-freemarker/src/main/java/smoketest/freemarker/SampleWebFreeMarkerApplication.java\npython smoke-test/spring-boot-smoke-test-data-elasticsearch/src/main/java/smoketest/data/elasticsearch/SampleDataElasticsearchApplication.java\npython smoke-test/spring-boot-smoke-test-web-jsp/src/main/java/smoketest/jsp/SampleWebJspApplication.java\npython smoke-test/spring-boot-smoke-test-webflux/src/main/java/smoketest/webflux/SampleWebFluxApplication.java\npython smoke-test/spring-boot-smoke-test-devtools/src/main/java/smoketest/devtools/SampleDevToolsApplication.java\npython smoke-test/spring-boot-smoke-test-flyway/src/main/java/smoketest/flyway/SampleFlywayApplication.java\npython smoke-test/spring-boot-smoke-test-web-thymeleaf/src/main/java/smoketest/web/thymeleaf/SampleWebUiApplication.java\npython smoke-test/spring-boot-smoke-test-jetty-ssl/src/main/java/smoketest/jetty/ssl/SampleJettySslApplication.java\npython smoke-test/spring-boot-smoke-test-actuator-log4j2/src/main/java/smoketest/actuator/log4j2/SampleActuatorLog4J2Application.java\npython smoke-test/spring-boot-smoke-test-jackson2-mixed/src/main/java/smoketest/jackson2/mixed/SampleJackson2MixedApplication.java\npython smoke-test/spring-boot-smoke-test-actuator/src/main/java/smoketest/actuator/SampleActuatorApplication.java\npython smoke-test/spring-boot-smoke-test-pulsar/src/main/java/smoketest/pulsar/SamplePulsarApplication.java\npython smoke-test/spring-boot-smoke-test-quartz/src/main/java/smoketest/quartz/SampleQuartzApplication.java\npython smoke-test/spring-boot-smoke-test-ant/src/main/java/smoketest/ant/SampleAntApplication.java\npython smoke-test/spring-boot-smoke-test-webservices/src/main/java/smoketest/webservices/SampleWebServicesApplication.java\npython smoke-test/spring-boot-smoke-test-servlet/src/main/java/smoketest/servlet/SampleServletApplication.java\npython smoke-test/spring-boot-smoke-test-oauth2-authorization-server/src/main/java/smoketest/oauth2/server/SampleOAuth2AuthorizationServerApplication.java\npython smoke-test/spring-boot-smoke-test-cache/src/main/java/smoketest/cache/SampleCacheApplication.java\npython smoke-test/spring-boot-smoke-test-hibernate/src/main/java/smoketest/jpa/SampleJpaApplication.java\npython smoke-test/spring-boot-smoke-test-integration/src/test/java/smoketest/integration/producer/ProducerApplication.java\npython smoke-test/spring-boot-smoke-test-integration/src/main/java/smoketest/integration/SampleIntegrationApplication.java\npython smoke-test/spring-boot-smoke-test-actuator-noweb/src/main/java/smoketest/actuator/noweb/SampleActuatorNoWebApplication.java\npython smoke-test/spring-boot-smoke-test-web-application-type/src/main/java/smoketest/webapplicationtype/SampleWebApplicationTypeApplication.java\npython smoke-test/spring-boot-smoke-test-data-r2dbc-liquibase/src/main/java/smoketest/data/r2dbc/SampleR2dbcLiquibaseApplication.java\npython smoke-test/spring-boot-smoke-test-autoconfigure-classic/src/main/java/smoketest/autoconfigureclassic/SampleAutoConfigureClassicApplication.java\npython smoke-test/spring-boot-smoke-test-jetty/src/main/java/smoketest/jetty/SampleJettyApplication.java\npython smoke-test/spring-boot-smoke-test-tomcat-ssl/src/main/java/smoketest/tomcat/ssl/SampleTomcatSslApplication.java\npython smoke-test/spring-boot-smoke-test-xml/src/main/java/smoketest/xml/SampleSpringXmlApplication.java\npython smoke-test/spring-boot-smoke-test-secure/src/main/java/smoketest/secure/SampleSecureApplication.java\npython smoke-test/spring-boot-smoke-test-aspectj/src/main/java/smoketest/aspectj/SampleAspectJApplication.java\npython smoke-test/spring-boot-smoke-test-actuator-extension/src/main/java/smoketest/actuator/extension/SampleActuatorExtensionApplication.java\npython smoke-test/spring-boot-smoke-test-bootstrap-registry/src/main/java/smoketest/bootstrapregistry/app/SampleBootstrapRegistryApplication.java\npython smoke-test/spring-boot-smoke-test-secure-jersey/src/main/java/smoketest/secure/jersey/SampleSecureJerseyApplication.java\npython smoke-test/spring-boot-smoke-test-artemis/src/main/java/smoketest/artemis/SampleArtemisApplication.java\npython smoke-test/spring-boot-smoke-test-activemq-embedded/src/main/java/smoketest/activemq/embedded/SampleActiveMQApplication.java\npython smoke-test/spring-boot-smoke-test-jackson2-only/src/main/java/smoketest/jackson2/only/SampleJackson2OnlyApplication.java\npython smoke-test/spring-boot-smoke-test-oauth2-resource-server/src/main/java/smoketest/oauth2/resource/SampleOauth2ResourceServerApplication.java\npython smoke-test/spring-boot-smoke-test-data-ldap/src/main/java/smoketest/data/ldap/SampleDataLdapApplication.java\npython smoke-test/spring-boot-smoke-test-test-nomockito/src/main/java/smoketest/testnomockito/SampleTestNoMockitoApplication.java\npython smoke-test/spring-boot-smoke-test-web-method-security/src/main/java/smoketest/security/method/SampleMethodSecurityApplication.java\npython smoke-test/spring-boot-smoke-test-reactive-oauth2-client/src/main/java/smoketest/oauth2/client/SampleReactiveOAuth2ClientApplication.java\npython smoke-test/spring-boot-smoke-test-session-data-redis-webflux/src/main/java/smoketest/session/SampleSessionWebFluxRedisApplication.java\npython smoke-test/spring-boot-smoke-test-session-jdbc/src/main/java/smoketest/session/SampleSessionJdbcApplication.java\npython smoke-test/spring-boot-smoke-test-data-r2dbc/src/main/java/smoketest/data/r2dbc/SampleR2dbcApplication.java\npython cli/spring-boot-cli/src/main/java/org/springframework/boot/cli/SpringCli.java\npython loader/spring-boot-loader-tools/src/test/java/org/springframework/boot/loader/tools/sample/ClassWithMainMethod.java\npython loader/spring-boot-loader-tools/src/test/java/org/springframework/boot/loader/tools/sample/AnnotatedClassWithMainMethod.java\npython loader/spring-boot-loader/src/test/java/org/springframework/boot/loader/launch/LauncherTests.java\npython loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/JarLauncher.java\npython loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/PropertiesLauncher.java\npython loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/Launcher.java\npython loader/spring-boot-loader/src/main/java/org/springframework/boot/loader/launch/WarLauncher.java\npython configuration-metadata/spring-boot-configuration-metadata-changelog-generator/src/main/java/org/springframework/boot/configurationmetadata/changelog/ChangelogGenerator.java\n```\n\n\n## Project Structure\n\n```\nspring-boot-build/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Compiled output\n\u2502   \u251c\u2500\u2500 index.js                            # Main bundle\n\u2502   \u251c\u2500\u2500 index.d.ts                          # Type declarations\n\u2502   \u2514\u2500\u2500 index.js.map                        # Source maps\n\u2502\n\u251c\u2500\u2500 src/                                    # Source code\n\u2502   \u251c\u2500\u2500 index.ts                            # Main entry point\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 components/                         # React/Vue components\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Components barrel\n\u2502   \u2502   \u251c\u2500\u2500 Button/                         # Button component\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.tsx                  # Component impl\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.styles.ts            # Styled components\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.test.tsx             # Component tests\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502   \u2514\u2500\u2500 Modal/                          # Modal component\n\u2502   \u2502       \u251c\u2500\u2500 Modal.tsx                   # Component impl\n\u2502   \u2502       \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 hooks/                              # Custom React hooks\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Hooks barrel\n\u2502   \u2502   \u251c\u2500\u2500 useAuth.ts                      # Auth hook\n\u2502   \u2502   \u2514\u2500\u2500 useApi.ts                       # API hook\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                           # API services\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Services barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API client\n\u2502   \u2502   \u2514\u2500\u2500 auth.ts                         # Auth service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 store/                              # State management\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Store setup\n\u2502   \u2502   \u251c\u2500\u2500 slices/                         # Redux slices\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 userSlice.ts                # User state\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 appSlice.ts                 # App state\n\u2502   \u2502   \u2514\u2500\u2500 hooks.ts                        # Typed hooks\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 types/                              # TypeScript types\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Types barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API types\n\u2502   \u2502   \u2514\u2500\u2500 models.ts                       # Model types\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                              # Utility functions\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Utils barrel\n\u2502   \u2502   \u251c\u2500\u2500 helpers.ts                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 validators.ts                   # Validation utils\n\u2502   \u2502   \u2514\u2500\u2500 constants.ts                    # Constants\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 styles/                             # Global styles\n\u2502       \u251c\u2500\u2500 global.css                      # Global CSS\n\u2502       \u251c\u2500\u2500 variables.css                   # CSS variables\n\u2502       \u2514\u2500\u2500 themes/                         # Theme files\n\u2502           \u251c\u2500\u2500 light.ts                    # Light theme\n\u2502           \u2514\u2500\u2500 dark.ts                     # Dark theme\n\u2502\n\u251c\u2500\u2500 public/                                 # Static assets\n\u2502   \u251c\u2500\u2500 index.html                          # HTML template\n\u2502   \u251c\u2500\u2500 favicon.ico                         # Favicon\n\u2502   \u2514\u2500\u2500 assets/                             # Static assets\n\u2502       \u251c\u2500\u2500 images/                         # Image files\n\u2502       \u2514\u2500\u2500 fonts/                          # Font files\n\u2502\n\u251c\u2500\u2500 scripts/                                # Build scripts\n\u2502   \u251c\u2500\u2500 build.js                            # Build script\n\u2502   \u2514\u2500\u2500 generate-types.js                   # Type generator\n\u2502\n\u251c\u2500\u2500 package.json                            # Package manifest\n\u251c\u2500\u2500 package-lock.json                       # Locked dependencies\n\u251c\u2500\u2500 tsconfig.json                           # TypeScript config\n\u251c\u2500\u2500 tsconfig.build.json                     # Build TS config\n\u251c\u2500\u2500 jest.config.js                          # Jest config\n\u251c\u2500\u2500 .eslintrc.js                            # ESLint config\n\u251c\u2500\u2500 .prettierrc                             # Prettier config\n\u2514\u2500\u2500 vite.config.ts                          # Vite/bundler config\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `src/` | Source code directory |\n| `src/components/` | Reusable UI components |\n| `src/services/` | API clients and services |\n| `src/store/` | State management |\n| `dist/` | Compiled output |\n\n## Configuration\n\n### Configuration Files\n\n| File | Purpose |\n|------|--------|\n| `smoke-test/spring-boot-smoke-test-config/src/main/java/smoketest/config/SampleConfigApplication.java` | Configuration settings |\n| `smoke-test/spring-boot-smoke-test-autoconfigure-classic/src/main/java/smoketest/autoconfigureclassic/SampleAutoConfigureClassicApplication.java` | Configuration settings |\n| `configuration-metadata/spring-boot-configuration-metadata-changelog-generator/src/main/java/org/springframework/boot/configurationmetadata/changelog/ChangelogGenerator.java` | Configuration settings |\n| `documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/propertiesandconfiguration/externalizeconfiguration/application/MyApplication.java` | Configuration settings |\n| `smoke-test/spring-boot-smoke-test-tomcat/src/test/java/smoketest/tomcat/NonAutoConfigurationSampleTomcatApplicationTests.java` | Configuration settings |\n| `documentation/spring-boot-docs/src/main/java/org/springframework/boot/docs/howto/propertiesandconfiguration/externalizeconfiguration/builder/MyApplication.java` | Configuration settings |\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: org, jakarta, com, tools, reactor\n\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| org | \u26a0\ufe0f Version unknown | Code import analysis |\n| jakarta | \u26a0\ufe0f Version unknown | Code import analysis |\n| com | \u26a0\ufe0f Version unknown | Code import analysis |\n| tools | \u26a0\ufe0f Version unknown | Code import analysis |\n| reactor | \u26a0\ufe0f Version unknown | Code import analysis |\n| ch | \u26a0\ufe0f Version unknown | Code import analysis |\n| smoketest | \u26a0\ufe0f Version unknown | Code import analysis |\n| brave | \u26a0\ufe0f Version unknown | Code import analysis |\n| co | \u26a0\ufe0f Version unknown | Code import analysis |\n| zipkin2 | \u26a0\ufe0f Version unknown | Code import analysis |\n| liquibase | \u26a0\ufe0f Version unknown | Code import analysis |\n| okhttp3 | \u26a0\ufe0f Version unknown | Code import analysis |\n| graphql | \u26a0\ufe0f Version unknown | Code import analysis |\n| lombok | \u26a0\ufe0f Version unknown | Code import analysis |\n| oracle | \u26a0\ufe0f Version unknown | Code import analysis |\n| kotlinx | \u26a0\ufe0f Version unknown | Code import analysis |\n\n> **Note:** 16 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **Apache-2.0** license.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "spring-projects/spring-boot"
+}

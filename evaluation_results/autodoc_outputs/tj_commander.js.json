@@ -1,0 +1,118 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "commander",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "the complete solution for node.js command-line programs",
+      "confidence": "EXPLICIT"
+    },
+    "primary_language": {
+      "value": "TypeScript",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "MIT",
+      "confidence": "EXPLICIT"
+    },
+    "version": {
+      "value": "14.0.2",
+      "confidence": "EXPLICIT"
+    },
+    "entry_points": [
+      {
+        "path": "./index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "npm run test",
+        "entry_type": "script",
+        "command": "test"
+      },
+      {
+        "path": "index.js",
+        "entry_type": "module",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "commander",
+        "version": null
+      },
+      {
+        "name": "node:process",
+        "version": null
+      },
+      {
+        "name": "globals",
+        "version": null
+      },
+      {
+        "name": "@eslint",
+        "version": null
+      },
+      {
+        "name": "eslint-plugin-jest",
+        "version": null
+      },
+      {
+        "name": "typescript-eslint",
+        "version": null
+      },
+      {
+        "name": "eslint-config-prettier",
+        "version": null
+      },
+      {
+        "name": "tsd",
+        "version": null
+      },
+      {
+        "name": "strip-ansi",
+        "version": null
+      },
+      {
+        "name": "wrap-ansi",
+        "version": null
+      },
+      {
+        "name": "node:util",
+        "version": null
+      },
+      {
+        "name": "node:events",
+        "version": null
+      },
+      {
+        "name": "node:child_process",
+        "version": null
+      },
+      {
+        "name": "node:path",
+        "version": null
+      },
+      {
+        "name": "node:fs",
+        "version": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "TJ Holowaychuk",
+        "email": "tj@vision-media.ca"
+      }
+    ],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 219,
+    "installation_method": "npm",
+    "usage_type": "library"
+  },
+  "readme": "# commander\n![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)\n![Python: Node.js >=20](https://img.shields.io/badge/Python-Node.js %3E%3D20-blue.svg)\n\nthe complete solution for node.js command-line programs\n\nIt leverages commander, node:process, globals, @eslint as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing, detailed documentation for users.\n\nInstall commander via npm to add it to your Node.js project.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Enables modern JavaScript/TypeScript development patterns\n\n**Primary Language:** TypeScript\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n**Requires Python Node.js >=20**\n\n```bash\n# Clone the repository\ngit clone https://github.com/tj/commander.js\ncd commander\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### As a Module\n\n```python\npython -m ..index.js\npython -m index.js\n```\n\n### Running Scripts\n\n```bash\npython npm run test\n```\n\n\n## Project Structure\n\n```\ncommander/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Compiled output\n\u2502   \u251c\u2500\u2500 index.js                            # Main bundle\n\u2502   \u251c\u2500\u2500 index.d.ts                          # Type declarations\n\u2502   \u2514\u2500\u2500 index.js.map                        # Source maps\n\u2502\n\u251c\u2500\u2500 docs/                                   # Documentation\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 README.md                       # API overview\n\u2502   \u2502   \u2514\u2500\u2500 modules.md                      # Module docs\n\u2502   \u2514\u2500\u2500 guides/                             # User guides\n\u2502       \u251c\u2500\u2500 getting-started.md              # Quick start\n\u2502       \u2514\u2500\u2500 configuration.md                # Config guide\n\u2502\n\u251c\u2500\u2500 src/                                    # Source code\n\u2502   \u251c\u2500\u2500 index.ts                            # Main entry point\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 components/                         # React/Vue components\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Components barrel\n\u2502   \u2502   \u251c\u2500\u2500 Button/                         # Button component\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.tsx                  # Component impl\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.styles.ts            # Styled components\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.test.tsx             # Component tests\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502   \u2514\u2500\u2500 Modal/                          # Modal component\n\u2502   \u2502       \u251c\u2500\u2500 Modal.tsx                   # Component impl\n\u2502   \u2502       \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 hooks/                              # Custom React hooks\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Hooks barrel\n\u2502   \u2502   \u251c\u2500\u2500 useAuth.ts                      # Auth hook\n\u2502   \u2502   \u2514\u2500\u2500 useApi.ts                       # API hook\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                           # API services\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Services barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API client\n\u2502   \u2502   \u2514\u2500\u2500 auth.ts                         # Auth service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 store/                              # State management\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Store setup\n\u2502   \u2502   \u251c\u2500\u2500 slices/                         # Redux slices\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 userSlice.ts                # User state\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 appSlice.ts                 # App state\n\u2502   \u2502   \u2514\u2500\u2500 hooks.ts                        # Typed hooks\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 types/                              # TypeScript types\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Types barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API types\n\u2502   \u2502   \u2514\u2500\u2500 models.ts                       # Model types\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                              # Utility functions\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Utils barrel\n\u2502   \u2502   \u251c\u2500\u2500 helpers.ts                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 validators.ts                   # Validation utils\n\u2502   \u2502   \u2514\u2500\u2500 constants.ts                    # Constants\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 styles/                             # Global styles\n\u2502       \u251c\u2500\u2500 global.css                      # Global CSS\n\u2502       \u251c\u2500\u2500 variables.css                   # CSS variables\n\u2502       \u2514\u2500\u2500 themes/                         # Theme files\n\u2502           \u251c\u2500\u2500 light.ts                    # Light theme\n\u2502           \u2514\u2500\u2500 dark.ts                     # Dark theme\n\u2502\n\u251c\u2500\u2500 __tests__/                              # Test files\n\u2502   \u251c\u2500\u2500 setup.ts                            # Test setup\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u2514\u2500\u2500 utils.test.ts                   # Utils tests\n\u2502   \u2514\u2500\u2500 integration/                        # Integration tests\n\u2502       \u2514\u2500\u2500 api.test.ts                     # API tests\n\u2502\n\u251c\u2500\u2500 e2e/                                    # E2E tests\n\u2502   \u251c\u2500\u2500 cypress.config.ts                   # Cypress config\n\u2502   \u2514\u2500\u2500 specs/                              # Test specs\n\u2502       \u2514\u2500\u2500 app.cy.ts                       # App E2E tests\n\u2502\n\u251c\u2500\u2500 public/                                 # Static assets\n\u2502   \u251c\u2500\u2500 index.html                          # HTML template\n\u2502   \u251c\u2500\u2500 favicon.ico                         # Favicon\n\u2502   \u2514\u2500\u2500 assets/                             # Static assets\n\u2502       \u251c\u2500\u2500 images/                         # Image files\n\u2502       \u2514\u2500\u2500 fonts/                          # Font files\n\u2502\n\u251c\u2500\u2500 scripts/                                # Build scripts\n\u2502   \u251c\u2500\u2500 build.js                            # Build script\n\u2502   \u2514\u2500\u2500 generate-types.js                   # Type generator\n\u2502\n\u251c\u2500\u2500 package.json                            # Package manifest\n\u251c\u2500\u2500 package-lock.json                       # Locked dependencies\n\u251c\u2500\u2500 tsconfig.json                           # TypeScript config\n\u251c\u2500\u2500 tsconfig.build.json                     # Build TS config\n\u251c\u2500\u2500 jest.config.js                          # Jest config\n\u251c\u2500\u2500 .eslintrc.js                            # ESLint config\n\u251c\u2500\u2500 .prettierrc                             # Prettier config\n\u2514\u2500\u2500 vite.config.ts                          # Vite/bundler config\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `src/` | Source code directory |\n| `src/components/` | Reusable UI components |\n| `src/services/` | API clients and services |\n| `src/store/` | State management |\n| `dist/` | Compiled output |\n| `docs/` | Project documentation |\n| `examples/` | Usage examples |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: commander, node:process, globals, @eslint, eslint-plugin-jest\n\n\n## Testing\n\nRun the test suite:\n\n```bash\nnpm test\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| commander | \u26a0\ufe0f Version unknown | Code import analysis |\n| node:process | \u26a0\ufe0f Version unknown | Code import analysis |\n| globals | \u26a0\ufe0f Version unknown | Code import analysis |\n| @eslint | \u26a0\ufe0f Version unknown | Code import analysis |\n| eslint-plugin-jest | \u26a0\ufe0f Version unknown | Code import analysis |\n| typescript-eslint | \u26a0\ufe0f Version unknown | Code import analysis |\n| eslint-config-prettier | \u26a0\ufe0f Version unknown | Code import analysis |\n| tsd | \u26a0\ufe0f Version unknown | Code import analysis |\n| strip-ansi | \u26a0\ufe0f Version unknown | Code import analysis |\n| wrap-ansi | \u26a0\ufe0f Version unknown | Code import analysis |\n| node:util | \u26a0\ufe0f Version unknown | Code import analysis |\n| node:events | \u26a0\ufe0f Version unknown | Code import analysis |\n| node:child_process | \u26a0\ufe0f Version unknown | Code import analysis |\n| node:path | \u26a0\ufe0f Version unknown | Code import analysis |\n| node:fs | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| @eslint/js | ^9.4.0 | package.json [devDependencies] |\n| @types/jest | ^30.0.0 | package.json [devDependencies] |\n| @types/node | ^22.7.4 | package.json [devDependencies] |\n| eslint | ^9.17.0 | package.json [devDependencies] |\n| eslint-config-prettier | ^10.0.1 | package.json [devDependencies] |\n| eslint-plugin-jest | ^29.0.1 | package.json [devDependencies] |\n| globals | ^16.0.0 | package.json [devDependencies] |\n| jest | ^30.0.3 | package.json [devDependencies] |\n| prettier | ^3.2.5 | package.json [devDependencies] |\n| ts-jest | ^29.0.3 | package.json [devDependencies] |\n| tsd | ^0.33.0 | package.json [devDependencies] |\n| typescript | ^5.0.4 | package.json [devDependencies] |\n| typescript-eslint | ^8.12.2 | package.json [devDependencies] |\n\n> **Note:** 15 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **MIT** license.\n\n## Authors\n\n- **TJ Holowaychuk** - tj@vision-media.ca\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "tj/commander.js"
+}

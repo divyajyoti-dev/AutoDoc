@@ -1,0 +1,555 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "protobuf",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "Protocol Buffers",
+      "confidence": "EXPLICIT"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "BSD",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "protoc",
+        "entry_type": "executable",
+        "command": null
+      },
+      {
+        "path": "protobuf",
+        "entry_type": "executable",
+        "command": null
+      },
+      {
+        "path": "hpb_generator/protoc-gen-hpb.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/minimal_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/python_version_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/any_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/reflection_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/proto_json_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/descriptor_database_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/message_factory_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/runtime_version_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/json_format_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/text_encoding_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/decoder_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/keywords_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/well_known_types_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/thread_safe_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/descriptor_pool_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/duration_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/descriptor_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/reflection_cpp_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/message_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/wire_format_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/timestamp_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/service_reflection_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/symbol_database_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/proto_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/unknown_fields_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/import_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/text_format_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/recursive_message_pybind11_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/proto_builder_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/generator_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/proto_api_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/field_mask_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/proto_text_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/google/protobuf/internal/numpy/numpy_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "python/docs/generate_docs.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "editions/internal_defaults_escape.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "rust/test/rust_proto_library_unit_test/empty.rs",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "rust/test/rust_proto_library_unit_test/empty.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "rust/release_crates/protobuf_tests/build.rs",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "rust/release_crates/protobuf_example/build.rs",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "rust/release_crates/protobuf_example/src/main.rs",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "rust/release_crates/protobuf/build.rs",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "java/osgi/OsgiWrapper.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "lua/main.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "lua/upbc.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "third_party/utf8_range/ascii.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "third_party/utf8_range/main.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "third_party/utf8_range/utf8_to_utf16/main.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "upb/wire/decode_fast/bisect_helper.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "upb/mini_table/debug_string_test_generate.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "upb/conformance/conformance_upb.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/add_person.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/ListPeople.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/AddPerson.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/list_people.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/go/cmd/add_person/add_person.go",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/go/cmd/list_people/list_people.go",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "bazel/private/file_concat/main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "upb_generator/minitable/main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "upb_generator/c/generator.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "upb_generator/reflection/generator.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "objectivec/DevTools/pddm.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "objectivec/DevTools/pddm_tests.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/map_probe_benchmark.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/util/python/field_mask_util_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/plugin.h",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/fake_plugin.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/command_line_interface.h",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/main_no_generators.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/test_plugin.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/python/plugin_main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/rust/main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/java/plugin_main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/cpp/main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/google/protobuf/compiler/cpp/tools/analyze_profile_proto_main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "conformance/conformance_test_main.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "conformance/conformance_cpp.cc",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "conformance/ConformanceJavaLite.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "conformance/conformance_test.h",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "conformance/conformance_rust.rs",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "conformance/ConformanceJava.java",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "numpy",
+        "version": "<=2.3.4"
+      },
+      {
+        "name": "setuptools",
+        "version": "<=78.1.1"
+      },
+      {
+        "name": "absl-py",
+        "version": "==2.*"
+      },
+      {
+        "name": "googleapis-common-protos",
+        "version": "==1.56.1"
+      },
+      {
+        "name": "jinja2",
+        "version": "==3.1.6"
+      },
+      {
+        "name": "sphinx",
+        "version": "==3.0.4"
+      },
+      {
+        "name": "sphinx_rtd_theme",
+        "version": "==0.4.3"
+      },
+      {
+        "name": "sphinxcontrib-napoleon",
+        "version": "==0.7"
+      },
+      {
+        "name": "Threads",
+        "version": null
+      },
+      {
+        "name": "ZLIB",
+        "version": null
+      },
+      {
+        "name": "Protobuf",
+        "version": null
+      },
+      {
+        "name": "google",
+        "version": null
+      },
+      {
+        "name": "absl",
+        "version": null
+      },
+      {
+        "name": "upb",
+        "version": null
+      },
+      {
+        "name": "com",
+        "version": null
+      },
+      {
+        "name": "org",
+        "version": null
+      },
+      {
+        "name": "proto2_unittest",
+        "version": null
+      },
+      {
+        "name": "stdint",
+        "version": null
+      },
+      {
+        "name": "cstdint",
+        "version": null
+      },
+      {
+        "name": "cstddef",
+        "version": null
+      },
+      {
+        "name": "gtest",
+        "version": null
+      },
+      {
+        "name": "hpb",
+        "version": null
+      },
+      {
+        "name": "type_traits",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 3303,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# protobuf\n![License: BSD](https://img.shields.io/badge/License-BSD-blue.svg)\n\nProtocol Buffers\n\nIt leverages numpy, setuptools, absl-py, googleapis-common-protos as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing, detailed documentation for users.\n\nInstall protobuf using pip for seamless integration into your Python environment.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/protocolbuffers/protobuf\ncd protobuf\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython hpb_generator/protoc-gen-hpb.cc\npython python/minimal_test.py\npython python/python_version_test.py\npython python/google/protobuf/internal/any_test.py\npython python/google/protobuf/internal/reflection_test.py\npython python/google/protobuf/internal/proto_json_test.py\npython python/google/protobuf/internal/descriptor_database_test.py\npython python/google/protobuf/internal/message_factory_test.py\npython python/google/protobuf/internal/runtime_version_test.py\npython python/google/protobuf/internal/json_format_test.py\npython python/google/protobuf/internal/text_encoding_test.py\npython python/google/protobuf/internal/decoder_test.py\npython python/google/protobuf/internal/keywords_test.py\npython python/google/protobuf/internal/well_known_types_test.py\npython python/google/protobuf/internal/thread_safe_test.py\npython python/google/protobuf/internal/descriptor_pool_test.py\npython python/google/protobuf/internal/duration_test.py\npython python/google/protobuf/internal/descriptor_test.py\npython python/google/protobuf/internal/reflection_cpp_test.py\npython python/google/protobuf/internal/message_test.py\npython python/google/protobuf/internal/wire_format_test.py\npython python/google/protobuf/internal/timestamp_test.py\npython python/google/protobuf/internal/service_reflection_test.py\npython python/google/protobuf/internal/symbol_database_test.py\npython python/google/protobuf/internal/proto_test.py\npython python/google/protobuf/internal/unknown_fields_test.py\npython python/google/protobuf/internal/import_test.py\npython python/google/protobuf/internal/text_format_test.py\npython python/google/protobuf/internal/recursive_message_pybind11_test.py\npython python/google/protobuf/internal/proto_builder_test.py\npython python/google/protobuf/internal/generator_test.py\npython python/google/protobuf/internal/proto_api_test.py\npython python/google/protobuf/internal/field_mask_test.py\npython python/google/protobuf/internal/proto_text_test.py\npython python/google/protobuf/internal/numpy/numpy_test.py\npython python/docs/generate_docs.py\npython editions/internal_defaults_escape.cc\npython rust/test/rust_proto_library_unit_test/empty.rs\npython rust/test/rust_proto_library_unit_test/empty.cc\npython rust/release_crates/protobuf_tests/build.rs\npython rust/release_crates/protobuf_example/build.rs\npython rust/release_crates/protobuf_example/src/main.rs\npython rust/release_crates/protobuf/build.rs\npython java/osgi/OsgiWrapper.java\npython lua/main.c\npython lua/upbc.cc\npython third_party/utf8_range/ascii.cpp\npython third_party/utf8_range/main.c\npython third_party/utf8_range/utf8_to_utf16/main.c\npython upb/wire/decode_fast/bisect_helper.cc\npython upb/mini_table/debug_string_test_generate.cc\npython upb/conformance/conformance_upb.c\npython examples/add_person.cc\npython examples/ListPeople.java\npython examples/AddPerson.java\npython examples/list_people.cc\npython examples/go/cmd/add_person/add_person.go\npython examples/go/cmd/list_people/list_people.go\npython bazel/private/file_concat/main.cc\npython upb_generator/minitable/main.cc\npython upb_generator/c/generator.cc\npython upb_generator/reflection/generator.cc\npython objectivec/DevTools/pddm.py\npython objectivec/DevTools/pddm_tests.py\npython src/google/protobuf/map_probe_benchmark.cc\npython src/google/protobuf/util/python/field_mask_util_test.py\npython src/google/protobuf/compiler/main.cc\npython src/google/protobuf/compiler/plugin.h\npython src/google/protobuf/compiler/fake_plugin.cc\npython src/google/protobuf/compiler/command_line_interface.h\npython src/google/protobuf/compiler/main_no_generators.cc\npython src/google/protobuf/compiler/test_plugin.cc\npython src/google/protobuf/compiler/python/plugin_main.cc\npython src/google/protobuf/compiler/rust/main.cc\npython src/google/protobuf/compiler/java/plugin_main.cc\npython src/google/protobuf/compiler/cpp/main.cc\npython src/google/protobuf/compiler/cpp/tools/analyze_profile_proto_main.cc\npython conformance/conformance_test_main.cc\npython conformance/conformance_cpp.cc\npython conformance/ConformanceJavaLite.java\npython conformance/conformance_test.h\npython conformance/conformance_rust.rs\npython conformance/ConformanceJava.java\n```\n\n\n## Project Structure\n\n```\nprotobuf/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 protobuf/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 tests/                                  # Test suite\n\u2502   \u251c\u2500\u2500 __init__.py                         # Tests init\n\u2502   \u251c\u2500\u2500 conftest.py                         # Pytest fixtures\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Unit tests init\n\u2502   \u2502   \u251c\u2500\u2500 test_core.py                    # Core module tests\n\u2502   \u2502   \u251c\u2500\u2500 test_models.py                  # Model tests\n\u2502   \u2502   \u2514\u2500\u2500 test_utils.py                   # Utility tests\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 integration/                        # Integration tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Integration init\n\u2502   \u2502   \u2514\u2500\u2500 test_api.py                     # API integration\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 fixtures/                           # Test fixtures\n\u2502       \u251c\u2500\u2500 sample_data.json                # Sample test data\n\u2502       \u2514\u2500\u2500 mock_responses.py               # Mock responses\n\u2502\n\u251c\u2500\u2500 examples/                               # Usage examples\n\u2502   \u251c\u2500\u2500 basic_usage.py                      # Basic example\n\u2502   \u251c\u2500\u2500 advanced_usage.py                   # Advanced example\n\u2502   \u2514\u2500\u2500 README.md                           # Examples guide\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `protobuf/` | Main package containing all source modules |\n| `protobuf/cli/` | Command-line interface implementation |\n| `protobuf/core/` | Core business logic and processing |\n| `protobuf/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n| `examples/` | Usage examples |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: numpy, setuptools, absl-py, googleapis-common-protos, jinja2\n\n\n## Testing\n\nRun the test suite:\n\n```bash\npytest\n# or\npython -m pytest\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| numpy | <=2.3.4 | python/requirements.txt |\n| setuptools | <=78.1.1 | python/requirements.txt |\n| absl-py | ==2.* | python/requirements.txt |\n| googleapis-common-protos | ==1.56.1 | python/docs/requirements.txt |\n| jinja2 | ==3.1.6 | python/docs/requirements.txt |\n| sphinx | ==3.0.4 | python/docs/requirements.txt |\n| sphinx_rtd_theme | ==0.4.3 | python/docs/requirements.txt |\n| sphinxcontrib-napoleon | ==0.7 | python/docs/requirements.txt |\n| Threads | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| ZLIB | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| Protobuf | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| google | \u26a0\ufe0f Version unknown | Code import analysis |\n| absl | \u26a0\ufe0f Version unknown | Code import analysis |\n| upb | \u26a0\ufe0f Version unknown | Code import analysis |\n| com | \u26a0\ufe0f Version unknown | Code import analysis |\n| org | \u26a0\ufe0f Version unknown | Code import analysis |\n| proto2_unittest | \u26a0\ufe0f Version unknown | Code import analysis |\n| stdint | \u26a0\ufe0f Version unknown | Code import analysis |\n| cstdint | \u26a0\ufe0f Version unknown | Code import analysis |\n| cstddef | \u26a0\ufe0f Version unknown | Code import analysis |\n| gtest | \u26a0\ufe0f Version unknown | Code import analysis |\n| hpb | \u26a0\ufe0f Version unknown | Code import analysis |\n| type_traits | \u26a0\ufe0f Version unknown | Code import analysis |\n\n> **Note:** 15 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **BSD** license.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "protocolbuffers/protobuf"
+}

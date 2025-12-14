@@ -1,0 +1,57 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "Tests for fastutil using guava-testlib",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": "1.0-SNAPSHOT",
+      "confidence": "EXPLICIT"
+    },
+    "entry_points": [],
+    "dependencies": [
+      {
+        "name": "it",
+        "version": null
+      },
+      {
+        "name": "com",
+        "version": null
+      },
+      {
+        "name": "org",
+        "version": null
+      },
+      {
+        "name": "junit",
+        "version": null
+      },
+      {
+        "name": "jinja2",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": false,
+    "has_ci_config": false,
+    "file_count": 31,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# Tests for fastutil using guava-testlib\n![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)\n\nTests for fastutil using guava-testlib is a Python project.\n\nIt leverages it, com, org, junit as core dependencies.\n\nInstall Tests for fastutil using guava-testlib using pip for seamless integration into your Python environment.\n\n<!-- TODO: Add detailed project description - Expand with specific use cases, key differentiators, and target audience -->\n\n## Key Features\n\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/gpanther/fastutil-guava-tests\ncd Tests for fastutil using guava-testlib\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n<!-- TODO: Add usage examples - Show how to use this project with code examples -->\n\n```python\n# Example usage\n# from package import something\n# result = something.do_work()\n```\n\n## Project Structure\n\n```\nTests for fastutil using guava-testlib/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 tests for fastutil using guava_testlib/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `tests for fastutil using guava_testlib/` | Main package containing all source modules |\n| `tests for fastutil using guava_testlib/cli/` | Command-line interface implementation |\n| `tests for fastutil using guava_testlib/core/` | Core business logic and processing |\n| `tests for fastutil using guava_testlib/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: it, com, org, junit, jinja2\n\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| it | \u26a0\ufe0f Version unknown | Code import analysis |\n| com | \u26a0\ufe0f Version unknown | Code import analysis |\n| org | \u26a0\ufe0f Version unknown | Code import analysis |\n| junit | \u26a0\ufe0f Version unknown | Code import analysis |\n| jinja2 | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| junit:junit | 4.12 | pom.xml |\n| com.google.guava:guava-testlib | 20.0-SNAPSHOT | pom.xml |\n\n> **Note:** 5 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\n## License\n\nThis project is licensed under the **Apache-2.0** license.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "gpanther/fastutil-guava-tests"
+}

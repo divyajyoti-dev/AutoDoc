@@ -1,0 +1,137 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "JUnit",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "confidence": "EXPLICIT"
+    },
+    "primary_language": {
+      "value": "JavaScript",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "Eclipse Public License 1.0",
+      "confidence": "EXPLICIT"
+    },
+    "version": {
+      "value": "4.13.3-SNAPSHOT",
+      "confidence": "EXPLICIT"
+    },
+    "entry_points": [
+      {
+        "path": "src/site/resources/scripts/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/tests/AllTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/tests/framework/AllTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/tests/runner/AllTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/tests/runner/TextFeedbackTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/tests/extensions/AllTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/samples/AllTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/samples/SimpleTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/junit/samples/money/MoneyTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/org/junit/tests/running/core/SystemExitTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/test/java/org/junit/samples/ListTest.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/main/java/junit/textui/TestRunner.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/main/java/junit/runner/Version.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "src/main/java/org/junit/runner/JUnitCore.java",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "org.hamcrest:hamcrest-core",
+        "version": "${hamcrestVersion}"
+      },
+      {
+        "name": "org",
+        "version": null
+      },
+      {
+        "name": "junit",
+        "version": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "David Saff",
+        "email": "david@saff.net"
+      },
+      {
+        "name": "Kevin Cooney",
+        "email": "kcooney@gmail.com"
+      },
+      {
+        "name": "Stefan Birkner",
+        "email": "mail@stefan-birkner.de"
+      },
+      {
+        "name": "Marc Philipp",
+        "email": "mail@marcphilipp.de"
+      }
+    ],
+    "has_tests": false,
+    "has_ci_config": true,
+    "file_count": 616,
+    "installation_method": "maven",
+    "usage_type": "library"
+  },
+  "readme": "# JUnit\n![License: Eclipse Public License 1.0](https://img.shields.io/badge/License-Eclipse Public License 1.0-blue.svg)\n\nJUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.\n\nIt leverages org.hamcrest:hamcrest-core, org, junit as core dependencies.\n\nThe project includes continuous integration for automated testing, detailed documentation for users.\n\nInstall JUnit via npm to add it to your Node.js project.\n\n## Key Features\n\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Enables modern JavaScript/TypeScript development patterns\n\n**Primary Language:** JavaScript\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/junit-team/junit4\ncd JUnit\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### As a Module\n\n```python\npython -m src.site.resources.scripts.index.js\n```\n\n### Running Scripts\n\n```bash\npython src/test/java/junit/tests/AllTests.java\npython src/test/java/junit/tests/framework/AllTests.java\npython src/test/java/junit/tests/runner/AllTests.java\npython src/test/java/junit/tests/runner/TextFeedbackTest.java\npython src/test/java/junit/tests/extensions/AllTests.java\npython src/test/java/junit/samples/AllTests.java\npython src/test/java/junit/samples/SimpleTest.java\npython src/test/java/junit/samples/money/MoneyTest.java\npython src/test/java/org/junit/tests/running/core/SystemExitTest.java\npython src/test/java/org/junit/samples/ListTest.java\npython src/main/java/junit/textui/TestRunner.java\npython src/main/java/junit/runner/Version.java\npython src/main/java/org/junit/runner/JUnitCore.java\n```\n\n\n## Project Structure\n\n```\nJUnit/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Compiled output\n\u2502   \u251c\u2500\u2500 index.js                            # Main bundle\n\u2502   \u251c\u2500\u2500 index.d.ts                          # Type declarations\n\u2502   \u2514\u2500\u2500 index.js.map                        # Source maps\n\u2502\n\u251c\u2500\u2500 docs/                                   # Documentation\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 README.md                       # API overview\n\u2502   \u2502   \u2514\u2500\u2500 modules.md                      # Module docs\n\u2502   \u2514\u2500\u2500 guides/                             # User guides\n\u2502       \u251c\u2500\u2500 getting-started.md              # Quick start\n\u2502       \u2514\u2500\u2500 configuration.md                # Config guide\n\u2502\n\u251c\u2500\u2500 src/                                    # Source code\n\u2502   \u251c\u2500\u2500 index.ts                            # Main entry point\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 components/                         # React/Vue components\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Components barrel\n\u2502   \u2502   \u251c\u2500\u2500 Button/                         # Button component\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.tsx                  # Component impl\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.styles.ts            # Styled components\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.test.tsx             # Component tests\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502   \u2514\u2500\u2500 Modal/                          # Modal component\n\u2502   \u2502       \u251c\u2500\u2500 Modal.tsx                   # Component impl\n\u2502   \u2502       \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 hooks/                              # Custom React hooks\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Hooks barrel\n\u2502   \u2502   \u251c\u2500\u2500 useAuth.ts                      # Auth hook\n\u2502   \u2502   \u2514\u2500\u2500 useApi.ts                       # API hook\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                           # API services\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Services barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API client\n\u2502   \u2502   \u2514\u2500\u2500 auth.ts                         # Auth service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 store/                              # State management\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Store setup\n\u2502   \u2502   \u251c\u2500\u2500 slices/                         # Redux slices\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 userSlice.ts                # User state\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 appSlice.ts                 # App state\n\u2502   \u2502   \u2514\u2500\u2500 hooks.ts                        # Typed hooks\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 types/                              # TypeScript types\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Types barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API types\n\u2502   \u2502   \u2514\u2500\u2500 models.ts                       # Model types\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                              # Utility functions\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Utils barrel\n\u2502   \u2502   \u251c\u2500\u2500 helpers.ts                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 validators.ts                   # Validation utils\n\u2502   \u2502   \u2514\u2500\u2500 constants.ts                    # Constants\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 styles/                             # Global styles\n\u2502       \u251c\u2500\u2500 global.css                      # Global CSS\n\u2502       \u251c\u2500\u2500 variables.css                   # CSS variables\n\u2502       \u2514\u2500\u2500 themes/                         # Theme files\n\u2502           \u251c\u2500\u2500 light.ts                    # Light theme\n\u2502           \u2514\u2500\u2500 dark.ts                     # Dark theme\n\u2502\n\u251c\u2500\u2500 public/                                 # Static assets\n\u2502   \u251c\u2500\u2500 index.html                          # HTML template\n\u2502   \u251c\u2500\u2500 favicon.ico                         # Favicon\n\u2502   \u2514\u2500\u2500 assets/                             # Static assets\n\u2502       \u251c\u2500\u2500 images/                         # Image files\n\u2502       \u2514\u2500\u2500 fonts/                          # Font files\n\u2502\n\u251c\u2500\u2500 scripts/                                # Build scripts\n\u2502   \u251c\u2500\u2500 build.js                            # Build script\n\u2502   \u2514\u2500\u2500 generate-types.js                   # Type generator\n\u2502\n\u251c\u2500\u2500 package.json                            # Package manifest\n\u251c\u2500\u2500 package-lock.json                       # Locked dependencies\n\u251c\u2500\u2500 tsconfig.json                           # TypeScript config\n\u251c\u2500\u2500 tsconfig.build.json                     # Build TS config\n\u251c\u2500\u2500 jest.config.js                          # Jest config\n\u251c\u2500\u2500 .eslintrc.js                            # ESLint config\n\u251c\u2500\u2500 .prettierrc                             # Prettier config\n\u2514\u2500\u2500 vite.config.ts                          # Vite/bundler config\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `src/` | Source code directory |\n| `src/components/` | Reusable UI components |\n| `src/services/` | API clients and services |\n| `src/store/` | State management |\n| `dist/` | Compiled output |\n| `docs/` | Project documentation |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: org.hamcrest:hamcrest-core, org, junit\n\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| org.hamcrest:hamcrest-core | ${hamcrestVersion} | pom.xml |\n| org | \u26a0\ufe0f Version unknown | Code import analysis |\n| junit | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| org.hamcrest:hamcrest-library | ${hamcrestVersion} | pom.xml |\n\n> **Note:** 2 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **Eclipse Public License 1.0** license.\n\n## Authors\n\n- **David Saff** - david@saff.net (developer)\n- **Kevin Cooney** - kcooney@gmail.com (developer)\n- **Stefan Birkner** - mail@stefan-birkner.de (developer)\n- **Marc Philipp** - mail@marcphilipp.de (developer)\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "junit-team/junit4"
+}

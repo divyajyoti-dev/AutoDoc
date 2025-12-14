@@ -1,0 +1,89 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "project",
+      "confidence": "WEAK"
+    },
+    "description": {
+      "value": "\\n",
+      "confidence": "STRONG"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "MIT",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [],
+    "dependencies": [
+      {
+        "name": "lxml",
+        "version": null
+      },
+      {
+        "name": "pyppeteer",
+        "version": null
+      },
+      {
+        "name": "requests_html",
+        "version": null
+      },
+      {
+        "name": "concurrent",
+        "version": null
+      },
+      {
+        "name": "parse",
+        "version": null
+      },
+      {
+        "name": "pytest",
+        "version": null
+      },
+      {
+        "name": "asyncio",
+        "version": null
+      },
+      {
+        "name": "requests",
+        "version": null
+      },
+      {
+        "name": "pyquery",
+        "version": null
+      },
+      {
+        "name": "fake_useragent",
+        "version": null
+      },
+      {
+        "name": "w3lib",
+        "version": null
+      },
+      {
+        "name": "shutil",
+        "version": null
+      },
+      {
+        "name": "setuptools",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 23,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# project\n<!-- Review suggested: weak confidence from Directory name (Inferred from repository directory name) -->\n![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)\n![Python: >=3.6.0](https://img.shields.io/badge/Python-%3E%3D3.6.0-blue.svg)\n\n\\n\n\nIt leverages lxml, pyppeteer, requests_html, concurrent as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing, detailed documentation for users.\n\nInstall project using pip for seamless integration into your Python environment.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n**Requires Python >=3.6.0**\n\n```bash\n# Clone the repository\ngit clone https://github.com/psf/requests-html\ncd project\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n<!-- TODO: Add usage examples - Show how to use this project with code examples -->\n\n```python\n# Example usage\n# from package import something\n# result = something.do_work()\n```\n\n## Project Structure\n\n```\nproject/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 project/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 tests/                                  # Test suite\n\u2502   \u251c\u2500\u2500 __init__.py                         # Tests init\n\u2502   \u251c\u2500\u2500 conftest.py                         # Pytest fixtures\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Unit tests init\n\u2502   \u2502   \u251c\u2500\u2500 test_core.py                    # Core module tests\n\u2502   \u2502   \u251c\u2500\u2500 test_models.py                  # Model tests\n\u2502   \u2502   \u2514\u2500\u2500 test_utils.py                   # Utility tests\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 integration/                        # Integration tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Integration init\n\u2502   \u2502   \u2514\u2500\u2500 test_api.py                     # API integration\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 fixtures/                           # Test fixtures\n\u2502       \u251c\u2500\u2500 sample_data.json                # Sample test data\n\u2502       \u2514\u2500\u2500 mock_responses.py               # Mock responses\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `project/` | Main package containing all source modules |\n| `project/cli/` | Command-line interface implementation |\n| `project/core/` | Core business logic and processing |\n| `project/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: lxml, pyppeteer, requests_html, concurrent, parse\n\n\n## Testing\n\nRun the test suite:\n\n```bash\npytest\n# or\npython -m pytest\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| lxml | \u26a0\ufe0f Version unknown | Code import analysis |\n| pyppeteer | \u26a0\ufe0f Version unknown | Code import analysis |\n| requests_html | \u26a0\ufe0f Version unknown | Code import analysis |\n| concurrent | \u26a0\ufe0f Version unknown | Code import analysis |\n| parse | \u26a0\ufe0f Version unknown | Code import analysis |\n| pytest | \u26a0\ufe0f Version unknown | Code import analysis |\n| asyncio | \u26a0\ufe0f Version unknown | Code import analysis |\n| requests | \u26a0\ufe0f Version unknown | Code import analysis |\n| pyquery | \u26a0\ufe0f Version unknown | Code import analysis |\n| fake_useragent | \u26a0\ufe0f Version unknown | Code import analysis |\n| w3lib | \u26a0\ufe0f Version unknown | Code import analysis |\n| shutil | \u26a0\ufe0f Version unknown | Code import analysis |\n| setuptools | \u26a0\ufe0f Version unknown | Code import analysis |\n\n> **Note:** 13 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **MIT** license.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "psf/requests-html"
+}

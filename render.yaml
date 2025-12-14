@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: autodoc
+    env: python
+    buildCommand: pip install -e ".[api]"
+    startCommand: gunicorn autodoc.api:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"

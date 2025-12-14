@@ -1,0 +1,348 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "torchvision",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "image and video datasets and models for torch deep learning",
+      "confidence": "STRONG"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "BSD-3-Clause",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "setup.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "packaging/wheel/relocate.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_io_opt.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/smoke_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_utils.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_transforms_video.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_datasets_utils.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_datasets.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_datasets_video_utils.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_image.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_onnx.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_internet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_videoapi.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_io.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_functional_tensor.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_datasets_video_utils_opt.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_video_gpu_decoder.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_models_detection_negative_samples.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_architecture_ops.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_models.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_video_reader.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_models_detection_utils.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_transforms.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_ops.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/test_datasets_samplers.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/preprocess-bench.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/classification/train_quantization.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/classification/train.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/depth/stereo/train.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/depth/stereo/cascade_evaluation.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/segmentation/train.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/video_classification/train.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/similarity/test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/similarity/train.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/optical_flow/train.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "references/detection/train.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "torchvision/prototype/datasets/benchmark.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "torchvision/prototype/datasets/generate_category_files.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "release/apply-release-changes.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/cpp/run_model.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/encoding_decoding.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/download_model_urls.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/collect_model_urls.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/release_notes/retrieve_prs_data.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": ".github/process_commit.py",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "matplotlib",
+        "version": null
+      },
+      {
+        "name": "numpy",
+        "version": null
+      },
+      {
+        "name": "sphinx-copybutton",
+        "version": ">=0.3.1"
+      },
+      {
+        "name": "sphinx-gallery",
+        "version": ">=0.11.1"
+      },
+      {
+        "name": "sphinx",
+        "version": "==5.0.0"
+      },
+      {
+        "name": "tabulate",
+        "version": null
+      },
+      {
+        "name": "pycocotools",
+        "version": null
+      },
+      {
+        "name": "Torch",
+        "version": null
+      },
+      {
+        "name": "PNG",
+        "version": null
+      },
+      {
+        "name": "JPEG",
+        "version": null
+      },
+      {
+        "name": "WebP",
+        "version": null
+      },
+      {
+        "name": "torch",
+        "version": null
+      },
+      {
+        "name": "torchvision",
+        "version": null
+      },
+      {
+        "name": "PIL",
+        "version": null
+      },
+      {
+        "name": "pytest",
+        "version": null
+      },
+      {
+        "name": "ATen",
+        "version": null
+      },
+      {
+        "name": "torchdata",
+        "version": null
+      },
+      {
+        "name": "common_utils",
+        "version": null
+      },
+      {
+        "name": "android",
+        "version": null
+      },
+      {
+        "name": "c10",
+        "version": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "PyTorch Core Team",
+        "email": "soumith@pytorch.org"
+      }
+    ],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 886,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# torchvision\n![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)\n![Python: C++17](https://img.shields.io/badge/Python-C++17-blue.svg)\n\nimage and video datasets and models for torch deep learning\n\nIt leverages matplotlib, numpy, sphinx-copybutton, sphinx-gallery as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing, detailed documentation for users.\n\nInstall torchvision using pip for seamless integration into your Python environment.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\nframeworks: PyTorch, NumPy\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n**Requires Python C++17**\n\n```bash\n# Clone the repository\ngit clone https://github.com/pytorch/vision\ncd torchvision\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython setup.py\npython packaging/wheel/relocate.py\npython test/test_io_opt.py\npython test/smoke_test.py\npython test/test_utils.py\npython test/test_transforms_video.py\npython test/test_datasets_utils.py\npython test/test_datasets.py\npython test/test_datasets_video_utils.py\npython test/test_image.py\npython test/test_onnx.py\npython test/test_internet.py\npython test/test_videoapi.py\npython test/test_io.py\npython test/test_functional_tensor.py\npython test/test_datasets_video_utils_opt.py\npython test/test_video_gpu_decoder.py\npython test/test_models_detection_negative_samples.py\npython test/test_architecture_ops.py\npython test/test_models.py\npython test/test_video_reader.py\npython test/test_models_detection_utils.py\npython test/test_transforms.py\npython test/test_ops.py\npython test/test_datasets_samplers.py\npython test/preprocess-bench.py\npython references/classification/train_quantization.py\npython references/classification/train.py\npython references/depth/stereo/train.py\npython references/depth/stereo/cascade_evaluation.py\npython references/segmentation/train.py\npython references/video_classification/train.py\npython references/similarity/test.py\npython references/similarity/train.py\npython references/optical_flow/train.py\npython references/detection/train.py\npython torchvision/prototype/datasets/benchmark.py\npython torchvision/prototype/datasets/generate_category_files.py\npython release/apply-release-changes.py\npython examples/cpp/run_model.cpp\npython benchmarks/encoding_decoding.py\npython scripts/download_model_urls.py\npython scripts/collect_model_urls.py\npython scripts/release_notes/retrieve_prs_data.py\npython .github/process_commit.py\n```\n\n\n## Project Structure\n\n```\ntorchvision/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 torchvision/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 tests/                                  # Test suite\n\u2502   \u251c\u2500\u2500 __init__.py                         # Tests init\n\u2502   \u251c\u2500\u2500 conftest.py                         # Pytest fixtures\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Unit tests init\n\u2502   \u2502   \u251c\u2500\u2500 test_core.py                    # Core module tests\n\u2502   \u2502   \u251c\u2500\u2500 test_models.py                  # Model tests\n\u2502   \u2502   \u2514\u2500\u2500 test_utils.py                   # Utility tests\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 integration/                        # Integration tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Integration init\n\u2502   \u2502   \u2514\u2500\u2500 test_api.py                     # API integration\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 fixtures/                           # Test fixtures\n\u2502       \u251c\u2500\u2500 sample_data.json                # Sample test data\n\u2502       \u2514\u2500\u2500 mock_responses.py               # Mock responses\n\u2502\n\u251c\u2500\u2500 examples/                               # Usage examples\n\u2502   \u251c\u2500\u2500 basic_usage.py                      # Basic example\n\u2502   \u251c\u2500\u2500 advanced_usage.py                   # Advanced example\n\u2502   \u2514\u2500\u2500 README.md                           # Examples guide\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `torchvision/` | Main package containing all source modules |\n| `torchvision/cli/` | Command-line interface implementation |\n| `torchvision/core/` | Core business logic and processing |\n| `torchvision/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n| `examples/` | Usage examples |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: matplotlib, numpy, sphinx-copybutton, sphinx-gallery, sphinx\n\n\n## Testing\n\nRun the test suite:\n\n```bash\npytest\n# or\npython -m pytest\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| matplotlib | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| numpy | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| sphinx-copybutton | >=0.3.1 | docs/requirements.txt |\n| sphinx-gallery | >=0.11.1 | docs/requirements.txt |\n| sphinx | ==5.0.0 | docs/requirements.txt |\n| tabulate | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| pycocotools | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| Torch | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| PNG | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| JPEG | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| WebP | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| torch | \u26a0\ufe0f Version unknown | Code import analysis |\n| torchvision | \u26a0\ufe0f Version unknown | Code import analysis |\n| PIL | \u26a0\ufe0f Version unknown | Code import analysis |\n| pytest | \u26a0\ufe0f Version unknown | Code import analysis |\n| ATen | \u26a0\ufe0f Version unknown | Code import analysis |\n| torchdata | \u26a0\ufe0f Version unknown | Code import analysis |\n| common_utils | \u26a0\ufe0f Version unknown | Code import analysis |\n| android | \u26a0\ufe0f Version unknown | Code import analysis |\n| c10 | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| setuptools | \u26a0\ufe0f Version unknown | pyproject.toml [build-system] |\n| torch | \u26a0\ufe0f Version unknown | pyproject.toml [build-system] |\n| wheel | \u26a0\ufe0f Version unknown | pyproject.toml [build-system] |\n\n> **Note:** 20 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **BSD-3-Clause** license.\n\n## Authors\n\n- **PyTorch Core Team** - soumith@pytorch.org\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "pytorch/vision"
+}

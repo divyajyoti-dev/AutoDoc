@@ -1,0 +1,10 @@
+field,metric_type,total_evaluated,total_correct,accuracy,mean_similarity,std_similarity,pct_above_threshold
+project_title,semantic_match,30,28,0.9333,,,
+primary_language,exact_match,30,20,0.6667,,,
+license_name,exact_match,30,27,0.9000,,,
+description,semantic_similarity,30,17,0.5667,0.2811,0.3206,0.5667
+usage_type,categorical,30,27,0.9000,,,
+installation_method,flexible_match,30,28,0.9333,,,
+
+MACRO_AVERAGE,-,6,-,0.8167,,,
+MICRO_AVERAGE,-,180,147,0.8167,,,

@@ -1,0 +1,995 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "Django",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "confidence": "EXPLICIT"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "BSD-3-Clause",
+      "confidence": "EXPLICIT"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "django.core.management:execute_from_command_line",
+        "entry_type": "cli",
+        "command": "django-admin"
+      },
+      {
+        "path": "django/__main__.py",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "django/contrib/admin/views/main.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "npm run test",
+        "entry_type": "script",
+        "command": "test"
+      },
+      {
+        "path": "tests/runtests.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "tests/admin_scripts/configured_dynamic_settings_manage.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "tests/admin_scripts/configured_settings_manage.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "tests/i18n/sampleproject/update_catalogs.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "tests/i18n/sampleproject/manage.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "docs/lint.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/manage_translations.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/archive_eol_stable_branches.py",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "asgiref",
+        "version": ">=3.9.1"
+      },
+      {
+        "name": "sqlparse",
+        "version": ">=0.5.0"
+      },
+      {
+        "name": "tzdata",
+        "version": "; sys_platform == 'win32'"
+      },
+      {
+        "name": "argon2-cffi",
+        "version": ">=23.1.0"
+      },
+      {
+        "name": "bcrypt",
+        "version": ">=4.1.1"
+      },
+      {
+        "name": "pyenchant",
+        "version": null
+      },
+      {
+        "name": "Sphinx",
+        "version": ">=4.5.0"
+      },
+      {
+        "name": "sphinxcontrib-spelling",
+        "version": null
+      },
+      {
+        "name": "blacken-docs",
+        "version": null
+      },
+      {
+        "name": "sphinx-lint",
+        "version": null
+      },
+      {
+        "name": "=====================",
+        "version": null
+      },
+      {
+        "name": "Constraints",
+        "version": "reference"
+      },
+      {
+        "name": ".. module:: django.db.models.constraints",
+        "version": null
+      },
+      {
+        "name": ".. currentmodule:: django.db.models",
+        "version": null
+      },
+      {
+        "name": "The",
+        "version": "classes defined in this module create database constraints. They are added"
+      },
+      {
+        "name": "in",
+        "version": "the model :attr:`Meta.constraints <django.db.models.Options.constraints>`"
+      },
+      {
+        "name": "option",
+        "version": "."
+      },
+      {
+        "name": ".. admonition:: Referencing built-in constraints",
+        "version": null
+      },
+      {
+        "name": "convenience",
+        "version": "they're imported into :mod:`django.db.models`. The standard"
+      },
+      {
+        "name": "convention",
+        "version": "is to use ``from django.db import models`` and refer to the"
+      },
+      {
+        "name": "constraints",
+        "version": "as ``models.<Foo>Constraint``."
+      },
+      {
+        "name": ".. admonition:: Constraints in abstract base classes",
+        "version": null
+      },
+      {
+        "name": "You",
+        "version": "must always specify a unique name for the constraint. As such, you"
+      },
+      {
+        "name": "cannot",
+        "version": "normally specify a constraint on an abstract base class, since the"
+      },
+      {
+        "name": ":attr:`Meta.constraints <django.db.models.Options.constraints>` option is",
+        "version": null
+      },
+      {
+        "name": "inherited",
+        "version": "by subclasses, with exactly the same values for the attributes"
+      },
+      {
+        "name": "(including ``name``) each time. To work around name collisions, part of the",
+        "version": null
+      },
+      {
+        "name": "name",
+        "version": "may contain ``'%(app_label)s'`` and ``'%(class)s'``, which are"
+      },
+      {
+        "name": "replaced",
+        "version": ", respectively, by the lowercased app label and class name of the"
+      },
+      {
+        "name": "concrete",
+        "version": "model. For example::"
+      },
+      {
+        "name": "CheckConstraint",
+        "version": "(condition=Q(age__gte=18), name=\"%(app_label)s_%(class)s_is_adult\")"
+      },
+      {
+        "name": ".. admonition:: Validation of Constraints",
+        "version": null
+      },
+      {
+        "name": "<validating-objects>`.",
+        "version": null
+      },
+      {
+        "name": "``BaseConstraint``",
+        "version": null
+      },
+      {
+        "name": "==================",
+        "version": null
+      },
+      {
+        "name": ".. class:: BaseConstraint(* name, violation_error_code=None, violation_error_message=None)",
+        "version": null
+      },
+      {
+        "name": "Base",
+        "version": "class for all constraints. Subclasses must implement"
+      },
+      {
+        "name": "``constraint_sql()``, ``create_sql()``, ``remove_sql()`` and",
+        "version": null
+      },
+      {
+        "name": "``validate()`` methods.",
+        "version": null
+      },
+      {
+        "name": "All",
+        "version": "constraints have the following parameters in common:"
+      },
+      {
+        "name": "``name``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: BaseConstraint.name",
+        "version": null
+      },
+      {
+        "name": "constraint",
+        "version": "."
+      },
+      {
+        "name": "``violation_error_code``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: BaseConstraint.violation_error_code",
+        "version": null
+      },
+      {
+        "name": ":ref:`model validation <validating-objects>`. Defaults to ``None``.",
+        "version": null
+      },
+      {
+        "name": "``violation_error_message``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: BaseConstraint.violation_error_message",
+        "version": null
+      },
+      {
+        "name": ":ref:`model validation <validating-objects>`. Defaults to",
+        "version": null
+      },
+      {
+        "name": "``\"Constraint \u201c%(name)s\u201d is violated.\"``.",
+        "version": null
+      },
+      {
+        "name": "``validate()``",
+        "version": null
+      },
+      {
+        "name": ".. method:: BaseConstraint.validate(model, instance, exclude=None, using=DEFAULT_DB_ALIAS)",
+        "version": null
+      },
+      {
+        "name": "Validates",
+        "version": "that the constraint, defined on ``model``, is respected on the"
+      },
+      {
+        "name": "``instance``. This will do a query on the database to ensure that the",
+        "version": null
+      },
+      {
+        "name": "validate",
+        "version": "the constraint, the constraint is ignored."
+      },
+      {
+        "name": "Raise",
+        "version": "a ``ValidationError`` if the constraint is violated."
+      },
+      {
+        "name": "This",
+        "version": "method must be implemented by a subclass."
+      },
+      {
+        "name": "``CheckConstraint``",
+        "version": null
+      },
+      {
+        "name": "===================",
+        "version": null
+      },
+      {
+        "name": ".. class:: CheckConstraint(*, condition, name, violation_error_code=None, violation_error_message=None)",
+        "version": null
+      },
+      {
+        "name": "Creates",
+        "version": "a check constraint in the database."
+      },
+      {
+        "name": "``condition``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: CheckConstraint.condition",
+        "version": null
+      },
+      {
+        "name": "A",
+        "version": ":class:`Q` object or boolean :class:`~django.db.models.Expression` that"
+      },
+      {
+        "name": "specifies",
+        "version": "the conditional check you want the constraint to enforce."
+      },
+      {
+        "name": "For",
+        "version": "example::"
+      },
+      {
+        "name": "ensures",
+        "version": "the age field is never less than 18."
+      },
+      {
+        "name": ".. admonition:: Expression order",
+        "version": null
+      },
+      {
+        "name": "``Q`` argument order is not necessarily preserved, however the order of",
+        "version": null
+      },
+      {
+        "name": "``Q`` expressions themselves are preserved. This may be important for",
+        "version": null
+      },
+      {
+        "name": "databases",
+        "version": "that preserve check constraint expression order for performance"
+      },
+      {
+        "name": "reasons",
+        "version": ". For example, use the following format if order matters::"
+      },
+      {
+        "name": "condition",
+        "version": "=Q(age__gte=18) & Q(expensive_check=condition),"
+      },
+      {
+        "name": ")",
+        "version": null
+      },
+      {
+        "name": ".. admonition:: Oracle < 23c",
+        "version": null
+      },
+      {
+        "name": "Checks",
+        "version": "with nullable fields on Oracle < 23c must include a condition"
+      },
+      {
+        "name": "allowing",
+        "version": "for ``NULL`` values in order for :meth:`~BaseConstraint.validate`"
+      },
+      {
+        "name": "to",
+        "version": "behave the same as check constraints validation. For example, if ``age``"
+      },
+      {
+        "name": "is",
+        "version": "a nullable field::"
+      },
+      {
+        "name": "``UniqueConstraint``",
+        "version": null
+      },
+      {
+        "name": "====================",
+        "version": null
+      },
+      {
+        "name": ".. class:: UniqueConstraint(*expressions, fields=(), name=None, condition=None, deferrable=None, include=None, opclasses=(), nulls_distinct=None, violation_error_code=None, violation_error_message=None)",
+        "version": null
+      },
+      {
+        "name": "``expressions``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.expressions",
+        "version": null
+      },
+      {
+        "name": "Positional",
+        "version": "argument ``*expressions`` allows creating functional unique"
+      },
+      {
+        "name": "UniqueConstraint",
+        "version": "(Lower(\"name\").desc(), \"category\", name=\"unique_lower_name_category\")"
+      },
+      {
+        "name": "creates",
+        "version": "a unique constraint on the lowercased value of the ``name`` field in"
+      },
+      {
+        "name": "descending",
+        "version": "order and the ``category`` field in the default ascending order."
+      },
+      {
+        "name": "Functional",
+        "version": "unique constraints have the same database restrictions as"
+      },
+      {
+        "name": ":attr:`Index.expressions`.",
+        "version": null
+      },
+      {
+        "name": "``fields``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.fields",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.condition",
+        "version": null
+      },
+      {
+        "name": "enforce",
+        "version": "."
+      },
+      {
+        "name": "These",
+        "version": "conditions have the same database restrictions as"
+      },
+      {
+        "name": ":attr:`Index.condition`.",
+        "version": null
+      },
+      {
+        "name": "``deferrable``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.deferrable",
+        "version": null
+      },
+      {
+        "name": "Set",
+        "version": "this parameter to create a deferrable unique constraint. Accepted values"
+      },
+      {
+        "name": "are",
+        "version": "``Deferrable.DEFERRED`` or ``Deferrable.IMMEDIATE``. For example::"
+      },
+      {
+        "name": "from",
+        "version": "django.db.models import Deferrable, UniqueConstraint"
+      },
+      {
+        "name": "fields",
+        "version": "=[\"order\"],"
+      },
+      {
+        "name": "deferrable",
+        "version": "=Deferrable.DEFERRED,"
+      },
+      {
+        "name": "By",
+        "version": "default constraints are not deferred. A deferred constraint will not be"
+      },
+      {
+        "name": "enforced",
+        "version": "until the end of the transaction. An immediate constraint will be"
+      },
+      {
+        "name": ".. admonition:: MySQL, MariaDB, and SQLite.",
+        "version": null
+      },
+      {
+        "name": "Deferrable",
+        "version": "unique constraints are ignored on MySQL, MariaDB, and SQLite as"
+      },
+      {
+        "name": "they",
+        "version": "do not support them."
+      },
+      {
+        "name": ".. warning::",
+        "version": null
+      },
+      {
+        "name": "Deferred",
+        "version": "unique constraints may lead to a `performance penalty"
+      },
+      {
+        "name": "<https://www.postgresql.org/docs/current/sql-createtable.html",
+        "version": null
+      },
+      {
+        "name": "``include``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.include",
+        "version": null
+      },
+      {
+        "name": "unique",
+        "version": "index as non-key columns. This allows index-only scans to be used for"
+      },
+      {
+        "name": "queries",
+        "version": "that select only included fields (:attr:`~UniqueConstraint.include`)"
+      },
+      {
+        "name": "and",
+        "version": "filter only by unique fields (:attr:`~UniqueConstraint.fields`)."
+      },
+      {
+        "name": "will",
+        "version": "allow filtering on ``room`` and ``date``, also selecting ``full_name``,"
+      },
+      {
+        "name": "while",
+        "version": "fetching data only from the index."
+      },
+      {
+        "name": "Unique",
+        "version": "constraints with non-key columns are ignored for databases besides"
+      },
+      {
+        "name": "PostgreSQL",
+        "version": "."
+      },
+      {
+        "name": "Non-key",
+        "version": "columns have the same database restrictions as :attr:`Index.include`."
+      },
+      {
+        "name": "``opclasses``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.opclasses",
+        "version": null
+      },
+      {
+        "name": "<https://www.postgresql.org/docs/current/indexes-opclass.html>`_ to use for",
+        "version": null
+      },
+      {
+        "name": "this",
+        "version": "unique index. If you require a custom operator class, you must provide one"
+      },
+      {
+        "name": "for",
+        "version": "each field in the index."
+      },
+      {
+        "name": "``opclasses`` are ignored for databases besides PostgreSQL.",
+        "version": null
+      },
+      {
+        "name": "``nulls_distinct``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.nulls_distinct",
+        "version": null
+      },
+      {
+        "name": "Whether",
+        "version": "rows containing ``NULL`` values covered by the unique constraint should"
+      },
+      {
+        "name": "be",
+        "version": "considered distinct from each other. The default value is ``None`` which"
+      },
+      {
+        "name": "uses",
+        "version": "the database default which is ``True`` on most backends."
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.violation_error_code",
+        "version": null
+      },
+      {
+        "name": ":ref:`model validation <validating-objects>`.",
+        "version": null
+      },
+      {
+        "name": "Defaults",
+        "version": "to :attr:`.BaseConstraint.violation_error_code`, when either"
+      },
+      {
+        "name": ":attr:`.UniqueConstraint.condition` is set or :attr:`.UniqueConstraint.fields`",
+        "version": null
+      },
+      {
+        "name": "If",
+        "version": ":attr:`.UniqueConstraint.fields` is set without a"
+      },
+      {
+        "name": ":attr:`.UniqueConstraint.condition`, defaults to the",
+        "version": null
+      },
+      {
+        "name": ":attr:`Meta.unique_together <django.db.models.Options.unique_together>` error",
+        "version": null
+      },
+      {
+        "name": "code",
+        "version": "when there are multiple fields, and to the :attr:`.Field.unique` error"
+      },
+      {
+        "name": ".. attribute:: UniqueConstraint.violation_error_message",
+        "version": null
+      },
+      {
+        "name": "message",
+        "version": "when there are multiple fields, and to the :attr:`.Field.unique` error"
+      },
+      {
+        "name": "========================================",
+        "version": null
+      },
+      {
+        "name": ".. module:: django.contrib.postgres.constraints",
+        "version": null
+      },
+      {
+        "name": ":synopsis: PostgreSQL specific database constraint",
+        "version": null
+      },
+      {
+        "name": "``django.contrib.postgres.constraints`` module. They are added in the model",
+        "version": null
+      },
+      {
+        "name": ":attr:`Meta.constraints <django.db.models.Options.constraints>` option.",
+        "version": null
+      },
+      {
+        "name": "``ExclusionConstraint``",
+        "version": null
+      },
+      {
+        "name": "=======================",
+        "version": null
+      },
+      {
+        "name": ".. class:: ExclusionConstraint(*, name, expressions, index_type=None, condition=None, deferrable=None, include=None, violation_error_code=None, violation_error_message=None)",
+        "version": null
+      },
+      {
+        "name": "implements",
+        "version": "exclusion constraints using indexes. The default index type is"
+      },
+      {
+        "name": "`GiST <https://www.postgresql.org/docs/current/gist.html>`_. To use them,",
+        "version": null
+      },
+      {
+        "name": "you",
+        "version": "need to activate the `btree_gist extension"
+      },
+      {
+        "name": "<https://www.postgresql.org/docs/current/btree-gist.html>`_ on PostgreSQL.",
+        "version": null
+      },
+      {
+        "name": ":class:`~django.contrib.postgres.operations.BtreeGistExtension` migration",
+        "version": null
+      },
+      {
+        "name": "operation",
+        "version": "."
+      },
+      {
+        "name": ":exc:`~django.db.IntegrityError` is raised. Similarly, when update",
+        "version": null
+      },
+      {
+        "name": "conflicts",
+        "version": "with an existing row."
+      },
+      {
+        "name": "Exclusion",
+        "version": "constraints are checked during the :ref:`model validation"
+      },
+      {
+        "name": ".. attribute:: ExclusionConstraint.name",
+        "version": null
+      },
+      {
+        "name": "See",
+        "version": ":attr:`.BaseConstraint.name`."
+      },
+      {
+        "name": ".. attribute:: ExclusionConstraint.expressions",
+        "version": null
+      },
+      {
+        "name": "An",
+        "version": "iterable of 2-tuples. The first element is an expression or string. The"
+      },
+      {
+        "name": "second",
+        "version": "element is an SQL operator represented as a string. To avoid typos, you"
+      },
+      {
+        "name": "may",
+        "version": "use :class:`~django.contrib.postgres.fields.RangeOperators` which maps the"
+      },
+      {
+        "name": "operators",
+        "version": "with strings. For example::"
+      },
+      {
+        "name": "expressions",
+        "version": "= ["
+      },
+      {
+        "name": "(\"timespan\", RangeOperators.ADJACENT_TO),",
+        "version": null
+      },
+      {
+        "name": "(F(\"room\"), RangeOperators.EQUAL),",
+        "version": null
+      },
+      {
+        "name": "]",
+        "version": null
+      },
+      {
+        "name": ".. admonition:: Restrictions on operators.",
+        "version": null
+      },
+      {
+        "name": "Only",
+        "version": "commutative operators can be used in exclusion constraints."
+      },
+      {
+        "name": "(OpClass(\"circle\", name=\"circle_ops\"), RangeOperators.OVERLAPS),",
+        "version": null
+      },
+      {
+        "name": ".. _operator class: https://www.postgresql.org/docs/current/indexes-opclass.html",
+        "version": null
+      },
+      {
+        "name": "``index_type``",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: ExclusionConstraint.index_type",
+        "version": null
+      },
+      {
+        "name": "Matching",
+        "version": "is case insensitive. If not provided, the default index type is"
+      },
+      {
+        "name": "``GIST``.",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: ExclusionConstraint.condition",
+        "version": null
+      },
+      {
+        "name": "a",
+        "version": "constraint to a subset of rows. For example,"
+      },
+      {
+        "name": "``condition=Q(cancelled=False)``.",
+        "version": null
+      },
+      {
+        "name": ":attr:`django.db.models.Index.condition`.",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: ExclusionConstraint.deferrable",
+        "version": null
+      },
+      {
+        "name": "ExclusionConstraint",
+        "version": "("
+      },
+      {
+        "name": "(\"timespan\", RangeOperators.OVERLAPS),",
+        "version": null
+      },
+      {
+        "name": "],",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: ExclusionConstraint.include",
+        "version": null
+      },
+      {
+        "name": "exclusion",
+        "version": "constraint as non-key columns. This allows index-only scans to be"
+      },
+      {
+        "name": "used",
+        "version": "for queries that select only included fields"
+      },
+      {
+        "name": "(:attr:`~ExclusionConstraint.include`) and filter only by indexed fields",
+        "version": null
+      },
+      {
+        "name": "(:attr:`~ExclusionConstraint.expressions`).",
+        "version": null
+      },
+      {
+        "name": "``include`` is supported for GiST and SP-GiST indexes.",
+        "version": null
+      },
+      {
+        "name": ".. attribute:: ExclusionConstraint.violation_error_code",
+        "version": null
+      },
+      {
+        "name": ":attr:`.BaseConstraint.violation_error_message`.",
+        "version": null
+      },
+      {
+        "name": "Examples",
+        "version": null
+      },
+      {
+        "name": "taking",
+        "version": "canceled reservations into account::"
+      },
+      {
+        "name": "class",
+        "version": "Room(models.Model):"
+      },
+      {
+        "name": "number",
+        "version": "= models.IntegerField()"
+      },
+      {
+        "name": "room",
+        "version": "= models.ForeignKey(\"Room\", on_delete=models.CASCADE)"
+      },
+      {
+        "name": "timespan",
+        "version": "= DateTimeRangeField()"
+      },
+      {
+        "name": "cancelled",
+        "version": "= models.BooleanField(default=False)"
+      },
+      {
+        "name": "(\"room\", RangeOperators.EQUAL),",
+        "version": null
+      },
+      {
+        "name": "),",
+        "version": null
+      },
+      {
+        "name": "In",
+        "version": "case your model defines a range using two fields, instead of the native"
+      },
+      {
+        "name": "function",
+        "version": "(e.g. ``TsTzRange()``), and use the delimiters for the field. Most"
+      },
+      {
+        "name": "often",
+        "version": ", the delimiters will be ``'[)'``, meaning that the lower bound is"
+      },
+      {
+        "name": "inclusive",
+        "version": "and the upper bound is exclusive. You may use the"
+      },
+      {
+        "name": ":class:`~django.contrib.postgres.fields.RangeBoundary` that provides an",
+        "version": null
+      },
+      {
+        "name": "expression",
+        "version": "mapping for the `range boundaries <https://www.postgresql.org/docs/"
+      },
+      {
+        "name": "current",
+        "version": "/rangetypes.html"
+      },
+      {
+        "name": "DateTimeRangeField",
+        "version": ","
+      },
+      {
+        "name": "RangeBoundary",
+        "version": ","
+      },
+      {
+        "name": "RangeOperators",
+        "version": ","
+      },
+      {
+        "name": "output_field",
+        "version": "= DateTimeRangeField()"
+      },
+      {
+        "name": "start",
+        "version": "= models.DateTimeField()"
+      },
+      {
+        "name": "end",
+        "version": "= models.DateTimeField()"
+      },
+      {
+        "name": "(",
+        "version": null
+      },
+      {
+        "name": "TsTzRange",
+        "version": "(\"start\", \"end\", RangeBoundary()),"
+      },
+      {
+        "name": "django",
+        "version": null
+      },
+      {
+        "name": "decimal",
+        "version": null
+      },
+      {
+        "name": "uuid",
+        "version": null
+      },
+      {
+        "name": "importlib",
+        "version": null
+      },
+      {
+        "name": "tempfile",
+        "version": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "Django Software Foundation",
+        "email": "foundation@djangoproject.com"
+      }
+    ],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 6927,
+    "installation_method": "pip",
+    "usage_type": "framework"
+  },
+  "readme": "# Django\n![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)\n![Python: >= 3.12](https://img.shields.io/badge/Python-%3E%3D 3.12-blue.svg)\n\nA high-level Python web framework that encourages rapid development and clean, pragmatic design.\n\nIt provides 1 CLI command(s) (django-admin) and leverages asgiref, sqlparse, tzdata, argon2-cffi as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing, detailed documentation for users.\n\nInstall Django using pip for seamless integration into your Python environment.\n\n## Key Features\n\n- Provides command-line interface for easy integration\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n**Requires Python >= 3.12**\n\n```bash\n# Clone the repository\ngit clone https://github.com/django/django\ncd Django\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Command Line\n\n```bash\ndjango-admin --help\n```\n\n<!-- TODO: Add CLI usage examples - Add common usage examples and options -->\n\n### As a Module\n\n```python\npython -m django\n```\n\n### Running Scripts\n\n```bash\npython django/contrib/admin/views/main.py\npython npm run test\npython tests/runtests.py\npython tests/admin_scripts/configured_dynamic_settings_manage.py\npython tests/admin_scripts/configured_settings_manage.py\npython tests/i18n/sampleproject/update_catalogs.py\npython tests/i18n/sampleproject/manage.py\npython docs/lint.py\npython scripts/manage_translations.py\npython scripts/archive_eol_stable_branches.py\n```\n\n\n## Project Structure\n\n```\nDjango/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 django/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 tests/                                  # Test suite\n\u2502   \u251c\u2500\u2500 __init__.py                         # Tests init\n\u2502   \u251c\u2500\u2500 conftest.py                         # Pytest fixtures\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Unit tests init\n\u2502   \u2502   \u251c\u2500\u2500 test_core.py                    # Core module tests\n\u2502   \u2502   \u251c\u2500\u2500 test_models.py                  # Model tests\n\u2502   \u2502   \u2514\u2500\u2500 test_utils.py                   # Utility tests\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 integration/                        # Integration tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Integration init\n\u2502   \u2502   \u2514\u2500\u2500 test_api.py                     # API integration\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 fixtures/                           # Test fixtures\n\u2502       \u251c\u2500\u2500 sample_data.json                # Sample test data\n\u2502       \u2514\u2500\u2500 mock_responses.py               # Mock responses\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `django/` | Main package containing all source modules |\n| `django/cli/` | Command-line interface implementation |\n| `django/core/` | Core business logic and processing |\n| `django/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n\n## Configuration\n\n### Configuration Files\n\n| File | Purpose |\n|------|--------|\n| `tests/admin_scripts/configured_settings_manage.py` | Configuration settings |\n| `tests/admin_scripts/configured_dynamic_settings_manage.py` | Configuration settings |\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- CLI interface (1 commands)\n- Core dependencies: asgiref, sqlparse, tzdata, argon2-cffi, bcrypt\n\n\n## Testing\n\nRun the test suite:\n\n```bash\npytest\n# or\npython -m pytest\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| asgiref | >=3.9.1 | pyproject.toml [project.dependencies] |\n| sqlparse | >=0.5.0 | pyproject.toml [project.dependencies] |\n| tzdata | ; sys_platform == 'win32' | pyproject.toml [project.dependencies] |\n| argon2-cffi | >=23.1.0 | pyproject.toml [project.optional-dependencies.argon2] |\n| bcrypt | >=4.1.1 | pyproject.toml [project.optional-dependencies.bcrypt] |\n| pyenchant | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| Sphinx | >=4.5.0 | docs/requirements.txt |\n| sphinxcontrib-spelling | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| blacken-docs | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| sphinx-lint | \u26a0\ufe0f Version unknown | docs/requirements.txt |\n| ===================== | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Constraints | reference | docs/ref/models/constraints.txt |\n| .. module:: django.db.models.constraints | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. currentmodule:: django.db.models | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| The | classes defined in this module create database constraints. They are added | docs/ref/models/constraints.txt |\n| in | the model :attr:`Meta.constraints <django.db.models.Options.constraints>` | docs/ref/models/constraints.txt |\n| option | . | docs/ref/models/constraints.txt |\n| .. admonition:: Referencing built-in constraints | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| convenience | they're imported into :mod:`django.db.models`. The standard | docs/ref/models/constraints.txt |\n| convention | is to use ``from django.db import models`` and refer to the | docs/ref/models/constraints.txt |\n| constraints | as ``models.<Foo>Constraint``. | docs/ref/models/constraints.txt |\n| .. admonition:: Constraints in abstract base classes | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| You | must always specify a unique name for the constraint. As such, you | docs/ref/models/constraints.txt |\n| cannot | normally specify a constraint on an abstract base class, since the | docs/ref/models/constraints.txt |\n| :attr:`Meta.constraints <django.db.models.Options.constraints>` option is | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| inherited | by subclasses, with exactly the same values for the attributes | docs/ref/models/constraints.txt |\n| (including ``name``) each time. To work around name collisions, part of the | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| name | may contain ``'%(app_label)s'`` and ``'%(class)s'``, which are | docs/ref/models/constraints.txt |\n| replaced | , respectively, by the lowercased app label and class name of the | docs/ref/models/constraints.txt |\n| concrete | model. For example:: | docs/ref/models/constraints.txt |\n| CheckConstraint | (condition=Q(age__gte=18), name=\"%(app_label)s_%(class)s_is_adult\") | docs/ref/models/constraints.txt |\n| .. admonition:: Validation of Constraints | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| <validating-objects>`. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``BaseConstraint`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ================== | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. class:: BaseConstraint(* name, violation_error_code=None, violation_error_message=None) | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Base | class for all constraints. Subclasses must implement | docs/ref/models/constraints.txt |\n| ``constraint_sql()``, ``create_sql()``, ``remove_sql()`` and | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``validate()`` methods. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| All | constraints have the following parameters in common: | docs/ref/models/constraints.txt |\n| ``name`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: BaseConstraint.name | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| constraint | . | docs/ref/models/constraints.txt |\n| ``violation_error_code`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: BaseConstraint.violation_error_code | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| :ref:`model validation <validating-objects>`. Defaults to ``None``. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``violation_error_message`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: BaseConstraint.violation_error_message | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| :ref:`model validation <validating-objects>`. Defaults to | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``\"Constraint \u201c%(name)s\u201d is violated.\"``. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``validate()`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. method:: BaseConstraint.validate(model, instance, exclude=None, using=DEFAULT_DB_ALIAS) | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Validates | that the constraint, defined on ``model``, is respected on the | docs/ref/models/constraints.txt |\n| ``instance``. This will do a query on the database to ensure that the | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| validate | the constraint, the constraint is ignored. | docs/ref/models/constraints.txt |\n| Raise | a ``ValidationError`` if the constraint is violated. | docs/ref/models/constraints.txt |\n| This | method must be implemented by a subclass. | docs/ref/models/constraints.txt |\n| ``CheckConstraint`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| =================== | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. class:: CheckConstraint(*, condition, name, violation_error_code=None, violation_error_message=None) | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Creates | a check constraint in the database. | docs/ref/models/constraints.txt |\n| ``condition`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: CheckConstraint.condition | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| A | :class:`Q` object or boolean :class:`~django.db.models.Expression` that | docs/ref/models/constraints.txt |\n| specifies | the conditional check you want the constraint to enforce. | docs/ref/models/constraints.txt |\n| For | example:: | docs/ref/models/constraints.txt |\n| ensures | the age field is never less than 18. | docs/ref/models/constraints.txt |\n| .. admonition:: Expression order | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``Q`` argument order is not necessarily preserved, however the order of | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``Q`` expressions themselves are preserved. This may be important for | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| databases | that preserve check constraint expression order for performance | docs/ref/models/constraints.txt |\n| reasons | . For example, use the following format if order matters:: | docs/ref/models/constraints.txt |\n| condition | =Q(age__gte=18) & Q(expensive_check=condition), | docs/ref/models/constraints.txt |\n| ) | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. admonition:: Oracle < 23c | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Checks | with nullable fields on Oracle < 23c must include a condition | docs/ref/models/constraints.txt |\n| allowing | for ``NULL`` values in order for :meth:`~BaseConstraint.validate` | docs/ref/models/constraints.txt |\n| to | behave the same as check constraints validation. For example, if ``age`` | docs/ref/models/constraints.txt |\n| is | a nullable field:: | docs/ref/models/constraints.txt |\n| ``UniqueConstraint`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ==================== | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. class:: UniqueConstraint(*expressions, fields=(), name=None, condition=None, deferrable=None, include=None, opclasses=(), nulls_distinct=None, violation_error_code=None, violation_error_message=None) | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``expressions`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.expressions | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Positional | argument ``*expressions`` allows creating functional unique | docs/ref/models/constraints.txt |\n| UniqueConstraint | (Lower(\"name\").desc(), \"category\", name=\"unique_lower_name_category\") | docs/ref/models/constraints.txt |\n| creates | a unique constraint on the lowercased value of the ``name`` field in | docs/ref/models/constraints.txt |\n| descending | order and the ``category`` field in the default ascending order. | docs/ref/models/constraints.txt |\n| Functional | unique constraints have the same database restrictions as | docs/ref/models/constraints.txt |\n| :attr:`Index.expressions`. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``fields`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.fields | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.condition | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| enforce | . | docs/ref/models/constraints.txt |\n| These | conditions have the same database restrictions as | docs/ref/models/constraints.txt |\n| :attr:`Index.condition`. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``deferrable`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.deferrable | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Set | this parameter to create a deferrable unique constraint. Accepted values | docs/ref/models/constraints.txt |\n| are | ``Deferrable.DEFERRED`` or ``Deferrable.IMMEDIATE``. For example:: | docs/ref/models/constraints.txt |\n| from | django.db.models import Deferrable, UniqueConstraint | docs/ref/models/constraints.txt |\n| fields | =[\"order\"], | docs/ref/models/constraints.txt |\n| deferrable | =Deferrable.DEFERRED, | docs/ref/models/constraints.txt |\n| By | default constraints are not deferred. A deferred constraint will not be | docs/ref/models/constraints.txt |\n| enforced | until the end of the transaction. An immediate constraint will be | docs/ref/models/constraints.txt |\n| .. admonition:: MySQL, MariaDB, and SQLite. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Deferrable | unique constraints are ignored on MySQL, MariaDB, and SQLite as | docs/ref/models/constraints.txt |\n| they | do not support them. | docs/ref/models/constraints.txt |\n| .. warning:: | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Deferred | unique constraints may lead to a `performance penalty | docs/ref/models/constraints.txt |\n| <https://www.postgresql.org/docs/current/sql-createtable.html | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``include`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.include | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| unique | index as non-key columns. This allows index-only scans to be used for | docs/ref/models/constraints.txt |\n| queries | that select only included fields (:attr:`~UniqueConstraint.include`) | docs/ref/models/constraints.txt |\n| and | filter only by unique fields (:attr:`~UniqueConstraint.fields`). | docs/ref/models/constraints.txt |\n| will | allow filtering on ``room`` and ``date``, also selecting ``full_name``, | docs/ref/models/constraints.txt |\n| while | fetching data only from the index. | docs/ref/models/constraints.txt |\n| Unique | constraints with non-key columns are ignored for databases besides | docs/ref/models/constraints.txt |\n| PostgreSQL | . | docs/ref/models/constraints.txt |\n| Non-key | columns have the same database restrictions as :attr:`Index.include`. | docs/ref/models/constraints.txt |\n| ``opclasses`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.opclasses | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| <https://www.postgresql.org/docs/current/indexes-opclass.html>`_ to use for | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| this | unique index. If you require a custom operator class, you must provide one | docs/ref/models/constraints.txt |\n| for | each field in the index. | docs/ref/models/constraints.txt |\n| ``opclasses`` are ignored for databases besides PostgreSQL. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| ``nulls_distinct`` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.nulls_distinct | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Whether | rows containing ``NULL`` values covered by the unique constraint should | docs/ref/models/constraints.txt |\n| be | considered distinct from each other. The default value is ``None`` which | docs/ref/models/constraints.txt |\n| uses | the database default which is ``True`` on most backends. | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.violation_error_code | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| :ref:`model validation <validating-objects>`. | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| Defaults | to :attr:`.BaseConstraint.violation_error_code`, when either | docs/ref/models/constraints.txt |\n| :attr:`.UniqueConstraint.condition` is set or :attr:`.UniqueConstraint.fields` | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| If | :attr:`.UniqueConstraint.fields` is set without a | docs/ref/models/constraints.txt |\n| :attr:`.UniqueConstraint.condition`, defaults to the | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| :attr:`Meta.unique_together <django.db.models.Options.unique_together>` error | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| code | when there are multiple fields, and to the :attr:`.Field.unique` error | docs/ref/models/constraints.txt |\n| .. attribute:: UniqueConstraint.violation_error_message | \u26a0\ufe0f Version unknown | docs/ref/models/constraints.txt |\n| message | when there are multiple fields, and to the :attr:`.Field.unique` error | docs/ref/models/constraints.txt |\n| ======================================== | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. module:: django.contrib.postgres.constraints | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| :synopsis: PostgreSQL specific database constraint | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ``django.contrib.postgres.constraints`` module. They are added in the model | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| :attr:`Meta.constraints <django.db.models.Options.constraints>` option. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ``ExclusionConstraint`` | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ======================= | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. class:: ExclusionConstraint(*, name, expressions, index_type=None, condition=None, deferrable=None, include=None, violation_error_code=None, violation_error_message=None) | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| implements | exclusion constraints using indexes. The default index type is | docs/ref/contrib/postgres/constraints.txt |\n| `GiST <https://www.postgresql.org/docs/current/gist.html>`_. To use them, | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| you | need to activate the `btree_gist extension | docs/ref/contrib/postgres/constraints.txt |\n| <https://www.postgresql.org/docs/current/btree-gist.html>`_ on PostgreSQL. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| :class:`~django.contrib.postgres.operations.BtreeGistExtension` migration | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| operation | . | docs/ref/contrib/postgres/constraints.txt |\n| :exc:`~django.db.IntegrityError` is raised. Similarly, when update | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| conflicts | with an existing row. | docs/ref/contrib/postgres/constraints.txt |\n| Exclusion | constraints are checked during the :ref:`model validation | docs/ref/contrib/postgres/constraints.txt |\n| .. attribute:: ExclusionConstraint.name | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| See | :attr:`.BaseConstraint.name`. | docs/ref/contrib/postgres/constraints.txt |\n| .. attribute:: ExclusionConstraint.expressions | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| An | iterable of 2-tuples. The first element is an expression or string. The | docs/ref/contrib/postgres/constraints.txt |\n| second | element is an SQL operator represented as a string. To avoid typos, you | docs/ref/contrib/postgres/constraints.txt |\n| may | use :class:`~django.contrib.postgres.fields.RangeOperators` which maps the | docs/ref/contrib/postgres/constraints.txt |\n| operators | with strings. For example:: | docs/ref/contrib/postgres/constraints.txt |\n| expressions | = [ | docs/ref/contrib/postgres/constraints.txt |\n| (\"timespan\", RangeOperators.ADJACENT_TO), | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| (F(\"room\"), RangeOperators.EQUAL), | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ] | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. admonition:: Restrictions on operators. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| Only | commutative operators can be used in exclusion constraints. | docs/ref/contrib/postgres/constraints.txt |\n| (OpClass(\"circle\", name=\"circle_ops\"), RangeOperators.OVERLAPS), | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. _operator class: https://www.postgresql.org/docs/current/indexes-opclass.html | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ``index_type`` | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. attribute:: ExclusionConstraint.index_type | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| Matching | is case insensitive. If not provided, the default index type is | docs/ref/contrib/postgres/constraints.txt |\n| ``GIST``. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. attribute:: ExclusionConstraint.condition | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| a | constraint to a subset of rows. For example, | docs/ref/contrib/postgres/constraints.txt |\n| ``condition=Q(cancelled=False)``. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| :attr:`django.db.models.Index.condition`. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. attribute:: ExclusionConstraint.deferrable | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ExclusionConstraint | ( | docs/ref/contrib/postgres/constraints.txt |\n| (\"timespan\", RangeOperators.OVERLAPS), | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ], | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. attribute:: ExclusionConstraint.include | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| exclusion | constraint as non-key columns. This allows index-only scans to be | docs/ref/contrib/postgres/constraints.txt |\n| used | for queries that select only included fields | docs/ref/contrib/postgres/constraints.txt |\n| (:attr:`~ExclusionConstraint.include`) and filter only by indexed fields | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| (:attr:`~ExclusionConstraint.expressions`). | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ``include`` is supported for GiST and SP-GiST indexes. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| .. attribute:: ExclusionConstraint.violation_error_code | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| :attr:`.BaseConstraint.violation_error_message`. | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| Examples | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| taking | canceled reservations into account:: | docs/ref/contrib/postgres/constraints.txt |\n| class | Room(models.Model): | docs/ref/contrib/postgres/constraints.txt |\n| number | = models.IntegerField() | docs/ref/contrib/postgres/constraints.txt |\n| room | = models.ForeignKey(\"Room\", on_delete=models.CASCADE) | docs/ref/contrib/postgres/constraints.txt |\n| timespan | = DateTimeRangeField() | docs/ref/contrib/postgres/constraints.txt |\n| cancelled | = models.BooleanField(default=False) | docs/ref/contrib/postgres/constraints.txt |\n| (\"room\", RangeOperators.EQUAL), | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| ), | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| In | case your model defines a range using two fields, instead of the native | docs/ref/contrib/postgres/constraints.txt |\n| function | (e.g. ``TsTzRange()``), and use the delimiters for the field. Most | docs/ref/contrib/postgres/constraints.txt |\n| often | , the delimiters will be ``'[)'``, meaning that the lower bound is | docs/ref/contrib/postgres/constraints.txt |\n| inclusive | and the upper bound is exclusive. You may use the | docs/ref/contrib/postgres/constraints.txt |\n| :class:`~django.contrib.postgres.fields.RangeBoundary` that provides an | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| expression | mapping for the `range boundaries <https://www.postgresql.org/docs/ | docs/ref/contrib/postgres/constraints.txt |\n| current | /rangetypes.html | docs/ref/contrib/postgres/constraints.txt |\n| DateTimeRangeField | , | docs/ref/contrib/postgres/constraints.txt |\n| RangeBoundary | , | docs/ref/contrib/postgres/constraints.txt |\n| RangeOperators | , | docs/ref/contrib/postgres/constraints.txt |\n| output_field | = DateTimeRangeField() | docs/ref/contrib/postgres/constraints.txt |\n| start | = models.DateTimeField() | docs/ref/contrib/postgres/constraints.txt |\n| end | = models.DateTimeField() | docs/ref/contrib/postgres/constraints.txt |\n| ( | \u26a0\ufe0f Version unknown | docs/ref/contrib/postgres/constraints.txt |\n| TsTzRange | (\"start\", \"end\", RangeBoundary()), | docs/ref/contrib/postgres/constraints.txt |\n| django | \u26a0\ufe0f Version unknown | Code import analysis |\n| decimal | \u26a0\ufe0f Version unknown | Code import analysis |\n| uuid | \u26a0\ufe0f Version unknown | Code import analysis |\n| importlib | \u26a0\ufe0f Version unknown | Code import analysis |\n| tempfile | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| setuptools | >=77.0.3 | pyproject.toml [build-system] |\n| eslint | ^9.36.0 | package.json [devDependencies] |\n| puppeteer | ^24.22.0 | package.json [devDependencies] |\n| grunt | ^1.6.1 | package.json [devDependencies] |\n| grunt-cli | ^1.5.0 | package.json [devDependencies] |\n| grunt-contrib-qunit | ^10.1.1 | package.json [devDependencies] |\n| qunit | ^2.24.1 | package.json [devDependencies] |\n\n> **Note:** 114 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **BSD-3-Clause** license.\n\n## Authors\n\n- **Django Software Foundation** - foundation@djangoproject.com\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "django/django"
+}

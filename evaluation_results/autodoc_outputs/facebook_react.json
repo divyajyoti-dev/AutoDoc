@@ -1,0 +1,1072 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "project",
+      "confidence": "WEAK"
+    },
+    "description": {
+      "value": "Copyright (c) Meta Platforms, Inc. and affiliates.  This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.",
+      "confidence": "REASONABLE"
+    },
+    "primary_language": {
+      "value": "TypeScript",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "MIT",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "npm run build",
+        "entry_type": "script",
+        "command": "build"
+      },
+      {
+        "path": "npm run test",
+        "entry_type": "script",
+        "command": "test"
+      },
+      {
+        "path": "scripts/bench/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "scripts/tasks/generate-changelog/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "scripts/prettier/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "scripts/rollup/validate/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "scripts/eslint/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "scripts/eslint-rules/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-is/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-is/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/dom-event-testing-library/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/use-sync-external-store/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/use-sync-external-store/shim/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/use-sync-external-store/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/use-sync-external-store/npm/shim/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-suspense-test-utils/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-suspense-test-utils/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-turbopack/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-turbopack/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-turbopack/npm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-turbopack/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/scheduler/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/scheduler/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/eslint-plugin-react-hooks/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/eslint-plugin-react-hooks/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/eslint-plugin-react-hooks/src/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-native-renderer/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-debug-tools/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-debug-tools/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-art/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-art/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/internal-test-utils/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-test-renderer/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-test-renderer/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-dom/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-dom/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-dom/npm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-dom/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-markup/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-markup/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-webpack/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-webpack/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-webpack/npm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-webpack/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-timeline/src/content-views/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-timeline/src/view-base/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-timeline/src/view-base/vertical-scroll-overflow/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-timeline/src/view-base/resizable/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-timeline/src/import-worker/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/jest-react/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/jest-react/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools/app.js",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-unbundled/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-unbundled/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-unbundled/npm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-unbundled/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-noop-renderer/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-noop-renderer/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-noop-renderer/npm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-noop-renderer/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-extensions/src/background/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-extensions/src/main/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/SuspenseTree/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/Iframe/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/TraceUpdatesTest/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/Hydration/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/InspectableElements/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/ElementTypes/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/PartiallyStrictApp/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/DeeplyNestedComponents/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/ReactNativeWeb/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/EditableProps/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/Toggle/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/ToDoList/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/ErrorBoundaries/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/InlineWarnings/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/app/Segments/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/e2e-regression/app.js",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/e2e/app.js",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/perf-regression/app.js",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shell/src/perf-regression/apps/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-cache/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-cache/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-parcel/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-parcel/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-parcel/npm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-parcel/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-esm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-esm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-esm/npm/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "packages/react-server-dom-esm/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-reconciler/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-reconciler/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/use-subscription/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/use-subscription/npm/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/backend/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/backend/utils/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/backend/views/TraceUpdates/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/backend/views/Highlighter/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/devtools/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/devtools/views/ErrorBoundary/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/devtools/views/Components/NativeStyleEditor/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/parseHookNames/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/bundle/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/no-columns/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/index-map/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/react-sources-extended/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/react-sources-extended/index-map/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/fb-sources-extended/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/inline/fb-sources-extended/index-map/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/index-map/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/react-sources-extended/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/react-sources-extended/index-map/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/fb-sources-extended/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "packages/react-devtools-shared/src/hooks/__tests__/__source__/__compiled__/external/fb-sources-extended/index-map/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/eslint-v9/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/eslint-v7/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/eslint-v6/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/eslint-v8/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/fiber-debugger/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/art/app.js",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "fixtures/flight/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/view-transition/server/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/view-transition/loader/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "fixtures/view-transition/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/ssr2/server/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "fixtures/ssr2/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/ssr/server/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/ssr/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/owner-stacks/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/devtools/scheduling-profiler/app.js",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "fixtures/devtools/regression/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "fixtures/concurrent/time-slicing/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/attribute-behavior/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/input-change-events/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/password-inputs/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/error-handling/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/number-inputs/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/mouse-events/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/buttons/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/progress/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/hydration/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/date-inputs/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/textareas/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/selects/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/fragment-refs/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/media-events/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/event-pooling/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/suspense/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/text-inputs/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/form-state/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/range-inputs/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/selection-events/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/custom-elements/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/email-inputs/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/dom/src/components/fixtures/pointer-events/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/expiration/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/flight-esm/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/nesting/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/nesting/src/modern/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "fixtures/fizz/server/server.js",
+        "entry_type": "server",
+        "command": null
+      },
+      {
+        "path": "fixtures/fizz/src/index.js",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/eslint-plugin-react-compiler/src/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/react-mcp-server/src/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/react-mcp-server/src/compiler/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/ReactiveScopes/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/TypeInference/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/HIR/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/Optimization/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/SSA/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/Entrypoint/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/Inference/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/Transform/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/babel-plugin-react-compiler/src/Validation/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/react-compiler-runtime/src/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/snap/src/main.ts",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/snap/src/sprout/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/react-forgive/server/src/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/react-forgive/server/src/compiler/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/packages/react-compiler-healthcheck/src/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/apps/playground/components/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/apps/playground/hooks/index.ts",
+        "entry_type": "module",
+        "command": null
+      },
+      {
+        "path": "compiler/apps/playground/lib/stores/index.ts",
+        "entry_type": "module",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "react",
+        "version": null
+      },
+      {
+        "name": "shared-runtime",
+        "version": null
+      },
+      {
+        "name": "shared",
+        "version": null
+      },
+      {
+        "name": "react-dom",
+        "version": null
+      },
+      {
+        "name": "internal-test-utils",
+        "version": null
+      },
+      {
+        "name": "react-devtools-shared",
+        "version": null
+      },
+      {
+        "name": "scheduler",
+        "version": null
+      },
+      {
+        "name": "react-reconciler",
+        "version": null
+      },
+      {
+        "name": "@babel",
+        "version": null
+      },
+      {
+        "name": "react-noop-renderer",
+        "version": null
+      },
+      {
+        "name": "react-server",
+        "version": null
+      },
+      {
+        "name": "react-client",
+        "version": null
+      },
+      {
+        "name": "fbt",
+        "version": null
+      },
+      {
+        "name": "react-server-dom-webpack",
+        "version": null
+      },
+      {
+        "name": "react-dom-bindings",
+        "version": null
+      },
+      {
+        "name": "react-native",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 6945,
+    "installation_method": "npm",
+    "usage_type": "framework"
+  },
+  "readme": "# project\n<!-- Review suggested: weak confidence from Directory name (Inferred from repository directory name) -->\n![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)\n\nCopyright (c) Meta Platforms, Inc. and affiliates.  This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.\n\nIt leverages react, shared-runtime, shared, react-dom as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing.\n\nInstall project via npm to add it to your Node.js project.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Enables modern JavaScript/TypeScript development patterns\n\n**Primary Language:** TypeScript\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/facebook/react\ncd project\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### As a Module\n\n```python\npython -m scripts.tasks.generate-changelog.index.js\npython -m scripts.prettier.index.js\npython -m scripts.rollup.validate.index.js\npython -m scripts.eslint.index.js\npython -m scripts.eslint-rules.index.js\npython -m packages.react-is.index.js\npython -m packages.react-is.npm.index.js\npython -m packages.dom-event-testing-library.index.js\npython -m packages.use-sync-external-store.index.js\npython -m packages.use-sync-external-store.shim.index.js\npython -m packages.use-sync-external-store.npm.index.js\npython -m packages.use-sync-external-store.npm.shim.index.js\npython -m packages.react-suspense-test-utils.index.js\npython -m packages.react-suspense-test-utils.npm.index.js\npython -m packages.react-server-dom-turbopack.index.js\npython -m packages.react-server-dom-turbopack.npm.index.js\npython -m packages.scheduler.index.js\npython -m packages.scheduler.npm.index.js\npython -m packages.eslint-plugin-react-hooks.index.js\npython -m packages.eslint-plugin-react-hooks.npm.index.js\npython -m packages.eslint-plugin-react-hooks.src.index.ts\npython -m packages.react-native-renderer.index.js\npython -m packages.react-server.index.js\npython -m packages.react-server.npm.index.js\npython -m packages.react-debug-tools.index.js\npython -m packages.react-debug-tools.npm.index.js\npython -m packages.react-art.index.js\npython -m packages.react-art.npm.index.js\npython -m packages.internal-test-utils.index.js\npython -m packages.react-test-renderer.index.js\npython -m packages.react-test-renderer.npm.index.js\npython -m packages.react-dom.index.js\npython -m packages.react-dom.npm.index.js\npython -m packages.react-markup.index.js\npython -m packages.react-markup.npm.index.js\npython -m packages.react-server-dom-webpack.index.js\npython -m packages.react-server-dom-webpack.npm.index.js\npython -m packages.react-devtools-timeline.src.content-views.index.js\npython -m packages.react-devtools-timeline.src.view-base.index.js\npython -m packages.react-devtools-timeline.src.view-base.vertical-scroll-overflow.index.js\npython -m packages.react-devtools-timeline.src.view-base.resizable.index.js\npython -m packages.react-devtools-timeline.src.import-worker.index.js\npython -m packages.jest-react.index.js\npython -m packages.jest-react.npm.index.js\npython -m packages.react-server-dom-unbundled.index.js\npython -m packages.react-server-dom-unbundled.npm.index.js\npython -m packages.react-noop-renderer.index.js\npython -m packages.react-noop-renderer.npm.index.js\npython -m packages.react-devtools-extensions.src.background.index.js\npython -m packages.react-devtools-extensions.src.main.index.js\npython -m packages.react-devtools-shell.src.app.index.js\npython -m packages.react-devtools-shell.src.app.SuspenseTree.index.js\npython -m packages.react-devtools-shell.src.app.Iframe.index.js\npython -m packages.react-devtools-shell.src.app.TraceUpdatesTest.index.js\npython -m packages.react-devtools-shell.src.app.Hydration.index.js\npython -m packages.react-devtools-shell.src.app.InspectableElements.index.js\npython -m packages.react-devtools-shell.src.app.ElementTypes.index.js\npython -m packages.react-devtools-shell.src.app.PartiallyStrictApp.index.js\npython -m packages.react-devtools-shell.src.app.DeeplyNestedComponents.index.js\npython -m packages.react-devtools-shell.src.app.ReactNativeWeb.index.js\npython -m packages.react-devtools-shell.src.app.EditableProps.index.js\npython -m packages.react-devtools-shell.src.app.Toggle.index.js\npython -m packages.react-devtools-shell.src.app.ToDoList.index.js\npython -m packages.react-devtools-shell.src.app.ErrorBoundaries.index.js\npython -m packages.react-devtools-shell.src.app.InlineWarnings.index.js\npython -m packages.react-devtools-shell.src.app.Segments.index.js\npython -m packages.react-devtools-shell.src.perf-regression.apps.index.js\npython -m packages.react-cache.index.js\npython -m packages.react-cache.npm.index.js\npython -m packages.react-server-dom-parcel.index.js\npython -m packages.react-server-dom-parcel.npm.index.js\npython -m packages.react.index.js\npython -m packages.react.npm.index.js\npython -m packages.react-server-dom-esm.index.js\npython -m packages.react-server-dom-esm.npm.index.js\npython -m packages.react-reconciler.index.js\npython -m packages.react-reconciler.npm.index.js\npython -m packages.use-subscription.index.js\npython -m packages.use-subscription.npm.index.js\npython -m packages.react-devtools-shared.src.backend.index.js\npython -m packages.react-devtools-shared.src.backend.utils.index.js\npython -m packages.react-devtools-shared.src.backend.views.TraceUpdates.index.js\npython -m packages.react-devtools-shared.src.backend.views.Highlighter.index.js\npython -m packages.react-devtools-shared.src.devtools.index.js\npython -m packages.react-devtools-shared.src.devtools.views.ErrorBoundary.index.js\npython -m packages.react-devtools-shared.src.devtools.views.Components.NativeStyleEditor.index.js\npython -m packages.react-devtools-shared.src.hooks.parseHookNames.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.bundle.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.no-columns.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.inline.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.inline.index-map.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.inline.react-sources-extended.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.inline.react-sources-extended.index-map.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.inline.fb-sources-extended.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.inline.fb-sources-extended.index-map.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.external.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.external.index-map.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.external.react-sources-extended.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.external.react-sources-extended.index-map.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.external.fb-sources-extended.index.js\npython -m packages.react-devtools-shared.src.hooks.__tests__.__source__.__compiled__.external.fb-sources-extended.index-map.index.js\npython -m fixtures.eslint-v9.index.js\npython -m fixtures.eslint-v7.index.js\npython -m fixtures.eslint-v6.index.js\npython -m fixtures.eslint-v8.index.js\npython -m fixtures.fiber-debugger.src.index.js\npython -m fixtures.flight.src.index.js\npython -m fixtures.view-transition.server.index.js\npython -m fixtures.view-transition.src.index.js\npython -m fixtures.ssr2.src.index.js\npython -m fixtures.ssr.server.index.js\npython -m fixtures.ssr.src.index.js\npython -m fixtures.owner-stacks.src.index.js\npython -m fixtures.concurrent.time-slicing.src.index.js\npython -m fixtures.attribute-behavior.src.index.js\npython -m fixtures.dom.src.index.js\npython -m fixtures.dom.src.components.fixtures.index.js\npython -m fixtures.dom.src.components.fixtures.input-change-events.index.js\npython -m fixtures.dom.src.components.fixtures.password-inputs.index.js\npython -m fixtures.dom.src.components.fixtures.error-handling.index.js\npython -m fixtures.dom.src.components.fixtures.number-inputs.index.js\npython -m fixtures.dom.src.components.fixtures.mouse-events.index.js\npython -m fixtures.dom.src.components.fixtures.buttons.index.js\npython -m fixtures.dom.src.components.fixtures.progress.index.js\npython -m fixtures.dom.src.components.fixtures.hydration.index.js\npython -m fixtures.dom.src.components.fixtures.date-inputs.index.js\npython -m fixtures.dom.src.components.fixtures.textareas.index.js\npython -m fixtures.dom.src.components.fixtures.selects.index.js\npython -m fixtures.dom.src.components.fixtures.fragment-refs.index.js\npython -m fixtures.dom.src.components.fixtures.media-events.index.js\npython -m fixtures.dom.src.components.fixtures.event-pooling.index.js\npython -m fixtures.dom.src.components.fixtures.suspense.index.js\npython -m fixtures.dom.src.components.fixtures.text-inputs.index.js\npython -m fixtures.dom.src.components.fixtures.form-state.index.js\npython -m fixtures.dom.src.components.fixtures.range-inputs.index.js\npython -m fixtures.dom.src.components.fixtures.selection-events.index.js\npython -m fixtures.dom.src.components.fixtures.custom-elements.index.js\npython -m fixtures.dom.src.components.fixtures.email-inputs.index.js\npython -m fixtures.dom.src.components.fixtures.pointer-events.index.js\npython -m fixtures.expiration.src.index.js\npython -m fixtures.flight-esm.src.index.js\npython -m fixtures.nesting.src.index.js\npython -m fixtures.nesting.src.modern.index.js\npython -m fixtures.fizz.src.index.js\npython -m compiler.packages.eslint-plugin-react-compiler.src.index.ts\npython -m compiler.packages.react-mcp-server.src.index.ts\npython -m compiler.packages.react-mcp-server.src.compiler.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.ReactiveScopes.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.TypeInference.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.HIR.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.Optimization.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.SSA.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.Entrypoint.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.Inference.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.Transform.index.ts\npython -m compiler.packages.babel-plugin-react-compiler.src.Validation.index.ts\npython -m compiler.packages.react-compiler-runtime.src.index.ts\npython -m compiler.packages.snap.src.sprout.index.ts\npython -m compiler.packages.react-forgive.server.src.index.ts\npython -m compiler.packages.react-forgive.server.src.compiler.index.ts\npython -m compiler.packages.react-compiler-healthcheck.src.index.ts\npython -m compiler.apps.playground.components.index.ts\npython -m compiler.apps.playground.hooks.index.ts\npython -m compiler.apps.playground.lib.stores.index.ts\n```\n\n### Running Scripts\n\n```bash\npython npm run build\npython npm run test\npython packages/react-devtools/app.js\npython packages/react-devtools-shell/src/e2e-regression/app.js\npython packages/react-devtools-shell/src/e2e/app.js\npython packages/react-devtools-shell/src/perf-regression/app.js\npython fixtures/art/app.js\npython fixtures/devtools/scheduling-profiler/app.js\npython compiler/packages/snap/src/main.ts\n```\n\n\n## Project Structure\n\n```\nproject/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Compiled output\n\u2502   \u251c\u2500\u2500 index.js                            # Main bundle\n\u2502   \u251c\u2500\u2500 index.d.ts                          # Type declarations\n\u2502   \u2514\u2500\u2500 index.js.map                        # Source maps\n\u2502\n\u251c\u2500\u2500 src/                                    # Source code\n\u2502   \u251c\u2500\u2500 index.ts                            # Main entry point\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 components/                         # React/Vue components\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Components barrel\n\u2502   \u2502   \u251c\u2500\u2500 Button/                         # Button component\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.tsx                  # Component impl\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.styles.ts            # Styled components\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 Button.test.tsx             # Component tests\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502   \u2514\u2500\u2500 Modal/                          # Modal component\n\u2502   \u2502       \u251c\u2500\u2500 Modal.tsx                   # Component impl\n\u2502   \u2502       \u2514\u2500\u2500 index.ts                    # Component export\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 hooks/                              # Custom React hooks\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Hooks barrel\n\u2502   \u2502   \u251c\u2500\u2500 useAuth.ts                      # Auth hook\n\u2502   \u2502   \u2514\u2500\u2500 useApi.ts                       # API hook\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                           # API services\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Services barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API client\n\u2502   \u2502   \u2514\u2500\u2500 auth.ts                         # Auth service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 store/                              # State management\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Store setup\n\u2502   \u2502   \u251c\u2500\u2500 slices/                         # Redux slices\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 userSlice.ts                # User state\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 appSlice.ts                 # App state\n\u2502   \u2502   \u2514\u2500\u2500 hooks.ts                        # Typed hooks\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 types/                              # TypeScript types\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Types barrel\n\u2502   \u2502   \u251c\u2500\u2500 api.ts                          # API types\n\u2502   \u2502   \u2514\u2500\u2500 models.ts                       # Model types\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                              # Utility functions\n\u2502   \u2502   \u251c\u2500\u2500 index.ts                        # Utils barrel\n\u2502   \u2502   \u251c\u2500\u2500 helpers.ts                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 validators.ts                   # Validation utils\n\u2502   \u2502   \u2514\u2500\u2500 constants.ts                    # Constants\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 styles/                             # Global styles\n\u2502       \u251c\u2500\u2500 global.css                      # Global CSS\n\u2502       \u251c\u2500\u2500 variables.css                   # CSS variables\n\u2502       \u2514\u2500\u2500 themes/                         # Theme files\n\u2502           \u251c\u2500\u2500 light.ts                    # Light theme\n\u2502           \u2514\u2500\u2500 dark.ts                     # Dark theme\n\u2502\n\u251c\u2500\u2500 __tests__/                              # Test files\n\u2502   \u251c\u2500\u2500 setup.ts                            # Test setup\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u2514\u2500\u2500 utils.test.ts                   # Utils tests\n\u2502   \u2514\u2500\u2500 integration/                        # Integration tests\n\u2502       \u2514\u2500\u2500 api.test.ts                     # API tests\n\u2502\n\u251c\u2500\u2500 e2e/                                    # E2E tests\n\u2502   \u251c\u2500\u2500 cypress.config.ts                   # Cypress config\n\u2502   \u2514\u2500\u2500 specs/                              # Test specs\n\u2502       \u2514\u2500\u2500 app.cy.ts                       # App E2E tests\n\u2502\n\u251c\u2500\u2500 public/                                 # Static assets\n\u2502   \u251c\u2500\u2500 index.html                          # HTML template\n\u2502   \u251c\u2500\u2500 favicon.ico                         # Favicon\n\u2502   \u2514\u2500\u2500 assets/                             # Static assets\n\u2502       \u251c\u2500\u2500 images/                         # Image files\n\u2502       \u2514\u2500\u2500 fonts/                          # Font files\n\u2502\n\u251c\u2500\u2500 scripts/                                # Build scripts\n\u2502   \u251c\u2500\u2500 build.js                            # Build script\n\u2502   \u2514\u2500\u2500 generate-types.js                   # Type generator\n\u2502\n\u251c\u2500\u2500 package.json                            # Package manifest\n\u251c\u2500\u2500 package-lock.json                       # Locked dependencies\n\u251c\u2500\u2500 tsconfig.json                           # TypeScript config\n\u251c\u2500\u2500 tsconfig.build.json                     # Build TS config\n\u251c\u2500\u2500 jest.config.js                          # Jest config\n\u251c\u2500\u2500 .eslintrc.js                            # ESLint config\n\u251c\u2500\u2500 .prettierrc                             # Prettier config\n\u2514\u2500\u2500 vite.config.ts                          # Vite/bundler config\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `src/` | Source code directory |\n| `src/components/` | Reusable UI components |\n| `src/services/` | API clients and services |\n| `src/store/` | State management |\n| `dist/` | Compiled output |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: react, shared-runtime, shared, react-dom, internal-test-utils\n\n\n## Testing\n\nRun the test suite:\n\n```bash\nnpm test\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| react | \u26a0\ufe0f Version unknown | Code import analysis |\n| shared-runtime | \u26a0\ufe0f Version unknown | Code import analysis |\n| shared | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-dom | \u26a0\ufe0f Version unknown | Code import analysis |\n| internal-test-utils | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-devtools-shared | \u26a0\ufe0f Version unknown | Code import analysis |\n| scheduler | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-reconciler | \u26a0\ufe0f Version unknown | Code import analysis |\n| @babel | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-noop-renderer | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-server | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-client | \u26a0\ufe0f Version unknown | Code import analysis |\n| fbt | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-server-dom-webpack | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-dom-bindings | \u26a0\ufe0f Version unknown | Code import analysis |\n| react-native | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| @babel/cli | ^7.10.5 | package.json [devDependencies] |\n| @babel/code-frame | ^7.10.4 | package.json [devDependencies] |\n| @babel/core | ^7.11.1 | package.json [devDependencies] |\n| @babel/helper-define-map | ^7.18.6 | package.json [devDependencies] |\n| @babel/helper-module-imports | ^7.10.4 | package.json [devDependencies] |\n| @babel/parser | ^7.11.3 | package.json [devDependencies] |\n| @babel/plugin-external-helpers | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-proposal-class-properties | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-proposal-object-rest-spread | ^7.11.0 | package.json [devDependencies] |\n| @babel/plugin-syntax-dynamic-import | ^7.8.3 | package.json [devDependencies] |\n| @babel/plugin-syntax-import-meta | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-syntax-jsx | ^7.23.3 | package.json [devDependencies] |\n| @babel/plugin-syntax-typescript | ^7.14.5 | package.json [devDependencies] |\n| @babel/plugin-transform-arrow-functions | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-block-scoped-functions | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-block-scoping | ^7.11.1 | package.json [devDependencies] |\n| @babel/plugin-transform-class-properties | ^7.25.9 | package.json [devDependencies] |\n| @babel/plugin-transform-classes | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-computed-properties | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-destructuring | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-for-of | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-literals | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-modules-commonjs | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-object-super | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-parameters | ^7.10.5 | package.json [devDependencies] |\n| @babel/plugin-transform-private-methods | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-react-jsx | ^7.23.4 | package.json [devDependencies] |\n| @babel/plugin-transform-react-jsx-development | ^7.22.5 | package.json [devDependencies] |\n| @babel/plugin-transform-react-jsx-source | ^7.10.5 | package.json [devDependencies] |\n| @babel/plugin-transform-shorthand-properties | ^7.10.4 | package.json [devDependencies] |\n| @babel/plugin-transform-spread | ^7.11.0 | package.json [devDependencies] |\n| @babel/plugin-transform-template-literals | ^7.10.5 | package.json [devDependencies] |\n| @babel/preset-env | ^7.26.9 | package.json [devDependencies] |\n| @babel/preset-flow | ^7.10.4 | package.json [devDependencies] |\n| @babel/preset-react | ^7.23.3 | package.json [devDependencies] |\n| @babel/preset-typescript | ^7.26.0 | package.json [devDependencies] |\n| @babel/traverse | ^7.11.0 | package.json [devDependencies] |\n| @rollup/plugin-babel | ^6.0.3 | package.json [devDependencies] |\n| @rollup/plugin-commonjs | ^24.0.1 | package.json [devDependencies] |\n| @rollup/plugin-node-resolve | ^15.0.1 | package.json [devDependencies] |\n| @rollup/plugin-replace | ^5.0.2 | package.json [devDependencies] |\n| @rollup/plugin-typescript | ^12.1.2 | package.json [devDependencies] |\n| @types/invariant | ^2.2.35 | package.json [devDependencies] |\n| @typescript-eslint/eslint-plugin | ^6.21.0 | package.json [devDependencies] |\n| @typescript-eslint/parser | ^6.21.0 | package.json [devDependencies] |\n| abortcontroller-polyfill | ^1.7.5 | package.json [devDependencies] |\n| art | 0.10.1 | package.json [devDependencies] |\n| babel-plugin-syntax-hermes-parser | ^0.32.0 | package.json [devDependencies] |\n| babel-plugin-syntax-trailing-function-commas | ^6.5.0 | package.json [devDependencies] |\n| chalk | ^3.0.0 | package.json [devDependencies] |\n| cli-table | ^0.3.1 | package.json [devDependencies] |\n| coffee-script | ^1.12.7 | package.json [devDependencies] |\n| confusing-browser-globals | ^1.0.9 | package.json [devDependencies] |\n| core-js | ^3.6.4 | package.json [devDependencies] |\n| create-react-class | ^15.6.3 | package.json [devDependencies] |\n| danger | ^11.2.3 | package.json [devDependencies] |\n| error-stack-parser | ^2.0.6 | package.json [devDependencies] |\n| eslint | ^7.7.0 | package.json [devDependencies] |\n| eslint-config-prettier | ^6.9.0 | package.json [devDependencies] |\n| eslint-plugin-babel | ^5.3.0 | package.json [devDependencies] |\n| eslint-plugin-es | ^4.1.0 | package.json [devDependencies] |\n| eslint-plugin-eslint-plugin | ^3.5.3 | package.json [devDependencies] |\n| eslint-plugin-ft-flow | ^2.0.3 | package.json [devDependencies] |\n| eslint-plugin-jest | 28.4.0 | package.json [devDependencies] |\n| eslint-plugin-no-for-of-loops | ^1.0.0 | package.json [devDependencies] |\n| eslint-plugin-no-function-declare-after-return | ^1.0.0 | package.json [devDependencies] |\n| eslint-plugin-react | ^6.7.1 | package.json [devDependencies] |\n| eslint-plugin-react-hooks-published | npm:eslint-plugin-react-hooks@^5.2.0 | package.json [devDependencies] |\n| eslint-plugin-react-internal | link:./scripts/eslint-rules | package.json [devDependencies] |\n| fbjs-scripts | ^3.0.1 | package.json [devDependencies] |\n| filesize | ^6.0.1 | package.json [devDependencies] |\n| flow-bin | ^0.279.0 | package.json [devDependencies] |\n| flow-remove-types | ^2.279.0 | package.json [devDependencies] |\n| flow-typed | ^4.1.1 | package.json [devDependencies] |\n| glob | ^7.1.6 | package.json [devDependencies] |\n| glob-stream | ^6.1.0 | package.json [devDependencies] |\n| google-closure-compiler | ^20230206.0.0 | package.json [devDependencies] |\n| gzip-size | ^5.1.1 | package.json [devDependencies] |\n| hermes-eslint | ^0.32.0 | package.json [devDependencies] |\n| hermes-parser | ^0.32.0 | package.json [devDependencies] |\n| jest | ^29.4.2 | package.json [devDependencies] |\n| jest-cli | ^29.4.2 | package.json [devDependencies] |\n| jest-diff | ^29.4.2 | package.json [devDependencies] |\n| jest-environment-jsdom | ^29.4.2 | package.json [devDependencies] |\n| jest-snapshot-serializer-raw | ^1.2.0 | package.json [devDependencies] |\n| minimatch | ^3.0.4 | package.json [devDependencies] |\n| minimist | ^1.2.3 | package.json [devDependencies] |\n| mkdirp | ^0.5.1 | package.json [devDependencies] |\n| ncp | ^2.0.0 | package.json [devDependencies] |\n| prettier | ^3.3.3 | package.json [devDependencies] |\n| prettier-2 | npm:prettier@^2 | package.json [devDependencies] |\n| pretty-format | ^29.4.1 | package.json [devDependencies] |\n| prop-types | ^15.6.2 | package.json [devDependencies] |\n| random-seed | ^0.3.0 | package.json [devDependencies] |\n| react-lifecycles-compat | ^3.0.4 | package.json [devDependencies] |\n| rimraf | ^3.0.0 | package.json [devDependencies] |\n| rollup | ^3.29.5 | package.json [devDependencies] |\n| rollup-plugin-dts | ^6.1.1 | package.json [devDependencies] |\n| rollup-plugin-prettier | ^4.1.1 | package.json [devDependencies] |\n| rollup-plugin-strip-banner | ^3.0.0 | package.json [devDependencies] |\n| semver | ^7.1.1 | package.json [devDependencies] |\n| shelljs | ^0.8.5 | package.json [devDependencies] |\n| signedsource | ^2.0.0 | package.json [devDependencies] |\n| targz | ^1.0.1 | package.json [devDependencies] |\n| through2 | ^3.0.1 | package.json [devDependencies] |\n| tmp | ^0.1.0 | package.json [devDependencies] |\n| to-fast-properties | ^2.0.0 | package.json [devDependencies] |\n| tsup | ^8.4.0 | package.json [devDependencies] |\n| typescript | ^5.4.3 | package.json [devDependencies] |\n| undici | ^5.28.4 | package.json [devDependencies] |\n| web-streams-polyfill | ^3.1.1 | package.json [devDependencies] |\n| yargs | ^15.3.1 | package.json [devDependencies] |\n\n> **Note:** 16 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **MIT** license.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "facebook/react"
+}

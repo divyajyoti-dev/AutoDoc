@@ -1,0 +1,15 @@
+# AutoDoc Evaluation Requirements
+# Core Python 3.10+ is required
+
+# Optional: Enhanced metrics and visualization
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Optional: Semantic similarity (falls back to ROUGE-L if unavailable)
+sentence-transformers>=2.2.0
+
+# Note: These are OPTIONAL dependencies.
+# The evaluation script will run without them, using fallback methods:
+# - Without numpy: Limited statistical calculations
+# - Without matplotlib: No visualization generation
+# - Without sentence-transformers: ROUGE-L for description similarity

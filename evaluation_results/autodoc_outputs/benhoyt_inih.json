@@ -1,0 +1,107 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "inih",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "primary_language": {
+      "value": "C",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "BSD",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "fuzzing/inihfuzz.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "tests/unittest_alloc.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "tests/unittest_string.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "tests/unittest.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/ini_xmacros.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/INIReaderExampleErrors.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/ini_dump.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/INIReaderExample.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "examples/ini_example.c",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "config",
+        "version": null
+      },
+      {
+        "name": "fcntl",
+        "version": null
+      },
+      {
+        "name": "ini",
+        "version": null
+      },
+      {
+        "name": "cctype",
+        "version": null
+      },
+      {
+        "name": "INIReader",
+        "version": null
+      },
+      {
+        "name": "cstdint",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": false,
+    "has_ci_config": true,
+    "file_count": 61,
+    "installation_method": "make",
+    "usage_type": "library"
+  },
+  "readme": "# inih\n![License: BSD](https://img.shields.io/badge/License-BSD-blue.svg)\n\ninih is a C project.\n\nIt leverages config, fcntl, ini, cctype as core dependencies.\n\nThe project includes continuous integration for automated testing, usage examples for quick onboarding.\n\n<!-- TODO: Add detailed project description - Expand with specific use cases, key differentiators, and target audience -->\n\n## Key Features\n\n- Supports continuous integration workflows\n\n**Primary Language:** C\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/benhoyt/inih\ncd inih\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython fuzzing/inihfuzz.c\npython tests/unittest_alloc.c\npython tests/unittest_string.c\npython tests/unittest.c\npython examples/ini_xmacros.c\npython examples/INIReaderExampleErrors.cpp\npython examples/ini_dump.c\npython examples/INIReaderExample.cpp\npython examples/ini_example.c\n```\n\n\n## Project Structure\n\n```\ninih/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u2502\n\u251c\u2500\u2500 build/                                  # Build output\n\u2502   \u251c\u2500\u2500 debug/                              # Debug build\n\u2502   \u251c\u2500\u2500 release/                            # Release build\n\u2502   \u2514\u2500\u2500 CMakeFiles/                         # CMake cache\n\u2502\n\u251c\u2500\u2500 include/                                # Public headers\n\u2502   \u2514\u2500\u2500 project/\n\u2502       \u251c\u2500\u2500 project.h                       # Main header\n\u2502       \u251c\u2500\u2500 config.h                        # Config header\n\u2502       \u251c\u2500\u2500 types.h                         # Type definitions\n\u2502       \u2514\u2500\u2500 utils/\n\u2502           \u251c\u2500\u2500 string_utils.h              # String utilities\n\u2502           \u2514\u2500\u2500 math_utils.h                # Math utilities\n\u2502\n\u251c\u2500\u2500 src/                                    # Source files\n\u2502   \u251c\u2500\u2500 main.cpp                            # Main entry point\n\u2502   \u251c\u2500\u2500 project.cpp                         # Core implementation\n\u2502   \u251c\u2500\u2500 config.cpp                          # Config handling\n\u2502   \u251c\u2500\u2500 core/                               # Core modules\n\u2502   \u2502   \u251c\u2500\u2500 engine.cpp                      # Main engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.cpp                   # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.cpp                   # Validation\n\u2502   \u2514\u2500\u2500 utils/                              # Utility impl\n\u2502       \u251c\u2500\u2500 string_utils.cpp                # String utils\n\u2502       \u2514\u2500\u2500 math_utils.cpp                  # Math utils\n\u2502\n\u251c\u2500\u2500 lib/                                    # Libraries\n\u2502   \u251c\u2500\u2500 static/                             # Static libs\n\u2502   \u2514\u2500\u2500 shared/                             # Shared libs\n\u2502\n\u251c\u2500\u2500 third_party/                            # Dependencies\n\u2502   \u2514\u2500\u2500 googletest/                         # Google Test\n\u2502\n\u251c\u2500\u2500 cmake/                                  # CMake modules\n\u2502   \u251c\u2500\u2500 FindDependency.cmake                # Find scripts\n\u2502   \u2514\u2500\u2500 CompilerFlags.cmake                 # Compiler config\n\u2502\n\u251c\u2500\u2500 scripts/                                # Build scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u2514\u2500\u2500 format.sh                           # Code formatter\n\u2502\n\u251c\u2500\u2500 CMakeLists.txt                          # CMake build\n\u251c\u2500\u2500 Makefile                                # Make build\n\u251c\u2500\u2500 conanfile.txt                           # Conan deps\n\u251c\u2500\u2500 .clang-format                           # Format config\n\u2514\u2500\u2500 .clang-tidy                             # Linter config\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `src/` | Source files (.c, .cpp) |\n| `include/` | Public header files |\n| `tests/` | Test files |\n| `build/` | Build output |\n| `examples/` | Usage examples |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: config, fcntl, ini, cctype, INIReader\n\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| config | \u26a0\ufe0f Version unknown | Code import analysis |\n| fcntl | \u26a0\ufe0f Version unknown | Code import analysis |\n| ini | \u26a0\ufe0f Version unknown | Code import analysis |\n| cctype | \u26a0\ufe0f Version unknown | Code import analysis |\n| INIReader | \u26a0\ufe0f Version unknown | Code import analysis |\n| cstdint | \u26a0\ufe0f Version unknown | Code import analysis |\n\n> **Note:** 6 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **BSD** license.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "benhoyt/inih"
+}

@@ -1,0 +1,3397 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "OpenCV",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "OpenCV Python binary extension loader",
+      "confidence": "REASONABLE"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "confidence": "STRONG"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "doc/js_tutorials/js_assets/webnn-electron/main.js",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/apple/build_xcframework.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/osx/run_tests.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/osx/build_docs.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/osx/build_framework.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/js/build_js.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/ios/build_visionos_framework.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/ios/run_tests.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/ios/build_docs.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/ios/build_framework.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/android/build_java_shared_aar.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/android/build_static_aar.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/android/build_sdk.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/android/build-tests/test_cmake_build.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "platforms/winpack_dldt/build_package.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_neon_bf16.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/directml.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/opencl.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_vsx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_sve.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/webnn.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/atomic_check.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_neon_dotprod.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_lasx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_popcnt.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_vsx3.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512common.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512icl.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_fp16.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_sse2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_lsx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/framebuffer.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_sse3.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512knl.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_ssse3.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512knm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/directx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/ffmpeg_test.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_rvv.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512clx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_sse42.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/openvx_refenum_test.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_neon.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512skx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_sse41.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx512cnl.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_sse.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/win32uitest.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cann.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/vtk_test.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_neon_fp16.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_vsx_asm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_msa.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/vulkan.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/cpu_avx2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/lapack_check.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "cmake/checks/runtime/cpu_vsx_aligned.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/clahe.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/hog.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/dense_optical_flow.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/video_acceleration.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/pyrlk_optical_flow.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/camshift.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/opencl_custom_kernel.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/squares.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/bgfg_segm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/tapi/ufacedetect.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/hog.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/morphology.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/generalized_hough.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/surf_keypoint_matcher.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/stereo_multi.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/pyrlk_optical_flow.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/farneback_optical_flow.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/video_writer.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/super_resolution.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/cascadeclassifier.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/alpha_comp.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/houghlines.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/bgfg_segm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/stereo_match.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/multi.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/gpu/video_reader.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/dft.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/browse.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/laplace.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/facedetect.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/inpaint.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/hist.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/contours.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/digits_video.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/fitline.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/gaussian_mix.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/video_v4l2.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/edge.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/aruco_detect_board_charuco.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/texture_flow.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/letter_recog.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/kalman.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/dis_opt_flow.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/opt_flow.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/houghcircles.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/gabor_threads.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/deconvolution.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/coherence.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/_coverage.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/mouse_and_match.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/essential_mat_reconstr.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/digits_adjust.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/mser.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/feature_homography.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/lk_track.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/drawing.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/audio_spectrogram.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/plane_tracker.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/camshift.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/_doc.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/camera_calibration_show_extrinsics.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/plane_ar.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/kmeans.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/qrcode.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/morphology.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/video_threaded.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/watershed.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/background_subtractor_mask.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/peopledetect.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/find_obj.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/stitching_detailed.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/lappyr.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/stitching.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/squares.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tracker.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/lk_homography.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/digits.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/grabcut.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/asift.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/calibrate.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/turing.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tst_scene_render.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/floodfill.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/demo.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/opencv_version.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/videocapture_obsensor.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/video.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/logpolar.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/houghlines.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/text_skewness_correction.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/mosse.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/stereo_match.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/color_histogram.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/distrans.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/core/file_input_output/file_input_output.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/core/mat_mask_operations/mat_mask_operations.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/imgProc/match_template/match_template.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/imgProc/Smoothing/smoothing.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/imgProc/Pyramids/pyramids.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/imgProc/erosion_dilatation/morphology_1.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/imgProc/morph_lines_detection/morph_lines_detection.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/ImgTrans/MakeBorder/copy_make_border.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/ImgTrans/Filter2D/filter2D.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/ImgTrans/LaPlace/laplace_demo.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/ImgTrans/SobelDemo/sobel_demo.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/ImgTrans/HoughLine/hough_lines.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/ImgTrans/HoughCircle/hough_circle.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/imgcodecs/animations.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/dnn/dnn_conversion/pytorch/segmentation/py_to_py_fcn_resnet50.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/videoio/video-input-psnr-ssim.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/features2D/Homography/panorama_stitching_rotating_camera.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/python/tutorial_code/features2D/Homography/perspective_correction.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/opencv_version.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/ant/src/SimpleSample.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/eclipse/HelloCV/src/Main.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/video/meanshift/CamshiftDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/video/meanshift/MeanshiftDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/video/background_subtraction/BackgroundSubtractionDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/video/optical_flow/OpticalFlowDenseDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/video/optical_flow/OpticalFlowDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/Histograms_Matching/histogram_equalization/EqualizeHistDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo2.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo1.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/Histograms_Matching/histogram_calculation/CalcHistDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/Histograms_Matching/histogram_comparison/CompareHistDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/core/mat_operations/MatOperations.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/core/AddingImages/AddingImages.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/core/mat_mask_operations/MatMaskOperations.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/core/discrete_fourier_transform/DiscreteFourierTransform.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/TrackingMotion/good_features_to_track/GoodFeaturesToTrackDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/TrackingMotion/generic_corner_detector/CornerDetectorDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/TrackingMotion/corner_subpixels/CornerSubPixDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/TrackingMotion/harris_detector/CornerHarrisDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/tutorial_template_matching/MatchTemplateDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/opening_closing_hats/MorphologyDemo2.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/Smoothing/Smoothing.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/HitMiss/HitMiss.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/threshold_inRange/ThresholdInRange.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/threshold/Threshold.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/changing_contrast_brightness_image/BasicLinearTransformsDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/changing_contrast_brightness_image/ChangingContrastBrightnessImageDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/BasicGeometricDrawing/BasicGeometricDrawing.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/Pyramids/Pyramids.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/erosion_dilatation/MorphologyDemo1.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgProc/morph_lines_detection/Morphology_3.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/introduction/documentation/Documentation.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/objectDetection/cascade_classifier/ObjectDetectionDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/MakeBorder/CopyMakeBorder.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/distance_transformation/ImageSegmentationDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/remap/RemapDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/canny_detector/CannyDetectorDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/Filter2D/Filter2D_Demo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/LaPlace/LaplaceDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/SobelDemo/SobelDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/HoughLine/HoughLines.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/warp_affine/GeometricTransformsDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ImgTrans/HoughCircle/HoughCircles.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ShapeDescriptors/find_contours/FindContoursDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ShapeDescriptors/moments/MomentsDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ShapeDescriptors/bounding_rotated_ellipses/GeneralContoursDemo2.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ShapeDescriptors/hull/HullDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ShapeDescriptors/point_polygon_test/PointPolygonTestDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ShapeDescriptors/bounding_rects_circles/GeneralContoursDemo1.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ml/non_linear_svms/NonLinearSVMsDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ml/introduction_to_svm/IntroductionToSVMDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/ml/introduction_to_pca/IntroductionToPCADemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/highgui/trackbar/AddingImagesTrackbar.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/features2D/feature_detection/SURFDetectionDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/features2D/feature_flann_matcher/SURFFLANNMatchingDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/features2D/feature_homography/SURFFLANNMatchingHomographyDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/features2D/Homography/PerspectiveCorrection.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/features2D/Homography/PanoramaStitchingRotatingCamera.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/features2D/akaze_matching/AKAZEMatchDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/features2D/feature_description/SURFMatchingDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/java/tutorial_code/photo/hdr_imaging/HDRImagingDemo.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/opencl/opencl-opencv-interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_obsensor.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/train_svmsgd.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/delaunay2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/minarea.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/epipolar_lines.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/cout_mat.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/imagelist_creator.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_audio.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/gauge.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/imgcodecs_jpeg.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videowriter_basic.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/opencv_version.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/train_HOG.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tree_engine.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/lsd_lines.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/stitching.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/calibration.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/warpPerspective_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_starter.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/flann_search_dataset.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/neural_network.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/barcode.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/watershed.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_basic.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/fback.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/fitellipse.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/letter_recog.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/facedetect.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/text_skewness_correction.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/dft.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/logistic_regression.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/camshiftdemo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/create_mask.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/ela.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/pca.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/detect_mser.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_realsense.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/imagelist_reader.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/morphology2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/simd_basic.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/dbt_face_detection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/kalman.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/falsecolor.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/cloning_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/npr_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/asift.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/matchmethod_orb_akaze_brisk.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/demhist.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/drawing.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_gphoto2_autofocus.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/stereo_calib.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/stitching_detailed.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/digits_svm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/3calibration.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/em.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/detect_blob.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_gstreamer_pipeline.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/travelsalesman.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/laplace.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/contours2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/segment_objects.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/kmeans.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/smiledetect.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/points_classifier.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/convexhull.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/select3dobj.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/aruco_dict_utils.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/audio_spectrogram.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/essential_mat_reconstr.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/dis_opticalflow.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_audio_combination.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/facial_features.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/polar_transforms.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_image_sequence.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/intersectExample.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/squares.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/digits_lenet.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/inpaint.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_camera.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/bgfg_segm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/cloning_gui.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/peopledetect.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/ffilldemo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/stereo_match.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_microphone.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/intelligent_scissors.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/application_trace.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/mask_tmpl.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/image_alignment.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/lkdemo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/distrans.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/grabcut.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/edge.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/qrcode.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/connected_components.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/phase_corr.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/videocapture_openni.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgproc_calcHist.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/core_merge.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/core_mat_checkVector.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgproc_HoughLinesP.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgproc_segmentation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/core_split.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgproc_HoughLinesCircles.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgproc_applyColorMap.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgcodecs_imwrite.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/core_reduce.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgproc_drawContours.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/imgproc_HoughLinesPointSet.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/snippets/core_various.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/video/bg_sub.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/video/meanshift/meanshift.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/video/meanshift/camshift.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/video/optical_flow/optical_flow.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/video/optical_flow/optical_flow_dense.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gpu/gpu-basics-similarity/gpu-basics-similarity.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/Histograms_Matching/compareHist_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/Histograms_Matching/calcHist_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/Histograms_Matching/MatchTemplate_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/Histograms_Matching/EqualizeHist_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/Histograms_Matching/calcBackProject_Demo1.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/Histograms_Matching/calcBackProject_Demo2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/parallel_backend/example-tbb.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/parallel_backend/example-openmp.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/mat_operations/mat_operations.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/AddingImages/AddingImages.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_new.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/file_input_output/file_input_output.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/univ_intrin/univ_intrin.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/mat_mask_operations/mat_mask_operations.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/mat_the_basic_image_container/mat_the_basic_image_container.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/TrackingMotion/cornerDetector_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/TrackingMotion/cornerHarris_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/TrackingMotion/goodFeaturesToTrack_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/TrackingMotion/cornerSubPix_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/Morphology_1.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/Threshold_inRange.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/Morphology_2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/BasicLinearTransforms.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/Threshold.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/Smoothing/Smoothing.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/HitMiss/HitMiss.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/motion_deblur_filter/motion_deblur_filter.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_1.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/changing_contrast_brightness_image/changing_contrast_brightness_image.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/Pyramids/Pyramids.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/out_of_focus_deblur_filter/out_of_focus_deblur_filter.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/morph_lines_detection/Morphology_3.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgProc/anisotropic_image_segmentation/anisotropic_image_segmentation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/xfeatures2D/LATCH_match.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/introduction/documentation/documentation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/introduction/display_image/display_image.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/introduction/windows_visual_studio_opencv/introduction_windows_vs.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/doc_snippets/api_ref_snippets.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/doc_snippets/kernel_api_snippets.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/doc_snippets/dynamic_graph_snippets.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/porting_anisotropic_image_segmentation/porting_anisotropic_image_segmentation_gapi.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/porting_anisotropic_image_segmentation/porting_anisotropic_image_segmentation_gapi_fluid.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/security_barrier_camera/security_barrier_camera.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/age_gender_emotion_recognition/age_gender_emotion_recognition.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/gapi/face_beautification/face_beautification.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/create_diamond.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/create_marker.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/calibrate_camera_charuco.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/detect_markers.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/detect_diamonds.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/detect_board_charuco.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/detect_board.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/create_board_charuco.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/create_board.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/calibrate_camera.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/objectDetection/objectDetection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/imageSegmentation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/generalizedHoughTransform.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/Laplace_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/CannyDetector_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/Geometric_Transforms_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/filter2D_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/houghcircles.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/copyMakeBorder_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/Sobel_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/HoughLines_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/HoughCircle_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/houghlines.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ImgTrans/Remap_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ShapeDescriptors/pointPolygonTest_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ShapeDescriptors/hull_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ShapeDescriptors/moments_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ShapeDescriptors/generalContours_demo1.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ShapeDescriptors/findContours_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ShapeDescriptors/generalContours_demo2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ml/non_linear_svms/non_linear_svms.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ml/introduction_to_svm/introduction_to_svm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/ml/introduction_to_pca/introduction_to_pca.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/imgcodecs/animations.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/imgcodecs/GDAL_IO/gdal-image.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/videoio/video-input-psnr-ssim/video-input-psnr-ssim.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/videoio/video-write/video-write.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/videoio/openni_orbbec_astra/openni_orbbec_astra.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/HighGUI/AddingImagesTrackbar.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/HighGUI/BasicLinearTransformsTrackbar.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/AKAZE_match.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/AKAZE_tracking/planar_tracking.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/feature_detection/SURF_detection_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/feature_flann_matcher/SURF_FLANN_matching_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/feature_homography/SURF_FLANN_matching_homography_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/Homography/perspective_correction.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/Homography/homography_from_camera_displacement.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/Homography/panorama_stitching_rotating_camera.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/Homography/decompose_homography.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/Homography/pose_from_homography.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/features2D/feature_description/SURF_matching_Demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/photo/non_photorealistic_rendering/npr_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/photo/decolorization/decolor.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/photo/hdr_imaging/hdr_imaging.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/photo/seamless_cloning/cloning_demo.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/photo/seamless_cloning/cloning_gui.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/calib3d/real_time_pose_estimation/src/main_registration.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/calib3d/real_time_pose_estimation/src/main_detection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/tutorial_code/calib3d/camera_calibration/camera_calibration.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/cpp/example_cmake/example.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/sycl/sycl-opencv-interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/va_intel/va_intel_interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/openpose.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/human_parsing.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dasiamrpn_tracker.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/download_models.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/colorization.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/speech_recognition.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/text_detection.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/person_reid.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/scene_text_detection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/classification.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/face_detect.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/virtual_try_on.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/segmentation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/tf_text_graph_ssd.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/siamrpnpp.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/action_recognition.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/optical_flow.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/tf_text_graph_faster_rcnn.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/scene_text_spotting.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/human_parsing.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/scene_text_recognition.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/colorization.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/yolo_detector.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/classification.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/nanotrack_tracker.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/tf_text_graph_efficientdet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/person_reid.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/object_detection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/vit_tracker.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/text_detection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/face_detect.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/speech_recognition.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/paddlepaddle/paddle_humanseg.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/paddlepaddle/paddle_resnet50.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/pytorch/classification/py_to_py_resnet50_onnx.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/pytorch/classification/py_to_py_resnet50.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/pytorch/classification/py_to_py_cls.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/tf/classification/py_to_py_mobilenet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/tf/classification/py_to_py_cls.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/dnn/dnn_model_runner/dnn_conversion/tf/detection/py_to_py_ssd_mobilenet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/openvx/wrappers.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/openvx/wrappers_video.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/openvx/no_wrappers.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/semihosting/norm/norm.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/semihosting/histogram/histogram.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/directx/d3d9_interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/directx/d3d10_interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/directx/d3d9ex_interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/directx/d3d11_interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/opengl/opengl.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/opengl/opengl3_2.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "samples/opengl/opengl_interop.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "doc/tools/scan_tutorials.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/openjpeg/openjp2/t1_generate_luts.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/openjpeg/openjp2/bench_dwt.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/openjpeg/openjp2/test_sparse_array.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/libjpeg-turbo/src/jcstest.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/zlib/inflate.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/zlib/crc32.c",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/openexr/IlmImf/dwaLookups.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "3rdparty/zlib-ng/win32/depcheck.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/video/misc/python/test/test_lk_track.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/video/misc/python/test/test_tracking.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/video/misc/python/test/test_lk_homography.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/flann/misc/python/test/test_flann_based_matcher.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/core/include/opencv2/core/cuda.hpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/core/include/opencv2/core/persistence.hpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/core/include/opencv2/core/core_c.h",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/core/src/downhill_simplex.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/stitching/misc/python/test/test_stitching.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_fitline.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_fs_cache_dir.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_misc.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_camshift.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_pathlike.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_houghlines.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_watershed.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_async.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_dft.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_morphology.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_copytomask.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_norm.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_mser.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_imread.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_squares.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_cuda.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_umat.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_legacy.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_filestorage_io.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/tst_scene_render.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_mat.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_features2d.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_grabcut.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_houghcircles.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_texture_flow.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_kmeans.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/test/test_gaussian_mix.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/src2/hdr_parser.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/src2/gen2.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/src2/copy_typings_stubs_on_success.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/src2/typing_stubs_generation/ast_utils.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/src2/typing_stubs_generation/types_conversion.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/python/package/setup.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/objdetect/misc/python/test/test_peopledetect.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/objdetect/misc/python/test/test_objdetect_aruco.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/objdetect/misc/python/test/test_facedetect.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/js/generator/embindgen.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/js/src/make_umd.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_infer_onnx.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_infer.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_sample_pipelines.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_render.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_infer_ov.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_stateful_kernel.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_streaming.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_ot.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_core.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_kernels.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_types.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/test/test_gapi_imgproc.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/misc/python/samples/gaze_estimation.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/privacy_masking_camera.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/onevpl_infer_with_advanced_device_selection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/draw_example.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/oak_small_hetero_pipeline.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/oak_basic_infer.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/infer_single_roi.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/oak_rgb_camera_encoding.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/slides_blur_gapi.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/infer_ie_onnx_hybrid.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/slides_sobel_gapi.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/onevpl_source_to_bgr_conv.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/face_detection_mtcnn.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/oak_copy.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/semantic_segmentation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/api_example.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/text_detection.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/gaze_estimation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/slides_sobel_cv.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/pipeline_modeling_tool.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/gapi/samples/infer_ssd_onnx.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/java/check-tests.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/java/generator/gen_java.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ml/misc/python/test/test_knearest.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ml/misc/python/test/test_digits.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ml/misc/python/test/test_goodfeatures.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ml/misc/python/test/test_letter_recog.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/dnn/misc/python/test/test_dnn.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/dnn/test/imagenet_cls_test_inception.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/dnn/test/cityscapes_semsegm_test_enet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/dnn/test/imagenet_cls_test_googlenet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/dnn/test/imagenet_cls_test_alexnet.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/dnn/test/pascal_semsegm_test_fcn.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/videoio/misc/python/test/test_videoio.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/highgui/doc/highgui_qt.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/objc/generator/gen_objc.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/features2d/misc/python/test/test_feature_homography.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/testlog_parser.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/run_long.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/run.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/concatlogs.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/chart.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/run_utils.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/summary.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/table_formatter.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/run_android.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/perf_tests_timing.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/run_suite.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/xls-report.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/trace_profiler.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/misc/report.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/include/opencv2/ts.hpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/include/opencv2/ts/cuda_perf.hpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/include/opencv2/ts/ts_perf.hpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/ts/include/opencv2/ts/cuda_test.hpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/calib3d/misc/python/test/test_solvepnp.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/calib3d/misc/python/test/test_calibration.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/python_app_test.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/annotation/opencv_annotation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/pattern-tools/generate_pattern.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/version/opencv_version.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/visualisation/opencv_visualisation.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/traincascade/traincascade.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/interactive-calibration/main.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/model-diagnostics/model_diagnostics.cpp",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "apps/createsamples/createsamples.cpp",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "onnx",
+        "version": ">=1.7.0"
+      },
+      {
+        "name": "numpy",
+        "version": ">=1.19.1"
+      },
+      {
+        "name": "torch",
+        "version": ">=1.5.1"
+      },
+      {
+        "name": "torchvision",
+        "version": ">=0.6.1"
+      },
+      {
+        "name": "tensorflow",
+        "version": ">=2.1.0"
+      },
+      {
+        "name": "tensorflow-gpu",
+        "version": ">=2.1.0"
+      },
+      {
+        "name": "paddlepaddle",
+        "version": ">=2.0.0"
+      },
+      {
+        "name": "paddlepaddle-gpu",
+        "version": ">=2.0.0"
+      },
+      {
+        "name": "paddlehub",
+        "version": ">=2.1.0"
+      },
+      {
+        "name": "paddle2onnx",
+        "version": ">=0.5.1"
+      },
+      {
+        "name": "paddleseg",
+        "version": ">=2.0.0"
+      },
+      {
+        "name": "PkgConfig",
+        "version": null
+      },
+      {
+        "name": "Java",
+        "version": null
+      },
+      {
+        "name": "JNI",
+        "version": null
+      },
+      {
+        "name": "Flake8",
+        "version": null
+      },
+      {
+        "name": "opencv2",
+        "version": null
+      },
+      {
+        "name": "org",
+        "version": null
+      },
+      {
+        "name": "google",
+        "version": null
+      },
+      {
+        "name": "src",
+        "version": null
+      },
+      {
+        "name": "precomp",
+        "version": null
+      },
+      {
+        "name": "test_precomp",
+        "version": null
+      },
+      {
+        "name": "android",
+        "version": null
+      },
+      {
+        "name": "cv2",
+        "version": null
+      },
+      {
+        "name": "streaming",
+        "version": null
+      },
+      {
+        "name": "__future__",
+        "version": null
+      },
+      {
+        "name": "jasper",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": true,
+    "has_ci_config": false,
+    "file_count": 7641,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# OpenCV\n![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)\n\nOpenCV Python binary extension loader\n\nIt leverages onnx, numpy, torch, torchvision as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, detailed documentation for users.\n\nInstall OpenCV using pip for seamless integration into your Python environment.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/opencv/opencv\ncd OpenCV\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython doc/js_tutorials/js_assets/webnn-electron/main.js\npython platforms/apple/build_xcframework.py\npython platforms/osx/run_tests.py\npython platforms/osx/build_docs.py\npython platforms/osx/build_framework.py\npython platforms/js/build_js.py\npython platforms/ios/build_visionos_framework.py\npython platforms/ios/run_tests.py\npython platforms/ios/build_docs.py\npython platforms/ios/build_framework.py\npython platforms/android/build_java_shared_aar.py\npython platforms/android/build_static_aar.py\npython platforms/android/build_sdk.py\npython platforms/android/build-tests/test_cmake_build.py\npython platforms/winpack_dldt/build_package.py\npython cmake/checks/cpu_neon_bf16.cpp\npython cmake/checks/directml.cpp\npython cmake/checks/opencl.cpp\npython cmake/checks/cpu_vsx.cpp\npython cmake/checks/cpu_sve.cpp\npython cmake/checks/webnn.cpp\npython cmake/checks/atomic_check.cpp\npython cmake/checks/cpu_neon_dotprod.cpp\npython cmake/checks/cpu_lasx.cpp\npython cmake/checks/cpu_popcnt.cpp\npython cmake/checks/cpu_vsx3.cpp\npython cmake/checks/cpu_avx512common.cpp\npython cmake/checks/cpu_avx512icl.cpp\npython cmake/checks/cpu_fp16.cpp\npython cmake/checks/cpu_avx.cpp\npython cmake/checks/cpu_sse2.cpp\npython cmake/checks/cpu_lsx.cpp\npython cmake/checks/framebuffer.cpp\npython cmake/checks/cpu_sse3.cpp\npython cmake/checks/cpu_avx512knl.cpp\npython cmake/checks/cpu_ssse3.cpp\npython cmake/checks/cpu_avx512knm.cpp\npython cmake/checks/directx.cpp\npython cmake/checks/ffmpeg_test.cpp\npython cmake/checks/cpu_avx512.cpp\npython cmake/checks/cpu_rvv.cpp\npython cmake/checks/cpu_avx512clx.cpp\npython cmake/checks/cpu_sse42.cpp\npython cmake/checks/openvx_refenum_test.cpp\npython cmake/checks/cpu_neon.cpp\npython cmake/checks/cpu_avx512skx.cpp\npython cmake/checks/cpu_sse41.cpp\npython cmake/checks/cpu_avx512cnl.cpp\npython cmake/checks/cpu_sse.cpp\npython cmake/checks/win32uitest.cpp\npython cmake/checks/cann.cpp\npython cmake/checks/vtk_test.cpp\npython cmake/checks/cpu_neon_fp16.cpp\npython cmake/checks/cpu_vsx_asm.cpp\npython cmake/checks/cpu_msa.cpp\npython cmake/checks/vulkan.cpp\npython cmake/checks/cpu_avx2.cpp\npython cmake/checks/lapack_check.cpp\npython cmake/checks/runtime/cpu_vsx_aligned.cpp\npython samples/tapi/clahe.cpp\npython samples/tapi/hog.cpp\npython samples/tapi/dense_optical_flow.cpp\npython samples/tapi/video_acceleration.cpp\npython samples/tapi/pyrlk_optical_flow.cpp\npython samples/tapi/camshift.cpp\npython samples/tapi/opencl_custom_kernel.cpp\npython samples/tapi/squares.cpp\npython samples/tapi/bgfg_segm.cpp\npython samples/tapi/ufacedetect.cpp\npython samples/gpu/hog.cpp\npython samples/gpu/morphology.cpp\npython samples/gpu/generalized_hough.cpp\npython samples/gpu/surf_keypoint_matcher.cpp\npython samples/gpu/stereo_multi.cpp\npython samples/gpu/pyrlk_optical_flow.cpp\npython samples/gpu/farneback_optical_flow.cpp\npython samples/gpu/video_writer.cpp\npython samples/gpu/super_resolution.cpp\npython samples/gpu/cascadeclassifier.cpp\npython samples/gpu/alpha_comp.cpp\npython samples/gpu/houghlines.cpp\npython samples/gpu/bgfg_segm.cpp\npython samples/gpu/stereo_match.cpp\npython samples/gpu/multi.cpp\npython samples/gpu/video_reader.cpp\npython samples/python/dft.py\npython samples/python/browse.py\npython samples/python/laplace.py\npython samples/python/facedetect.py\npython samples/python/inpaint.py\npython samples/python/hist.py\npython samples/python/contours.py\npython samples/python/digits_video.py\npython samples/python/fitline.py\npython samples/python/gaussian_mix.py\npython samples/python/video_v4l2.py\npython samples/python/edge.py\npython samples/python/aruco_detect_board_charuco.py\npython samples/python/texture_flow.py\npython samples/python/letter_recog.py\npython samples/python/kalman.py\npython samples/python/dis_opt_flow.py\npython samples/python/opt_flow.py\npython samples/python/houghcircles.py\npython samples/python/gabor_threads.py\npython samples/python/deconvolution.py\npython samples/python/coherence.py\npython samples/python/_coverage.py\npython samples/python/mouse_and_match.py\npython samples/python/essential_mat_reconstr.py\npython samples/python/digits_adjust.py\npython samples/python/mser.py\npython samples/python/feature_homography.py\npython samples/python/lk_track.py\npython samples/python/drawing.py\npython samples/python/audio_spectrogram.py\npython samples/python/plane_tracker.py\npython samples/python/camshift.py\npython samples/python/_doc.py\npython samples/python/camera_calibration_show_extrinsics.py\npython samples/python/plane_ar.py\npython samples/python/kmeans.py\npython samples/python/qrcode.py\npython samples/python/morphology.py\npython samples/python/video_threaded.py\npython samples/python/watershed.py\npython samples/python/background_subtractor_mask.py\npython samples/python/peopledetect.py\npython samples/python/find_obj.py\npython samples/python/stitching_detailed.py\npython samples/python/lappyr.py\npython samples/python/stitching.py\npython samples/python/squares.py\npython samples/python/tracker.py\npython samples/python/lk_homography.py\npython samples/python/digits.py\npython samples/python/grabcut.py\npython samples/python/asift.py\npython samples/python/calibrate.py\npython samples/python/turing.py\npython samples/python/tst_scene_render.py\npython samples/python/floodfill.py\npython samples/python/demo.py\npython samples/python/opencv_version.py\npython samples/python/videocapture_obsensor.py\npython samples/python/video.py\npython samples/python/logpolar.py\npython samples/python/houghlines.py\npython samples/python/text_skewness_correction.py\npython samples/python/mosse.py\npython samples/python/stereo_match.py\npython samples/python/color_histogram.py\npython samples/python/distrans.py\npython samples/python/tutorial_code/core/file_input_output/file_input_output.py\npython samples/python/tutorial_code/core/mat_mask_operations/mat_mask_operations.py\npython samples/python/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.py\npython samples/python/tutorial_code/imgProc/match_template/match_template.py\npython samples/python/tutorial_code/imgProc/Smoothing/smoothing.py\npython samples/python/tutorial_code/imgProc/Pyramids/pyramids.py\npython samples/python/tutorial_code/imgProc/erosion_dilatation/morphology_1.py\npython samples/python/tutorial_code/imgProc/morph_lines_detection/morph_lines_detection.py\npython samples/python/tutorial_code/ImgTrans/MakeBorder/copy_make_border.py\npython samples/python/tutorial_code/ImgTrans/Filter2D/filter2D.py\npython samples/python/tutorial_code/ImgTrans/LaPlace/laplace_demo.py\npython samples/python/tutorial_code/ImgTrans/SobelDemo/sobel_demo.py\npython samples/python/tutorial_code/ImgTrans/HoughLine/hough_lines.py\npython samples/python/tutorial_code/ImgTrans/HoughCircle/hough_circle.py\npython samples/python/tutorial_code/imgcodecs/animations.py\npython samples/python/tutorial_code/dnn/dnn_conversion/pytorch/segmentation/py_to_py_fcn_resnet50.py\npython samples/python/tutorial_code/videoio/video-input-psnr-ssim.py\npython samples/python/tutorial_code/features2D/Homography/panorama_stitching_rotating_camera.py\npython samples/python/tutorial_code/features2D/Homography/perspective_correction.py\npython samples/java/opencv_version.java\npython samples/java/ant/src/SimpleSample.java\npython samples/java/eclipse/HelloCV/src/Main.java\npython samples/java/tutorial_code/video/meanshift/CamshiftDemo.java\npython samples/java/tutorial_code/video/meanshift/MeanshiftDemo.java\npython samples/java/tutorial_code/video/background_subtraction/BackgroundSubtractionDemo.java\npython samples/java/tutorial_code/video/optical_flow/OpticalFlowDenseDemo.java\npython samples/java/tutorial_code/video/optical_flow/OpticalFlowDemo.java\npython samples/java/tutorial_code/Histograms_Matching/histogram_equalization/EqualizeHistDemo.java\npython samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo2.java\npython samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo1.java\npython samples/java/tutorial_code/Histograms_Matching/histogram_calculation/CalcHistDemo.java\npython samples/java/tutorial_code/Histograms_Matching/histogram_comparison/CompareHistDemo.java\npython samples/java/tutorial_code/core/mat_operations/MatOperations.java\npython samples/java/tutorial_code/core/AddingImages/AddingImages.java\npython samples/java/tutorial_code/core/mat_mask_operations/MatMaskOperations.java\npython samples/java/tutorial_code/core/discrete_fourier_transform/DiscreteFourierTransform.java\npython samples/java/tutorial_code/TrackingMotion/good_features_to_track/GoodFeaturesToTrackDemo.java\npython samples/java/tutorial_code/TrackingMotion/generic_corner_detector/CornerDetectorDemo.java\npython samples/java/tutorial_code/TrackingMotion/corner_subpixels/CornerSubPixDemo.java\npython samples/java/tutorial_code/TrackingMotion/harris_detector/CornerHarrisDemo.java\npython samples/java/tutorial_code/ImgProc/tutorial_template_matching/MatchTemplateDemo.java\npython samples/java/tutorial_code/ImgProc/opening_closing_hats/MorphologyDemo2.java\npython samples/java/tutorial_code/ImgProc/Smoothing/Smoothing.java\npython samples/java/tutorial_code/ImgProc/HitMiss/HitMiss.java\npython samples/java/tutorial_code/ImgProc/threshold_inRange/ThresholdInRange.java\npython samples/java/tutorial_code/ImgProc/threshold/Threshold.java\npython samples/java/tutorial_code/ImgProc/changing_contrast_brightness_image/BasicLinearTransformsDemo.java\npython samples/java/tutorial_code/ImgProc/changing_contrast_brightness_image/ChangingContrastBrightnessImageDemo.java\npython samples/java/tutorial_code/ImgProc/BasicGeometricDrawing/BasicGeometricDrawing.java\npython samples/java/tutorial_code/ImgProc/Pyramids/Pyramids.java\npython samples/java/tutorial_code/ImgProc/erosion_dilatation/MorphologyDemo1.java\npython samples/java/tutorial_code/ImgProc/morph_lines_detection/Morphology_3.java\npython samples/java/tutorial_code/introduction/documentation/Documentation.java\npython samples/java/tutorial_code/objectDetection/cascade_classifier/ObjectDetectionDemo.java\npython samples/java/tutorial_code/ImgTrans/MakeBorder/CopyMakeBorder.java\npython samples/java/tutorial_code/ImgTrans/distance_transformation/ImageSegmentationDemo.java\npython samples/java/tutorial_code/ImgTrans/remap/RemapDemo.java\npython samples/java/tutorial_code/ImgTrans/canny_detector/CannyDetectorDemo.java\npython samples/java/tutorial_code/ImgTrans/Filter2D/Filter2D_Demo.java\npython samples/java/tutorial_code/ImgTrans/LaPlace/LaplaceDemo.java\npython samples/java/tutorial_code/ImgTrans/SobelDemo/SobelDemo.java\npython samples/java/tutorial_code/ImgTrans/HoughLine/HoughLines.java\npython samples/java/tutorial_code/ImgTrans/warp_affine/GeometricTransformsDemo.java\npython samples/java/tutorial_code/ImgTrans/HoughCircle/HoughCircles.java\npython samples/java/tutorial_code/ShapeDescriptors/find_contours/FindContoursDemo.java\npython samples/java/tutorial_code/ShapeDescriptors/moments/MomentsDemo.java\npython samples/java/tutorial_code/ShapeDescriptors/bounding_rotated_ellipses/GeneralContoursDemo2.java\npython samples/java/tutorial_code/ShapeDescriptors/hull/HullDemo.java\npython samples/java/tutorial_code/ShapeDescriptors/point_polygon_test/PointPolygonTestDemo.java\npython samples/java/tutorial_code/ShapeDescriptors/bounding_rects_circles/GeneralContoursDemo1.java\npython samples/java/tutorial_code/ml/non_linear_svms/NonLinearSVMsDemo.java\npython samples/java/tutorial_code/ml/introduction_to_svm/IntroductionToSVMDemo.java\npython samples/java/tutorial_code/ml/introduction_to_pca/IntroductionToPCADemo.java\npython samples/java/tutorial_code/highgui/trackbar/AddingImagesTrackbar.java\npython samples/java/tutorial_code/features2D/feature_detection/SURFDetectionDemo.java\npython samples/java/tutorial_code/features2D/feature_flann_matcher/SURFFLANNMatchingDemo.java\npython samples/java/tutorial_code/features2D/feature_homography/SURFFLANNMatchingHomographyDemo.java\npython samples/java/tutorial_code/features2D/Homography/PerspectiveCorrection.java\npython samples/java/tutorial_code/features2D/Homography/PanoramaStitchingRotatingCamera.java\npython samples/java/tutorial_code/features2D/akaze_matching/AKAZEMatchDemo.java\npython samples/java/tutorial_code/features2D/feature_description/SURFMatchingDemo.java\npython samples/java/tutorial_code/photo/hdr_imaging/HDRImagingDemo.java\npython samples/opencl/opencl-opencv-interop.cpp\npython samples/cpp/videocapture_obsensor.cpp\npython samples/cpp/train_svmsgd.cpp\npython samples/cpp/delaunay2.cpp\npython samples/cpp/minarea.cpp\npython samples/cpp/epipolar_lines.cpp\npython samples/cpp/cout_mat.cpp\npython samples/cpp/imagelist_creator.cpp\npython samples/cpp/videocapture_audio.cpp\npython samples/cpp/gauge.cpp\npython samples/cpp/imgcodecs_jpeg.cpp\npython samples/cpp/videowriter_basic.cpp\npython samples/cpp/opencv_version.cpp\npython samples/cpp/train_HOG.cpp\npython samples/cpp/tree_engine.cpp\npython samples/cpp/lsd_lines.cpp\npython samples/cpp/stitching.cpp\npython samples/cpp/calibration.cpp\npython samples/cpp/warpPerspective_demo.cpp\npython samples/cpp/videocapture_starter.cpp\npython samples/cpp/flann_search_dataset.cpp\npython samples/cpp/neural_network.cpp\npython samples/cpp/barcode.cpp\npython samples/cpp/watershed.cpp\npython samples/cpp/videocapture_basic.cpp\npython samples/cpp/fback.cpp\npython samples/cpp/fitellipse.cpp\npython samples/cpp/letter_recog.cpp\npython samples/cpp/facedetect.cpp\npython samples/cpp/text_skewness_correction.cpp\npython samples/cpp/dft.cpp\npython samples/cpp/logistic_regression.cpp\npython samples/cpp/camshiftdemo.cpp\npython samples/cpp/create_mask.cpp\npython samples/cpp/ela.cpp\npython samples/cpp/pca.cpp\npython samples/cpp/detect_mser.cpp\npython samples/cpp/videocapture_realsense.cpp\npython samples/cpp/imagelist_reader.cpp\npython samples/cpp/morphology2.cpp\npython samples/cpp/simd_basic.cpp\npython samples/cpp/dbt_face_detection.cpp\npython samples/cpp/kalman.cpp\npython samples/cpp/falsecolor.cpp\npython samples/cpp/cloning_demo.cpp\npython samples/cpp/npr_demo.cpp\npython samples/cpp/asift.cpp\npython samples/cpp/matchmethod_orb_akaze_brisk.cpp\npython samples/cpp/demhist.cpp\npython samples/cpp/drawing.cpp\npython samples/cpp/videocapture_gphoto2_autofocus.cpp\npython samples/cpp/stereo_calib.cpp\npython samples/cpp/stitching_detailed.cpp\npython samples/cpp/digits_svm.cpp\npython samples/cpp/3calibration.cpp\npython samples/cpp/em.cpp\npython samples/cpp/detect_blob.cpp\npython samples/cpp/videocapture_gstreamer_pipeline.cpp\npython samples/cpp/travelsalesman.cpp\npython samples/cpp/laplace.cpp\npython samples/cpp/contours2.cpp\npython samples/cpp/segment_objects.cpp\npython samples/cpp/kmeans.cpp\npython samples/cpp/smiledetect.cpp\npython samples/cpp/points_classifier.cpp\npython samples/cpp/convexhull.cpp\npython samples/cpp/select3dobj.cpp\npython samples/cpp/aruco_dict_utils.cpp\npython samples/cpp/audio_spectrogram.cpp\npython samples/cpp/essential_mat_reconstr.cpp\npython samples/cpp/dis_opticalflow.cpp\npython samples/cpp/videocapture_audio_combination.cpp\npython samples/cpp/facial_features.cpp\npython samples/cpp/polar_transforms.cpp\npython samples/cpp/videocapture_image_sequence.cpp\npython samples/cpp/intersectExample.cpp\npython samples/cpp/squares.cpp\npython samples/cpp/digits_lenet.cpp\npython samples/cpp/inpaint.cpp\npython samples/cpp/videocapture_camera.cpp\npython samples/cpp/bgfg_segm.cpp\npython samples/cpp/cloning_gui.cpp\npython samples/cpp/peopledetect.cpp\npython samples/cpp/ffilldemo.cpp\npython samples/cpp/stereo_match.cpp\npython samples/cpp/videocapture_microphone.cpp\npython samples/cpp/intelligent_scissors.cpp\npython samples/cpp/application_trace.cpp\npython samples/cpp/mask_tmpl.cpp\npython samples/cpp/image_alignment.cpp\npython samples/cpp/lkdemo.cpp\npython samples/cpp/distrans.cpp\npython samples/cpp/grabcut.cpp\npython samples/cpp/edge.cpp\npython samples/cpp/qrcode.cpp\npython samples/cpp/connected_components.cpp\npython samples/cpp/phase_corr.cpp\npython samples/cpp/videocapture_openni.cpp\npython samples/cpp/tutorial_code/snippets/imgproc_calcHist.cpp\npython samples/cpp/tutorial_code/snippets/core_merge.cpp\npython samples/cpp/tutorial_code/snippets/core_mat_checkVector.cpp\npython samples/cpp/tutorial_code/snippets/imgproc_HoughLinesP.cpp\npython samples/cpp/tutorial_code/snippets/imgproc_segmentation.cpp\npython samples/cpp/tutorial_code/snippets/core_split.cpp\npython samples/cpp/tutorial_code/snippets/imgproc_HoughLinesCircles.cpp\npython samples/cpp/tutorial_code/snippets/imgproc_applyColorMap.cpp\npython samples/cpp/tutorial_code/snippets/imgcodecs_imwrite.cpp\npython samples/cpp/tutorial_code/snippets/core_reduce.cpp\npython samples/cpp/tutorial_code/snippets/imgproc_drawContours.cpp\npython samples/cpp/tutorial_code/snippets/imgproc_HoughLinesPointSet.cpp\npython samples/cpp/tutorial_code/snippets/core_various.cpp\npython samples/cpp/tutorial_code/video/bg_sub.cpp\npython samples/cpp/tutorial_code/video/meanshift/meanshift.cpp\npython samples/cpp/tutorial_code/video/meanshift/camshift.cpp\npython samples/cpp/tutorial_code/video/optical_flow/optical_flow.cpp\npython samples/cpp/tutorial_code/video/optical_flow/optical_flow_dense.cpp\npython samples/cpp/tutorial_code/gpu/gpu-basics-similarity/gpu-basics-similarity.cpp\npython samples/cpp/tutorial_code/Histograms_Matching/compareHist_Demo.cpp\npython samples/cpp/tutorial_code/Histograms_Matching/calcHist_Demo.cpp\npython samples/cpp/tutorial_code/Histograms_Matching/MatchTemplate_Demo.cpp\npython samples/cpp/tutorial_code/Histograms_Matching/EqualizeHist_Demo.cpp\npython samples/cpp/tutorial_code/Histograms_Matching/calcBackProject_Demo1.cpp\npython samples/cpp/tutorial_code/Histograms_Matching/calcBackProject_Demo2.cpp\npython samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp\npython samples/cpp/tutorial_code/core/parallel_backend/example-tbb.cpp\npython samples/cpp/tutorial_code/core/parallel_backend/example-openmp.cpp\npython samples/cpp/tutorial_code/core/mat_operations/mat_operations.cpp\npython samples/cpp/tutorial_code/core/AddingImages/AddingImages.cpp\npython samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_new.cpp\npython samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_.cpp\npython samples/cpp/tutorial_code/core/file_input_output/file_input_output.cpp\npython samples/cpp/tutorial_code/core/univ_intrin/univ_intrin.cpp\npython samples/cpp/tutorial_code/core/mat_mask_operations/mat_mask_operations.cpp\npython samples/cpp/tutorial_code/core/mat_the_basic_image_container/mat_the_basic_image_container.cpp\npython samples/cpp/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.cpp\npython samples/cpp/tutorial_code/TrackingMotion/cornerDetector_Demo.cpp\npython samples/cpp/tutorial_code/TrackingMotion/cornerHarris_Demo.cpp\npython samples/cpp/tutorial_code/TrackingMotion/goodFeaturesToTrack_Demo.cpp\npython samples/cpp/tutorial_code/TrackingMotion/cornerSubPix_Demo.cpp\npython samples/cpp/tutorial_code/ImgProc/Morphology_1.cpp\npython samples/cpp/tutorial_code/ImgProc/Threshold_inRange.cpp\npython samples/cpp/tutorial_code/ImgProc/Morphology_2.cpp\npython samples/cpp/tutorial_code/ImgProc/BasicLinearTransforms.cpp\npython samples/cpp/tutorial_code/ImgProc/Threshold.cpp\npython samples/cpp/tutorial_code/ImgProc/Smoothing/Smoothing.cpp\npython samples/cpp/tutorial_code/ImgProc/HitMiss/HitMiss.cpp\npython samples/cpp/tutorial_code/ImgProc/motion_deblur_filter/motion_deblur_filter.cpp\npython samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_2.cpp\npython samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_1.cpp\npython samples/cpp/tutorial_code/ImgProc/changing_contrast_brightness_image/changing_contrast_brightness_image.cpp\npython samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp\npython samples/cpp/tutorial_code/ImgProc/Pyramids/Pyramids.cpp\npython samples/cpp/tutorial_code/ImgProc/out_of_focus_deblur_filter/out_of_focus_deblur_filter.cpp\npython samples/cpp/tutorial_code/ImgProc/morph_lines_detection/Morphology_3.cpp\npython samples/cpp/tutorial_code/ImgProc/anisotropic_image_segmentation/anisotropic_image_segmentation.cpp\npython samples/cpp/tutorial_code/xfeatures2D/LATCH_match.cpp\npython samples/cpp/tutorial_code/introduction/documentation/documentation.cpp\npython samples/cpp/tutorial_code/introduction/display_image/display_image.cpp\npython samples/cpp/tutorial_code/introduction/windows_visual_studio_opencv/introduction_windows_vs.cpp\npython samples/cpp/tutorial_code/gapi/doc_snippets/api_ref_snippets.cpp\npython samples/cpp/tutorial_code/gapi/doc_snippets/kernel_api_snippets.cpp\npython samples/cpp/tutorial_code/gapi/doc_snippets/dynamic_graph_snippets.cpp\npython samples/cpp/tutorial_code/gapi/porting_anisotropic_image_segmentation/porting_anisotropic_image_segmentation_gapi.cpp\npython samples/cpp/tutorial_code/gapi/porting_anisotropic_image_segmentation/porting_anisotropic_image_segmentation_gapi_fluid.cpp\npython samples/cpp/tutorial_code/gapi/security_barrier_camera/security_barrier_camera.cpp\npython samples/cpp/tutorial_code/gapi/age_gender_emotion_recognition/age_gender_emotion_recognition.cpp\npython samples/cpp/tutorial_code/gapi/face_beautification/face_beautification.cpp\npython samples/cpp/tutorial_code/objectDetection/create_diamond.cpp\npython samples/cpp/tutorial_code/objectDetection/create_marker.cpp\npython samples/cpp/tutorial_code/objectDetection/calibrate_camera_charuco.cpp\npython samples/cpp/tutorial_code/objectDetection/detect_markers.cpp\npython samples/cpp/tutorial_code/objectDetection/detect_diamonds.cpp\npython samples/cpp/tutorial_code/objectDetection/detect_board_charuco.cpp\npython samples/cpp/tutorial_code/objectDetection/detect_board.cpp\npython samples/cpp/tutorial_code/objectDetection/create_board_charuco.cpp\npython samples/cpp/tutorial_code/objectDetection/create_board.cpp\npython samples/cpp/tutorial_code/objectDetection/calibrate_camera.cpp\npython samples/cpp/tutorial_code/objectDetection/objectDetection.cpp\npython samples/cpp/tutorial_code/ImgTrans/imageSegmentation.cpp\npython samples/cpp/tutorial_code/ImgTrans/generalizedHoughTransform.cpp\npython samples/cpp/tutorial_code/ImgTrans/Laplace_Demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/CannyDetector_Demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/Geometric_Transforms_Demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/filter2D_demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/houghcircles.cpp\npython samples/cpp/tutorial_code/ImgTrans/copyMakeBorder_demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/Sobel_Demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/HoughLines_Demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/HoughCircle_Demo.cpp\npython samples/cpp/tutorial_code/ImgTrans/houghlines.cpp\npython samples/cpp/tutorial_code/ImgTrans/Remap_Demo.cpp\npython samples/cpp/tutorial_code/ShapeDescriptors/pointPolygonTest_demo.cpp\npython samples/cpp/tutorial_code/ShapeDescriptors/hull_demo.cpp\npython samples/cpp/tutorial_code/ShapeDescriptors/moments_demo.cpp\npython samples/cpp/tutorial_code/ShapeDescriptors/generalContours_demo1.cpp\npython samples/cpp/tutorial_code/ShapeDescriptors/findContours_demo.cpp\npython samples/cpp/tutorial_code/ShapeDescriptors/generalContours_demo2.cpp\npython samples/cpp/tutorial_code/ml/non_linear_svms/non_linear_svms.cpp\npython samples/cpp/tutorial_code/ml/introduction_to_svm/introduction_to_svm.cpp\npython samples/cpp/tutorial_code/ml/introduction_to_pca/introduction_to_pca.cpp\npython samples/cpp/tutorial_code/imgcodecs/animations.cpp\npython samples/cpp/tutorial_code/imgcodecs/GDAL_IO/gdal-image.cpp\npython samples/cpp/tutorial_code/videoio/video-input-psnr-ssim/video-input-psnr-ssim.cpp\npython samples/cpp/tutorial_code/videoio/video-write/video-write.cpp\npython samples/cpp/tutorial_code/videoio/openni_orbbec_astra/openni_orbbec_astra.cpp\npython samples/cpp/tutorial_code/HighGUI/AddingImagesTrackbar.cpp\npython samples/cpp/tutorial_code/HighGUI/BasicLinearTransformsTrackbar.cpp\npython samples/cpp/tutorial_code/features2D/AKAZE_match.cpp\npython samples/cpp/tutorial_code/features2D/AKAZE_tracking/planar_tracking.cpp\npython samples/cpp/tutorial_code/features2D/feature_detection/SURF_detection_Demo.cpp\npython samples/cpp/tutorial_code/features2D/feature_flann_matcher/SURF_FLANN_matching_Demo.cpp\npython samples/cpp/tutorial_code/features2D/feature_homography/SURF_FLANN_matching_homography_Demo.cpp\npython samples/cpp/tutorial_code/features2D/Homography/perspective_correction.cpp\npython samples/cpp/tutorial_code/features2D/Homography/homography_from_camera_displacement.cpp\npython samples/cpp/tutorial_code/features2D/Homography/panorama_stitching_rotating_camera.cpp\npython samples/cpp/tutorial_code/features2D/Homography/decompose_homography.cpp\npython samples/cpp/tutorial_code/features2D/Homography/pose_from_homography.cpp\npython samples/cpp/tutorial_code/features2D/feature_description/SURF_matching_Demo.cpp\npython samples/cpp/tutorial_code/photo/non_photorealistic_rendering/npr_demo.cpp\npython samples/cpp/tutorial_code/photo/decolorization/decolor.cpp\npython samples/cpp/tutorial_code/photo/hdr_imaging/hdr_imaging.cpp\npython samples/cpp/tutorial_code/photo/seamless_cloning/cloning_demo.cpp\npython samples/cpp/tutorial_code/photo/seamless_cloning/cloning_gui.cpp\npython samples/cpp/tutorial_code/calib3d/real_time_pose_estimation/src/main_registration.cpp\npython samples/cpp/tutorial_code/calib3d/real_time_pose_estimation/src/main_detection.cpp\npython samples/cpp/tutorial_code/calib3d/camera_calibration/camera_calibration.cpp\npython samples/cpp/example_cmake/example.cpp\npython samples/sycl/sycl-opencv-interop.cpp\npython samples/va_intel/va_intel_interop.cpp\npython samples/dnn/openpose.cpp\npython samples/dnn/human_parsing.py\npython samples/dnn/dasiamrpn_tracker.cpp\npython samples/dnn/download_models.py\npython samples/dnn/colorization.cpp\npython samples/dnn/speech_recognition.py\npython samples/dnn/text_detection.py\npython samples/dnn/person_reid.cpp\npython samples/dnn/scene_text_detection.cpp\npython samples/dnn/classification.py\npython samples/dnn/face_detect.cpp\npython samples/dnn/virtual_try_on.py\npython samples/dnn/segmentation.cpp\npython samples/dnn/tf_text_graph_ssd.py\npython samples/dnn/siamrpnpp.py\npython samples/dnn/action_recognition.py\npython samples/dnn/optical_flow.py\npython samples/dnn/tf_text_graph_faster_rcnn.py\npython samples/dnn/scene_text_spotting.cpp\npython samples/dnn/human_parsing.cpp\npython samples/dnn/scene_text_recognition.cpp\npython samples/dnn/colorization.py\npython samples/dnn/yolo_detector.cpp\npython samples/dnn/classification.cpp\npython samples/dnn/nanotrack_tracker.cpp\npython samples/dnn/tf_text_graph_efficientdet.py\npython samples/dnn/person_reid.py\npython samples/dnn/object_detection.cpp\npython samples/dnn/vit_tracker.cpp\npython samples/dnn/text_detection.cpp\npython samples/dnn/face_detect.py\npython samples/dnn/speech_recognition.cpp\npython samples/dnn/dnn_model_runner/dnn_conversion/paddlepaddle/paddle_humanseg.py\npython samples/dnn/dnn_model_runner/dnn_conversion/paddlepaddle/paddle_resnet50.py\npython samples/dnn/dnn_model_runner/dnn_conversion/pytorch/classification/py_to_py_resnet50_onnx.py\npython samples/dnn/dnn_model_runner/dnn_conversion/pytorch/classification/py_to_py_resnet50.py\npython samples/dnn/dnn_model_runner/dnn_conversion/pytorch/classification/py_to_py_cls.py\npython samples/dnn/dnn_model_runner/dnn_conversion/tf/classification/py_to_py_mobilenet.py\npython samples/dnn/dnn_model_runner/dnn_conversion/tf/classification/py_to_py_cls.py\npython samples/dnn/dnn_model_runner/dnn_conversion/tf/detection/py_to_py_ssd_mobilenet.py\npython samples/openvx/wrappers.cpp\npython samples/openvx/wrappers_video.cpp\npython samples/openvx/no_wrappers.cpp\npython samples/semihosting/norm/norm.cpp\npython samples/semihosting/histogram/histogram.cpp\npython samples/directx/d3d9_interop.cpp\npython samples/directx/d3d10_interop.cpp\npython samples/directx/d3d9ex_interop.cpp\npython samples/directx/d3d11_interop.cpp\npython samples/opengl/opengl.cpp\npython samples/opengl/opengl3_2.cpp\npython samples/opengl/opengl_interop.cpp\npython doc/tools/scan_tutorials.py\npython 3rdparty/openjpeg/openjp2/t1_generate_luts.c\npython 3rdparty/openjpeg/openjp2/bench_dwt.c\npython 3rdparty/openjpeg/openjp2/test_sparse_array.c\npython 3rdparty/libjpeg-turbo/src/jcstest.c\npython 3rdparty/zlib/inflate.c\npython 3rdparty/zlib/crc32.c\npython 3rdparty/openexr/IlmImf/dwaLookups.cpp\npython 3rdparty/zlib-ng/win32/depcheck.cpp\npython modules/video/misc/python/test/test_lk_track.py\npython modules/video/misc/python/test/test_tracking.py\npython modules/video/misc/python/test/test_lk_homography.py\npython modules/flann/misc/python/test/test_flann_based_matcher.py\npython modules/core/include/opencv2/core/cuda.hpp\npython modules/core/include/opencv2/core/persistence.hpp\npython modules/core/include/opencv2/core/core_c.h\npython modules/core/src/downhill_simplex.cpp\npython modules/stitching/misc/python/test/test_stitching.py\npython modules/python/test/test_fitline.py\npython modules/python/test/test_fs_cache_dir.py\npython modules/python/test/test_misc.py\npython modules/python/test/test_camshift.py\npython modules/python/test/test_pathlike.py\npython modules/python/test/test_houghlines.py\npython modules/python/test/test_watershed.py\npython modules/python/test/test_async.py\npython modules/python/test/test_dft.py\npython modules/python/test/test_morphology.py\npython modules/python/test/test_copytomask.py\npython modules/python/test/test_norm.py\npython modules/python/test/test_mser.py\npython modules/python/test/test.py\npython modules/python/test/test_imread.py\npython modules/python/test/test_squares.py\npython modules/python/test/test_cuda.py\npython modules/python/test/test_umat.py\npython modules/python/test/test_legacy.py\npython modules/python/test/test_filestorage_io.py\npython modules/python/test/tst_scene_render.py\npython modules/python/test/test_mat.py\npython modules/python/test/test_features2d.py\npython modules/python/test/test_grabcut.py\npython modules/python/test/test_houghcircles.py\npython modules/python/test/test_texture_flow.py\npython modules/python/test/test_kmeans.py\npython modules/python/test/test_gaussian_mix.py\npython modules/python/src2/hdr_parser.py\npython modules/python/src2/gen2.py\npython modules/python/src2/copy_typings_stubs_on_success.py\npython modules/python/src2/typing_stubs_generation/ast_utils.py\npython modules/python/src2/typing_stubs_generation/types_conversion.py\npython modules/python/package/setup.py\npython modules/objdetect/misc/python/test/test_peopledetect.py\npython modules/objdetect/misc/python/test/test_objdetect_aruco.py\npython modules/objdetect/misc/python/test/test_facedetect.py\npython modules/js/generator/embindgen.py\npython modules/js/src/make_umd.py\npython modules/gapi/misc/python/test/test_gapi_infer_onnx.py\npython modules/gapi/misc/python/test/test_gapi_infer.py\npython modules/gapi/misc/python/test/test_gapi_sample_pipelines.py\npython modules/gapi/misc/python/test/test_gapi_render.py\npython modules/gapi/misc/python/test/test_gapi_infer_ov.py\npython modules/gapi/misc/python/test/test_gapi_stateful_kernel.py\npython modules/gapi/misc/python/test/test_gapi_streaming.py\npython modules/gapi/misc/python/test/test_gapi_ot.py\npython modules/gapi/misc/python/test/test_gapi_core.py\npython modules/gapi/misc/python/test/test_gapi_kernels.py\npython modules/gapi/misc/python/test/test_gapi_types.py\npython modules/gapi/misc/python/test/test_gapi_imgproc.py\npython modules/gapi/misc/python/samples/gaze_estimation.py\npython modules/gapi/samples/privacy_masking_camera.cpp\npython modules/gapi/samples/onevpl_infer_with_advanced_device_selection.cpp\npython modules/gapi/samples/draw_example.cpp\npython modules/gapi/samples/oak_small_hetero_pipeline.cpp\npython modules/gapi/samples/oak_basic_infer.cpp\npython modules/gapi/samples/infer_single_roi.cpp\npython modules/gapi/samples/oak_rgb_camera_encoding.cpp\npython modules/gapi/samples/slides_blur_gapi.cpp\npython modules/gapi/samples/infer_ie_onnx_hybrid.cpp\npython modules/gapi/samples/slides_sobel_gapi.cpp\npython modules/gapi/samples/onevpl_source_to_bgr_conv.cpp\npython modules/gapi/samples/face_detection_mtcnn.cpp\npython modules/gapi/samples/oak_copy.cpp\npython modules/gapi/samples/semantic_segmentation.cpp\npython modules/gapi/samples/api_example.cpp\npython modules/gapi/samples/text_detection.cpp\npython modules/gapi/samples/gaze_estimation.cpp\npython modules/gapi/samples/slides_sobel_cv.cpp\npython modules/gapi/samples/pipeline_modeling_tool.cpp\npython modules/gapi/samples/infer_ssd_onnx.cpp\npython modules/java/check-tests.py\npython modules/java/generator/gen_java.py\npython modules/ml/misc/python/test/test_knearest.py\npython modules/ml/misc/python/test/test_digits.py\npython modules/ml/misc/python/test/test_goodfeatures.py\npython modules/ml/misc/python/test/test_letter_recog.py\npython modules/dnn/misc/python/test/test_dnn.py\npython modules/dnn/test/imagenet_cls_test_inception.py\npython modules/dnn/test/cityscapes_semsegm_test_enet.py\npython modules/dnn/test/imagenet_cls_test_googlenet.py\npython modules/dnn/test/imagenet_cls_test_alexnet.py\npython modules/dnn/test/pascal_semsegm_test_fcn.py\npython modules/videoio/misc/python/test/test_videoio.py\npython modules/highgui/doc/highgui_qt.cpp\npython modules/objc/generator/gen_objc.py\npython modules/features2d/misc/python/test/test_feature_homography.py\npython modules/ts/misc/testlog_parser.py\npython modules/ts/misc/run_long.py\npython modules/ts/misc/run.py\npython modules/ts/misc/concatlogs.py\npython modules/ts/misc/chart.py\npython modules/ts/misc/run_utils.py\npython modules/ts/misc/summary.py\npython modules/ts/misc/table_formatter.py\npython modules/ts/misc/run_android.py\npython modules/ts/misc/perf_tests_timing.py\npython modules/ts/misc/run_suite.py\npython modules/ts/misc/xls-report.py\npython modules/ts/misc/trace_profiler.py\npython modules/ts/misc/report.py\npython modules/ts/include/opencv2/ts.hpp\npython modules/ts/include/opencv2/ts/cuda_perf.hpp\npython modules/ts/include/opencv2/ts/ts_perf.hpp\npython modules/ts/include/opencv2/ts/cuda_test.hpp\npython modules/calib3d/misc/python/test/test_solvepnp.py\npython modules/calib3d/misc/python/test/test_calibration.py\npython apps/python_app_test.py\npython apps/annotation/opencv_annotation.cpp\npython apps/pattern-tools/generate_pattern.py\npython apps/version/opencv_version.cpp\npython apps/visualisation/opencv_visualisation.cpp\npython apps/traincascade/traincascade.cpp\npython apps/interactive-calibration/main.cpp\npython apps/model-diagnostics/model_diagnostics.cpp\npython apps/createsamples/createsamples.cpp\n```\n\n\n## Project Structure\n\n```\nOpenCV/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 opencv/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 tests/                                  # Test suite\n\u2502   \u251c\u2500\u2500 __init__.py                         # Tests init\n\u2502   \u251c\u2500\u2500 conftest.py                         # Pytest fixtures\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Unit tests init\n\u2502   \u2502   \u251c\u2500\u2500 test_core.py                    # Core module tests\n\u2502   \u2502   \u251c\u2500\u2500 test_models.py                  # Model tests\n\u2502   \u2502   \u2514\u2500\u2500 test_utils.py                   # Utility tests\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 integration/                        # Integration tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Integration init\n\u2502   \u2502   \u2514\u2500\u2500 test_api.py                     # API integration\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 fixtures/                           # Test fixtures\n\u2502       \u251c\u2500\u2500 sample_data.json                # Sample test data\n\u2502       \u2514\u2500\u2500 mock_responses.py               # Mock responses\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `opencv/` | Main package containing all source modules |\n| `opencv/cli/` | Command-line interface implementation |\n| `opencv/core/` | Core business logic and processing |\n| `opencv/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: onnx, numpy, torch, torchvision, tensorflow\n\n\n## Testing\n\nRun the test suite:\n\n```bash\npytest\n# or\npython -m pytest\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| onnx | >=1.7.0 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| numpy | >=1.19.1 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| torch | >=1.5.1 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| torchvision | >=0.6.1 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| tensorflow | >=2.1.0 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| tensorflow-gpu | >=2.1.0 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| paddlepaddle | >=2.0.0 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| paddlepaddle-gpu | >=2.0.0 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| paddlehub | >=2.1.0 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| paddle2onnx | >=0.5.1 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| paddleseg | >=2.0.0 | samples/dnn/dnn_model_runner/dnn_conversion/requirements.txt |\n| PkgConfig | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| Java | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| JNI | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| Flake8 | \u26a0\ufe0f Version unknown | CMakeLists.txt [find_package] |\n| opencv2 | \u26a0\ufe0f Version unknown | Code import analysis |\n| org | \u26a0\ufe0f Version unknown | Code import analysis |\n| google | \u26a0\ufe0f Version unknown | Code import analysis |\n| src | \u26a0\ufe0f Version unknown | Code import analysis |\n| precomp | \u26a0\ufe0f Version unknown | Code import analysis |\n| test_precomp | \u26a0\ufe0f Version unknown | Code import analysis |\n| android | \u26a0\ufe0f Version unknown | Code import analysis |\n| cv2 | \u26a0\ufe0f Version unknown | Code import analysis |\n| streaming | \u26a0\ufe0f Version unknown | Code import analysis |\n| __future__ | \u26a0\ufe0f Version unknown | Code import analysis |\n| jasper | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| svglib | >=1.5.1 | apps/pattern-tools/requirements-test.txt |\n| reportlab | >=4.0.0 | apps/pattern-tools/requirements-test.txt |\n\n> **Note:** 15 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\n## License\n\nThis project is licensed under the **Apache-2.0** license.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "opencv/opencv"
+}

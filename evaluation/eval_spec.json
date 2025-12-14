@@ -1,0 +1,123 @@
+{
+  "version": "1.0",
+  "description": "AutoDoc Evaluation Specification for INFO-202",
+  "evaluation_mode": "gold_only_with_runtime_generation",
+  "fields": {
+    "project_title": {
+      "gold_column": "project_title",
+      "autodoc_source": "metadata.name.value",
+      "metric_type": "exact_match",
+      "normalization": {
+        "lowercase": true,
+        "strip_whitespace": true,
+        "collapse_spaces": true,
+        "strip_punctuation_ends": true
+      },
+      "aliases": {}
+    },
+    "primary_language": {
+      "gold_column": "primary_language",
+      "autodoc_source": "metadata.primary_language.value",
+      "metric_type": "exact_match",
+      "normalization": {
+        "lowercase": true,
+        "strip_whitespace": true
+      },
+      "aliases": {
+        "javascript": ["js", "node", "nodejs"],
+        "python": ["py", "python3"],
+        "c++": ["cpp", "cxx"],
+        "c#": ["csharp"]
+      }
+    },
+    "installation_method": {
+      "gold_column": "installation_method",
+      "autodoc_source": "inferred_from_readme_or_metadata",
+      "metric_type": "exact_match",
+      "normalization": {
+        "lowercase": true,
+        "strip_whitespace": true
+      },
+      "aliases": {
+        "pip": ["pip3", "python -m pip"],
+        "npm": ["yarn", "pnpm"],
+        "maven": ["mvn"],
+        "gradle": ["gradlew"]
+      }
+    },
+    "license_name": {
+      "gold_column": "license_name",
+      "autodoc_source": "metadata.license.value",
+      "metric_type": "exact_match",
+      "normalization": {
+        "lowercase": true,
+        "strip_whitespace": true,
+        "collapse_spaces": true
+      },
+      "aliases": {
+        "mit": ["mit license", "the mit license"],
+        "apache-2.0": ["apache 2.0", "apache license 2.0", "apache license, version 2.0"],
+        "gpl-2.0": ["gpl 2.0", "gnu gpl v2", "gplv2"],
+        "gpl-3.0": ["gpl 3.0", "gnu gpl v3", "gplv3"],
+        "bsd-3-clause": ["bsd 3-clause", "bsd-3", "bsd 3 clause", "new bsd"],
+        "bsd-2-clause": ["bsd 2-clause", "bsd-2", "simplified bsd"],
+        "epl-1.0": ["eclipse public license 1.0", "epl 1.0"],
+        "psf": ["python software foundation license", "psf license"]
+      }
+    },
+    "description": {
+      "gold_column": "description",
+      "autodoc_source": "metadata.description.value",
+      "metric_type": "semantic_similarity",
+      "similarity_threshold": 0.7,
+      "fallback_metric": "rouge_l",
+      "fallback_threshold": 0.5
+    },
+    "usage_type": {
+      "gold_column": "usage_type",
+      "autodoc_source": "inferred_from_entry_points",
+      "metric_type": "categorical_match",
+      "valid_categories": ["library", "cli", "framework", "service", "system", "library+cli"]
+    },
+    "usage_entry_point": {
+      "gold_column": "usage_entry_point",
+      "autodoc_source": "metadata.entry_points",
+      "metric_type": "entry_point_plausibility",
+      "notes": "Check if extracted entry point is plausible for the language/ecosystem"
+    },
+    "security_relevant": {
+      "gold_column": "security_relevant",
+      "autodoc_source": "inferred_from_security_analysis",
+      "metric_type": "binary_accuracy",
+      "true_values": ["true", "yes", "1"],
+      "false_values": ["false", "no", "0"]
+    },
+    "supported_by_autodoc": {
+      "gold_column": "supported_by_autodoc",
+      "autodoc_source": "ground_truth_annotation",
+      "metric_type": "categorical",
+      "categories": ["full", "partial", "none"],
+      "notes": "This is a gold annotation about AutoDoc's expected capability level"
+    }
+  },
+  "aggregate_metrics": {
+    "exact_match_fields": ["project_title", "primary_language", "installation_method", "license_name"],
+    "semantic_fields": ["description"],
+    "binary_fields": ["security_relevant"],
+    "categorical_fields": ["usage_type", "supported_by_autodoc"]
+  },
+  "breakdown_dimensions": [
+    {
+      "name": "primary_language",
+      "column": "primary_language"
+    },
+    {
+      "name": "repo_size_bucket",
+      "column": "repo_size_bucket"
+    },
+    {
+      "name": "supported_by_autodoc",
+      "column": "supported_by_autodoc"
+    }
+  ]
+}

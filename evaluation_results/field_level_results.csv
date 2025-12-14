@@ -1,0 +1,208 @@
+repo,field,gold_value,pred_value,correct,metric_type,similarity,notes,error_type
+ahupp/python-magic,project_title,python-magic,python-magic,1,semantic_match,,,
+ahupp/python-magic,primary_language,Python,Python,1,exact_match,,,
+ahupp/python-magic,license_name,MIT,MIT,1,exact_match,,,
+ahupp/python-magic,description,"python-magic is a library project primarily written in Python. It is designed to provide a
+focused a...",File type identification using libmagic,1,semantic_similarity,0.0723,,
+ahupp/python-magic,usage_type,library,library,1,categorical,,,
+ahupp/python-magic,installation_method,pip,pip,1,flexible_match,,,
+simonw/sqlite-utils,project_title,sqlite-utils,sqlite-utils,1,semantic_match,,,
+simonw/sqlite-utils,primary_language,Python,Python,1,exact_match,,,
+simonw/sqlite-utils,license_name,Apache-2.0,Apache-2.0,1,exact_match,,,
+simonw/sqlite-utils,description,"sqlite-utils is a library+cli project primarily written in Python. It is designed to
+provide a focus...",CLI tool and Python library for manipulating SQLite databases,1,semantic_similarity,0.7738,,
+simonw/sqlite-utils,usage_type,library+cli,cli,1,categorical,,,
+simonw/sqlite-utils,installation_method,pip,pip,1,flexible_match,,,
+psf/requests-html,project_title,requests-html,project,1,semantic_match,0.3846,,
+psf/requests-html,primary_language,Python,Python,1,exact_match,,,
+psf/requests-html,license_name,MIT,MIT,1,exact_match,,,
+psf/requests-html,description,"requests-html is a library project primarily written in Python. It is designed to provide
+a focused ...",\n,0,semantic_similarity,0.0030,,INCORRECT_INFERENCE
+psf/requests-html,usage_type,library,library,1,categorical,,,
+psf/requests-html,installation_method,pip,pip,1,flexible_match,,,
+jazzband/contextlib2,project_title,contextlib2,contextlib2,1,semantic_match,,,
+jazzband/contextlib2,primary_language,Python,Python,1,exact_match,,,
+jazzband/contextlib2,license_name,PSF,PSF License,1,exact_match,,,
+jazzband/contextlib2,description,Backport of Python 3 contextlib features to Python 2.7.,Backports and enhancements for the contextlib module,1,semantic_similarity,0.7792,,
+jazzband/contextlib2,usage_type,library,library,1,categorical,,,
+jazzband/contextlib2,installation_method,pip,pip,1,flexible_match,,,
+sindresorhus/is,project_title,is,@sindresorhus/is,1,semantic_match,0.9000,,
+sindresorhus/is,primary_language,JavaScript,TypeScript,1,exact_match,,,
+sindresorhus/is,license_name,MIT,MIT,1,exact_match,,,
+sindresorhus/is,description,"is is a library project primarily written in JavaScript. It is designed to provide a
+focused and reu...",Type check values,1,semantic_similarity,0.1472,,
+sindresorhus/is,usage_type,library,library,1,categorical,,,
+sindresorhus/is,installation_method,npm,npm,1,flexible_match,,,
+vercel/serve-handler,project_title,serve-handler,serve-handler,1,semantic_match,,,
+vercel/serve-handler,primary_language,JavaScript,JavaScript,1,exact_match,,,
+vercel/serve-handler,license_name,MIT,MIT,1,exact_match,,,
+vercel/serve-handler,description,"serve-handler is a library project primarily written in JavaScript. It is designed to
+provide a focu...",The routing foundation of `serve`,1,semantic_similarity,0.5395,,
+vercel/serve-handler,usage_type,library,library,1,categorical,,,
+vercel/serve-handler,installation_method,npm,npm,1,flexible_match,,,
+feross/simple-peer,project_title,simple-peer,simple-peer,1,semantic_match,,,
+feross/simple-peer,primary_language,JavaScript,JavaScript,1,exact_match,,,
+feross/simple-peer,license_name,MIT,MIT,1,exact_match,,,
+feross/simple-peer,description,"simple-peer is a library project primarily written in JavaScript. It is designed to
+provide a focuse...",Simple one-to-one WebRTC video/voice and data channels,1,semantic_similarity,0.2202,,
+feross/simple-peer,usage_type,library,library,1,categorical,,,
+feross/simple-peer,installation_method,npm,npm,1,flexible_match,,,
+tj/commander.js,project_title,commander.js,commander,1,semantic_match,0.9000,,
+tj/commander.js,primary_language,JavaScript,TypeScript,1,exact_match,,,
+tj/commander.js,license_name,MIT,MIT,1,exact_match,,,
+tj/commander.js,description,Complete solution for building Node.js command-line interfaces.,the complete solution for node.js command-line programs,1,semantic_similarity,0.8761,,
+tj/commander.js,usage_type,library,library,1,categorical,,,
+tj/commander.js,installation_method,npm,npm,1,flexible_match,,,
+apache/commons-validator,project_title,Apache Commons Validator,Apache Commons Validator,1,semantic_match,,,
+apache/commons-validator,primary_language,Java,Java,1,exact_match,,,
+apache/commons-validator,license_name,Apache-2.0,Apache-2.0,1,exact_match,,,
+apache/commons-validator,description,"Apache Commons Validator is a library project primarily written in Java. It is designed to
+provide a...",Apache Commons Validator provides the building blocks for both client-side and server-side data vali...,1,semantic_similarity,0.7004,,
+apache/commons-validator,usage_type,library,library,1,categorical,,,
+apache/commons-validator,installation_method,maven,maven,1,flexible_match,,,
+junit-team/junit4,project_title,JUnit 4,JUnit,1,semantic_match,0.9000,,
+junit-team/junit4,primary_language,Java,JavaScript,0,exact_match,,,OVERCONFIDENT_EXTRACTION
+junit-team/junit4,license_name,EPL-1.0,Eclipse Public License 1.0,1,exact_match,,,
+junit-team/junit4,description,"JUnit 4 is a library project primarily written in Java. It is designed to provide a
+focused and reus...","JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",1,semantic_similarity,0.8269,,
+junit-team/junit4,usage_type,library,library,1,categorical,,,
+junit-team/junit4,installation_method,maven,maven,1,flexible_match,,,
+curl/trurl,project_title,trurl,trurl,1,semantic_match,,,
+curl/trurl,primary_language,C,Python,0,exact_match,,,LANGUAGE_MISMATCH
+curl/trurl,license_name,curl,Custom,0,exact_match,,,INCORRECT_INFERENCE
+curl/trurl,description,"trurl is a cli project primarily written in C. It is designed to provide a focused and
+reusable solu...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+curl/trurl,usage_type,cli,library,0,categorical,,,INCORRECT_INFERENCE
+curl/trurl,installation_method,make,pip,1,flexible_match,,,
+benhoyt/inih,project_title,inih,inih,1,semantic_match,,,
+benhoyt/inih,primary_language,C,C,1,exact_match,,,
+benhoyt/inih,license_name,BSD-3-Clause,BSD,1,exact_match,,,
+benhoyt/inih,description,"inih is a library project primarily written in C. It is designed to provide a focused and
+reusable s...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+benhoyt/inih,usage_type,library,library,1,categorical,,,
+benhoyt/inih,installation_method,make,make,1,flexible_match,,,
+jarro2783/cxxopts,project_title,cxxopts,cxxopts,1,semantic_match,,,
+jarro2783/cxxopts,primary_language,C++,C++,1,exact_match,,,
+jarro2783/cxxopts,license_name,MIT,MIT,1,exact_match,,,
+jarro2783/cxxopts,description,"cxxopts is a library project primarily written in C++. It is designed to provide a focused
+and reusa...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+jarro2783/cxxopts,usage_type,library,library,1,categorical,,,
+jarro2783/cxxopts,installation_method,cmake,make,1,flexible_match,,,
+tensorflow/tensorflow,project_title,TensorFlow,project,1,semantic_match,0.5000,,
+tensorflow/tensorflow,primary_language,C++,Python,0,exact_match,,,LANGUAGE_MISMATCH
+tensorflow/tensorflow,license_name,Apache-2.0,Apache-2.0,1,exact_match,,,
+tensorflow/tensorflow,description,"TensorFlow is a library project primarily written in C++. It is designed to provide a
+focused and re...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+tensorflow/tensorflow,usage_type,library,library,1,categorical,,,
+tensorflow/tensorflow,installation_method,pip,pip,1,flexible_match,,,
+torvalds/linux,project_title,Linux Kernel,Baby,0,semantic_match,0.0000,,INCORRECT_INFERENCE
+torvalds/linux,primary_language,C,Python,0,exact_match,,,LANGUAGE_MISMATCH
+torvalds/linux,license_name,GPL-2.0,Custom,1,exact_match,,,
+torvalds/linux,description,"Linux Kernel is a system project primarily written in C. It is designed to provide a
+focused and reu...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+torvalds/linux,usage_type,system,cli,1,categorical,,,
+torvalds/linux,installation_method,make,pip,1,flexible_match,,,
+pytorch/vision,project_title,torchvision,torchvision,1,semantic_match,,,
+pytorch/vision,primary_language,Python,Python,1,exact_match,,,
+pytorch/vision,license_name,BSD-3-Clause,BSD-3-Clause,1,exact_match,,,
+pytorch/vision,description,"torchvision is a library project primarily written in Python. It is designed to provide a
+focused an...",image and video datasets and models for torch deep learning,1,semantic_similarity,0.5469,,
+pytorch/vision,usage_type,library,library,1,categorical,,,
+pytorch/vision,installation_method,pip,pip,1,flexible_match,,,
+gohugoio/hugo,project_title,Hugo,project,0,semantic_match,0.1429,,INCORRECT_INFERENCE
+gohugoio/hugo,primary_language,Go,JavaScript,0,exact_match,,,LANGUAGE_MISMATCH
+gohugoio/hugo,license_name,Apache-2.0,Apache-2.0,1,exact_match,,,
+gohugoio/hugo,description,"Hugo is a cli project primarily written in Go. It is designed to provide a focused and
+reusable solu...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+gohugoio/hugo,usage_type,cli,library,0,categorical,,,INCORRECT_INFERENCE
+gohugoio/hugo,installation_method,brew,npm,1,flexible_match,,,
+django/django,project_title,Django,Django,1,semantic_match,,,
+django/django,primary_language,Python,Python,1,exact_match,,,
+django/django,license_name,BSD-3-Clause,BSD-3-Clause,1,exact_match,,,
+django/django,description,"Django is a framework project primarily written in Python. It is designed to provide a
+focused and r...","A high-level Python web framework that encourages rapid development and clean, pragmatic design.",1,semantic_similarity,0.5856,,
+django/django,usage_type,framework,framework,1,categorical,,,
+django/django,installation_method,pip,pip,1,flexible_match,,,
+pandas-dev/pandas,project_title,pandas,pandas,1,semantic_match,,,
+pandas-dev/pandas,primary_language,Python,Python,1,exact_match,,,
+pandas-dev/pandas,license_name,BSD-3-Clause,LICENSE,1,exact_match,,,
+pandas-dev/pandas,description,"pandas is a library project primarily written in Python. It is designed to provide a
+focused and reu...","Powerful data structures for data analysis, time series, and statistics",1,semantic_similarity,0.1918,,
+pandas-dev/pandas,usage_type,library,library,1,categorical,,,
+pandas-dev/pandas,installation_method,pip,pip,1,flexible_match,,,
+scikit-learn/scikit-learn,project_title,scikit-learn,scikit-learn,1,semantic_match,,,
+scikit-learn/scikit-learn,primary_language,Python,Python,1,exact_match,,,
+scikit-learn/scikit-learn,license_name,BSD-3-Clause,BSD-3-Clause,1,exact_match,,,
+scikit-learn/scikit-learn,description,"scikit-learn is a library project primarily written in Python. It is designed to provide a
+focused a...",A set of python modules for machine learning and data mining,1,semantic_similarity,0.4533,,
+scikit-learn/scikit-learn,usage_type,library,library,1,categorical,,,
+scikit-learn/scikit-learn,installation_method,pip,pip,1,flexible_match,,,
+facebook/react,project_title,React,project,1,semantic_match,0.5714,,
+facebook/react,primary_language,JavaScript,TypeScript,1,exact_match,,,
+facebook/react,license_name,MIT,MIT,1,exact_match,,,
+facebook/react,description,"React is a library project primarily written in JavaScript. It is designed to provide a
+focused and ...","Copyright (c) Meta Platforms, Inc. and affiliates.  This source code is licensed under the MIT licen...",1,semantic_similarity,0.1805,,
+facebook/react,usage_type,library,framework,1,categorical,,,
+facebook/react,installation_method,npm,npm,1,flexible_match,,,
+vuejs/core,project_title,Vue.js,project,1,semantic_match,0.2857,,
+vuejs/core,primary_language,JavaScript,TypeScript,1,exact_match,,,
+vuejs/core,license_name,MIT,MIT,1,exact_match,,,
+vuejs/core,description,"Vue.js is a framework project primarily written in JavaScript. It is designed to provide a
+focused a...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+vuejs/core,usage_type,framework,framework,1,categorical,,,
+vuejs/core,installation_method,npm,npm,1,flexible_match,,,
+vercel/next.js,project_title,Next.js,nextjs-project,1,semantic_match,0.5000,,
+vercel/next.js,primary_language,JavaScript,Python,1,exact_match,,,
+vercel/next.js,license_name,MIT,MIT,1,exact_match,,,
+vercel/next.js,description,"Next.js is a framework project primarily written in JavaScript. It is designed to provide
+a focused ...",Import hashbang modules.,1,semantic_similarity,0.1359,,
+vercel/next.js,usage_type,framework,framework,1,categorical,,,
+vercel/next.js,installation_method,npm,pip,1,flexible_match,,,
+spring-projects/spring-boot,project_title,Spring Boot,spring-boot-build,1,semantic_match,0.6667,,
+spring-projects/spring-boot,primary_language,Java,JavaScript,0,exact_match,,,OVERCONFIDENT_EXTRACTION
+spring-projects/spring-boot,license_name,Apache-2.0,Apache-2.0,1,exact_match,,,
+spring-projects/spring-boot,description,"Spring Boot is a framework project primarily written in Java. It is designed to provide a
+focused an...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+spring-projects/spring-boot,usage_type,framework,library,1,categorical,,,
+spring-projects/spring-boot,installation_method,maven,npm,0,flexible_match,,,INCORRECT_INFERENCE
+elastic/elasticsearch,project_title,Elasticsearch,elasticsearch,1,semantic_match,,,
+elastic/elasticsearch,primary_language,Java,Python,0,exact_match,,,LANGUAGE_MISMATCH
+elastic/elasticsearch,license_name,Elastic License 2.0,Custom,0,exact_match,,,INCORRECT_INFERENCE
+elastic/elasticsearch,description,"Elasticsearch is a service project primarily written in Java. It is designed to provide a
+focused an...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+elastic/elasticsearch,usage_type,service,library,0,categorical,,,INCORRECT_INFERENCE
+elastic/elasticsearch,installation_method,docker,pip,1,flexible_match,,,
+opencv/opencv,project_title,OpenCV,OpenCV,1,semantic_match,,,
+opencv/opencv,primary_language,C++,Python,0,exact_match,,,LANGUAGE_MISMATCH
+opencv/opencv,license_name,Apache-2.0,Apache-2.0,1,exact_match,,,
+opencv/opencv,description,"OpenCV is a library project primarily written in C++. It is designed to provide a focused
+and reusab...",OpenCV Python binary extension loader,1,semantic_similarity,0.5899,,
+opencv/opencv,usage_type,library,library,1,categorical,,,
+opencv/opencv,installation_method,cmake,pip,1,flexible_match,,,
+protocolbuffers/protobuf,project_title,Protocol Buffers,protobuf,1,semantic_match,0.6875,,
+protocolbuffers/protobuf,primary_language,C++,Python,0,exact_match,,,LANGUAGE_MISMATCH
+protocolbuffers/protobuf,license_name,BSD-3-Clause,BSD,1,exact_match,,,
+protocolbuffers/protobuf,description,"Protocol Buffers is a library project primarily written in C++. It is designed to provide
+a focused ...",Protocol Buffers,1,semantic_similarity,0.8105,,
+protocolbuffers/protobuf,usage_type,library,library,1,categorical,,,
+protocolbuffers/protobuf,installation_method,cmake,pip,1,flexible_match,,,
+energyaudit/typicodeJsonServerWithAuthenticationBilly,project_title,JSONServer + JWT Auth,project,1,semantic_match,0.5000,,
+energyaudit/typicodeJsonServerWithAuthenticationBilly,primary_language,JavaScript,JavaScript,1,exact_match,,,
+energyaudit/typicodeJsonServerWithAuthenticationBilly,license_name,MIT,MIT,1,exact_match,,,
+energyaudit/typicodeJsonServerWithAuthenticationBilly,description,A Fake REST API using json-server with JWT authentication changed some code from https://github.com/...,,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+energyaudit/typicodeJsonServerWithAuthenticationBilly,usage_type,library,library,1,categorical,,,
+energyaudit/typicodeJsonServerWithAuthenticationBilly,installation_method,npm,npm,1,flexible_match,,,
+gpanther/fastutil-guava-tests,project_title,fastutil-guava-tests,Tests for fastutil using guava-testlib,1,semantic_match,0.6000,,
+gpanther/fastutil-guava-tests,primary_language,Generic,Python,0,exact_match,,,LANGUAGE_MISMATCH
+gpanther/fastutil-guava-tests,license_name,Apache-2.0,Apache-2.0,1,exact_match,,,
+gpanther/fastutil-guava-tests,description,"fastutil-guava-tests is a library project primarily written in Generic. It is designed to
+provide a ...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+gpanther/fastutil-guava-tests,usage_type,library,library,1,categorical,,,
+gpanther/fastutil-guava-tests,installation_method,maven,pip,0,flexible_match,,,INCORRECT_INFERENCE
+dinocore1/DevsmartLib-Android,project_title,DevsmartLib-Android,project,1,semantic_match,0.2632,,
+dinocore1/DevsmartLib-Android,primary_language,Java,Java,1,exact_match,,,
+dinocore1/DevsmartLib-Android,license_name,Apache-2.0,,0,exact_match,,,MISSING_INFORMATION
+dinocore1/DevsmartLib-Android,description,"DevsmartLib-Android is a library project primarily written in Java. It is designed to
+provide a focu...",,0,semantic_similarity,0.0000,,MISSING_INFORMATION
+dinocore1/DevsmartLib-Android,usage_type,library,library,1,categorical,,,
+dinocore1/DevsmartLib-Android,installation_method,gradle,maven,1,flexible_match,,,

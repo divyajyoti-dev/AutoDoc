@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDoc - README Generator</title>
+    <!-- Marked.js for GitHub-flavored Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Highlight.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #e4e4e4;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #00d9ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #fff;
+        }
+
+        .input-group {
+            margin-bottom: 1rem;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        input[type="text"],
+        input[type="url"] {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            font-size: 1rem;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="url"]:focus {
+            outline: none;
+            border-color: #00d9ff;
+            box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.2);
+        }
+
+        input[type="text"]::placeholder,
+        input[type="url"]::placeholder {
+            color: #666;
+        }
+
+        .file-upload {
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.3s, background 0.3s;
+        }
+
+        .file-upload:hover,
+        .file-upload.drag-over {
+            border-color: #00d9ff;
+            background: rgba(0, 217, 255, 0.05);
+        }
+
+        .file-upload input {
+            display: none;
+        }
+
+        .file-upload-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .file-upload-text {
+            color: #888;
+        }
+
+        .file-upload-text span {
+            color: #00d9ff;
+            text-decoration: underline;
+        }
+
+        .file-name {
+            margin-top: 0.5rem;
+            color: #00ff88;
+            font-size: 0.9rem;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .option input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #00d9ff;
+        }
+
+        .option label {
+            color: #ccc;
+            font-size: 0.95rem;
+            cursor: pointer;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem 0;
+            color: #666;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .divider span {
+            padding: 0 1rem;
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.9rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: linear-gradient(90deg, #00d9ff, #00ff88);
+            color: #1a1a2e;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 217, 255, 0.3);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid transparent;
+            border-top-color: currentColor;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .result {
+            display: none;
+        }
+
+        .result.show {
+            display: block;
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .result-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .result-actions .btn {
+            width: auto;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+        }
+
+        .readme-output {
+            background: #0d1117;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 1.5rem;
+            max-height: 500px;
+            overflow-y: auto;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .readme-output::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .readme-output::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .readme-output::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+
+        .error-message {
+            background: rgba(255, 0, 0, 0.1);
+            border: 1px solid rgba(255, 0, 0, 0.3);
+            color: #ff6b6b;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+        }
+
+        .warnings {
+            background: rgba(255, 165, 0, 0.1);
+            border: 1px solid rgba(255, 165, 0, 0.3);
+            color: #ffa500;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .metadata-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .metadata-item {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.8rem;
+            border-radius: 6px;
+        }
+
+        .metadata-item .label {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 0.25rem;
+        }
+
+        .metadata-item .value {
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .metadata-item .confidence {
+            font-size: 0.75rem;
+            color: #00ff88;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .tab {
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            color: #888;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .tab.active {
+            background: rgba(0, 217, 255, 0.2);
+            border-color: #00d9ff;
+            color: #00d9ff;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* GitHub-flavored Markdown Preview Styles */
+        .markdown-preview {
+            background: #0d1117;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 2rem;
+            max-height: 500px;
+            overflow-y: auto;
+            color: #e6edf3;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .markdown-preview::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .markdown-preview::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .markdown-preview::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+
+        .markdown-preview h1,
+        .markdown-preview h2,
+        .markdown-preview h3,
+        .markdown-preview h4,
+        .markdown-preview h5,
+        .markdown-preview h6 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            line-height: 1.25;
+            color: #e6edf3;
+        }
+
+        .markdown-preview h1 {
+            font-size: 2em;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .markdown-preview h2 {
+            font-size: 1.5em;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .markdown-preview h3 {
+            font-size: 1.25em;
+        }
+
+        .markdown-preview h4 {
+            font-size: 1em;
+        }
+
+        .markdown-preview p {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .markdown-preview a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        .markdown-preview a:hover {
+            text-decoration: underline;
+        }
+
+        .markdown-preview ul,
+        .markdown-preview ol {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding-left: 2em;
+        }
+
+        .markdown-preview li {
+            margin-top: 4px;
+        }
+
+        .markdown-preview li + li {
+            margin-top: 4px;
+        }
+
+        .markdown-preview code {
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            background-color: rgba(110, 118, 129, 0.4);
+            border-radius: 6px;
+            font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+        }
+
+        .markdown-preview pre {
+            margin-top: 0;
+            margin-bottom: 16px;
+            padding: 16px;
+            overflow: auto;
+            font-size: 85%;
+            line-height: 1.45;
+            background-color: #161b22;
+            border-radius: 6px;
+        }
+
+        .markdown-preview pre code {
+            padding: 0;
+            margin: 0;
+            font-size: 100%;
+            background-color: transparent;
+            border-radius: 0;
+            display: block;
+            overflow-x: auto;
+        }
+
+        .markdown-preview blockquote {
+            margin: 0 0 16px 0;
+            padding: 0 1em;
+            color: #8b949e;
+            border-left: 0.25em solid #30363d;
+        }
+
+        .markdown-preview table {
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-top: 0;
+            margin-bottom: 16px;
+            width: max-content;
+            max-width: 100%;
+            overflow: auto;
+            display: block;
+        }
+
+        .markdown-preview table th,
+        .markdown-preview table td {
+            padding: 6px 13px;
+            border: 1px solid #30363d;
+        }
+
+        .markdown-preview table th {
+            font-weight: 600;
+            background-color: #161b22;
+        }
+
+        .markdown-preview table tr {
+            background-color: #0d1117;
+            border-top: 1px solid #21262d;
+        }
+
+        .markdown-preview table tr:nth-child(2n) {
+            background-color: #161b22;
+        }
+
+        .markdown-preview hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: #30363d;
+            border: 0;
+        }
+
+        .markdown-preview img {
+            max-width: 100%;
+            box-sizing: border-box;
+            background-color: transparent;
+        }
+
+        /* Badge styling */
+        .markdown-preview img[src*="badge"],
+        .markdown-preview img[src*="shields.io"],
+        .markdown-preview img[alt*="badge"],
+        .markdown-preview img[alt*="License"],
+        .markdown-preview img[alt*="Version"],
+        .markdown-preview img[alt*="Build"] {
+            display: inline-block;
+            margin-right: 4px;
+            vertical-align: middle;
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #238636;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #00d9ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AutoDoc</h1>
+            <p class="subtitle">Generate README.md files automatically from your repository</p>
+        </header>
+
+        <div class="card">
+            <h2>Generate README</h2>
+
+            <div class="error-message" id="errorMessage"></div>
+
+            <div class="input-group">
+                <label for="githubUrl">GitHub Repository URL</label>
+                <input type="url" id="githubUrl" placeholder="https://github.com/username/repository">
+            </div>
+
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+            <div class="input-group">
+                <label>Upload Repository (ZIP)</label>
+                <div class="file-upload" id="fileUpload">
+                    <div class="file-upload-icon">📁</div>
+                    <div class="file-upload-text">
+                        Drag and drop your ZIP file here, or <span>browse</span>
+                    </div>
+                    <div class="file-name" id="fileName"></div>
+                    <input type="file" id="fileInput" accept=".zip">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Options</label>
+                <div class="options">
+                    <div class="option">
+                        <input type="checkbox" id="includeBadges">
+                        <label for="includeBadges">Include Badges</label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" id="includeToc">
+                        <label for="includeToc">Table of Contents</label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" id="includeProvenance">
+                        <label for="includeProvenance">Source Comments</label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" id="includeNotice" checked>
+                        <label for="includeNotice">Generation Notice</label>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" id="generateBtn" onclick="generateReadme()">
+                <span id="btnText">Generate README</span>
+                <div class="spinner" id="spinner" style="display: none;"></div>
+            </button>
+        </div>
+
+        <div class="card result" id="resultCard">
+            <div class="result-header">
+                <h2>Generated README</h2>
+                <div class="result-actions">
+                    <button class="btn btn-secondary" onclick="copyToClipboard()">Copy README</button>
+                    <button class="btn btn-secondary" onclick="downloadReadme()">Download README.md</button>
+                </div>
+            </div>
+
+            <div class="warnings" id="warnings" style="display: none;"></div>
+
+            <div class="tabs">
+                <div class="tab active" data-tab="preview" onclick="switchTab('preview')">Preview</div>
+                <div class="tab" data-tab="markdown" onclick="switchTab('markdown')">Markdown</div>
+                <div class="tab" data-tab="metadata" onclick="switchTab('metadata')">Metadata</div>
+            </div>
+
+            <div class="tab-content active" id="previewTab">
+                <div class="markdown-preview" id="markdownPreview"></div>
+            </div>
+
+            <div class="tab-content" id="markdownTab">
+                <div class="readme-output" id="readmeOutput"></div>
+            </div>
+
+            <div class="tab-content" id="metadataTab">
+                <div class="metadata-summary" id="metadataSummary"></div>
+                <div class="readme-output" id="metadataOutput" style="max-height: 300px;"></div>
+            </div>
+        </div>
+
+        <footer>
+            <p>AutoDoc - Academic project for INFO-202</p>
+           
+        </footer>
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        let generatedReadme = '';
+        let generatedMetadata = null;
+
+        // Configure marked.js for GitHub-flavored Markdown
+        marked.setOptions({
+            gfm: true,
+            breaks: true,
+            highlight: function(code, lang) {
+                if (lang && hljs.getLanguage(lang)) {
+                    try {
+                        return hljs.highlight(code, { language: lang }).value;
+                    } catch (e) {}
+                }
+                return hljs.highlightAuto(code).value;
+            }
+        });
+
+        // File upload handling
+        const fileUpload = document.getElementById('fileUpload');
+        const fileInput = document.getElementById('fileInput');
+        const fileName = document.getElementById('fileName');
+
+        fileUpload.addEventListener('click', () => fileInput.click());
+
+        fileUpload.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            fileUpload.classList.add('drag-over');
+        });
+
+        fileUpload.addEventListener('dragleave', () => {
+            fileUpload.classList.remove('drag-over');
+        });
+
+        fileUpload.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileUpload.classList.remove('drag-over');
+            const files = e.dataTransfer.files;
+            if (files.length > 0 && files[0].name.endsWith('.zip')) {
+                fileInput.files = files;
+                fileName.textContent = files[0].name;
+            }
+        });
+
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length > 0) {
+                fileName.textContent = fileInput.files[0].name;
+            }
+        });
+
+        // Clear file when URL is entered
+        document.getElementById('githubUrl').addEventListener('input', () => {
+            if (document.getElementById('githubUrl').value) {
+                fileInput.value = '';
+                fileName.textContent = '';
+            }
+        });
+
+        async function generateReadme() {
+            const githubUrl = document.getElementById('githubUrl').value.trim();
+            const file = fileInput.files[0];
+            const errorMessage = document.getElementById('errorMessage');
+            const resultCard = document.getElementById('resultCard');
+            const generateBtn = document.getElementById('generateBtn');
+            const btnText = document.getElementById('btnText');
+            const spinner = document.getElementById('spinner');
+
+            // Validation
+            if (!githubUrl && !file) {
+                showError('Please enter a GitHub URL or upload a ZIP file.');
+                return;
+            }
+
+            // Clear previous results
+            errorMessage.classList.remove('show');
+            resultCard.classList.remove('show');
+
+            // Show loading state
+            generateBtn.disabled = true;
+            btnText.textContent = 'Generating...';
+            spinner.style.display = 'block';
+
+            try {
+                const formData = new FormData();
+
+                if (file) {
+                    formData.append('file', file);
+                }
+
+                // Build query params for options
+                const params = new URLSearchParams();
+                if (githubUrl && !file) {
+                    // Send as JSON for GitHub URL
+                    const response = await fetch('/api/generate', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            github_url: githubUrl,
+                            include_badges: document.getElementById('includeBadges').checked,
+                            include_toc: document.getElementById('includeToc').checked,
+                            include_provenance: document.getElementById('includeProvenance').checked,
+                            include_generation_notice: document.getElementById('includeNotice').checked,
+                            format: 'both'
+                        })
+                    });
+                    await handleResponse(response);
+                } else {
+                    // Send as form data for file upload
+                    params.append('include_badges', document.getElementById('includeBadges').checked);
+                    params.append('include_toc', document.getElementById('includeToc').checked);
+                    params.append('include_provenance', document.getElementById('includeProvenance').checked);
+                    params.append('include_generation_notice', document.getElementById('includeNotice').checked);
+                    params.append('format', 'both');
+
+                    const response = await fetch(`/api/generate?${params.toString()}`, {
+                        method: 'POST',
+                        body: formData
+                    });
+                    await handleResponse(response);
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                // Reset button state
+                generateBtn.disabled = false;
+                btnText.textContent = 'Generate README';
+                spinner.style.display = 'none';
+            }
+        }
+
+        async function handleResponse(response) {
+            const data = await response.json();
+
+            if (!response.ok || data.error) {
+                showError(data.error || 'Failed to generate README');
+                return;
+            }
+
+            // Store results
+            generatedReadme = data.readme || '';
+            generatedMetadata = data.metadata || null;
+
+            // Render markdown preview (default view)
+            renderMarkdownPreview();
+
+            // Also set raw markdown in the Markdown tab
+            document.getElementById('readmeOutput').textContent = generatedReadme;
+
+            document.getElementById('resultCard').classList.add('show');
+
+            // Show warnings if any
+            const warningsEl = document.getElementById('warnings');
+            if (data.warnings && data.warnings.length > 0) {
+                warningsEl.innerHTML = '<strong>Warnings:</strong><br>' + data.warnings.join('<br>');
+                warningsEl.style.display = 'block';
+            } else {
+                warningsEl.style.display = 'none';
+            }
+
+            // Populate metadata summary
+            if (generatedMetadata) {
+                populateMetadata(generatedMetadata);
+            }
+
+            // Switch to Preview tab by default
+            switchTab('preview');
+
+            // Scroll to results
+            document.getElementById('resultCard').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function renderMarkdownPreview() {
+            const previewEl = document.getElementById('markdownPreview');
+            // Render markdown to HTML
+            previewEl.innerHTML = marked.parse(generatedReadme);
+            // Apply syntax highlighting to code blocks
+            previewEl.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightElement(block);
+            });
+        }
+
+        function populateMetadata(metadata) {
+            const summary = document.getElementById('metadataSummary');
+            const output = document.getElementById('metadataOutput');
+
+            // Build summary cards
+            const fields = ['name', 'version', 'license', 'primary_language'];
+            let summaryHtml = '';
+
+            fields.forEach(field => {
+                if (metadata[field]) {
+                    const value = metadata[field].value || 'Not found';
+                    const confidence = metadata[field].confidence || 'UNKNOWN';
+                    summaryHtml += `
+                        <div class="metadata-item">
+                            <div class="label">${field.replace('_', ' ').toUpperCase()}</div>
+                            <div class="value">${value}</div>
+                            <div class="confidence">${confidence}</div>
+                        </div>
+                    `;
+                }
+            });
+
+            summary.innerHTML = summaryHtml;
+            output.textContent = JSON.stringify(metadata, null, 2);
+        }
+
+        function showError(message) {
+            const errorMessage = document.getElementById('errorMessage');
+            errorMessage.textContent = message;
+            errorMessage.classList.add('show');
+        }
+
+        function switchTab(tab) {
+            // Remove active from all tabs and content
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+            // Activate the selected tab
+            const tabEl = document.querySelector(`.tab[data-tab="${tab}"]`);
+            if (tabEl) {
+                tabEl.classList.add('active');
+            }
+
+            // Activate the corresponding content
+            if (tab === 'preview') {
+                document.getElementById('previewTab').classList.add('active');
+            } else if (tab === 'markdown') {
+                document.getElementById('markdownTab').classList.add('active');
+            } else if (tab === 'metadata') {
+                document.getElementById('metadataTab').classList.add('active');
+            }
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 2500);
+        }
+
+        function copyToClipboard() {
+            // Always copy the raw markdown, preserving all formatting
+            navigator.clipboard.writeText(generatedReadme).then(() => {
+                showToast('Copied raw Markdown to clipboard!');
+            }).catch(err => {
+                // Fallback for older browsers
+                const textarea = document.createElement('textarea');
+                textarea.value = generatedReadme;
+                textarea.style.position = 'fixed';
+                textarea.style.opacity = '0';
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                showToast('Copied raw Markdown to clipboard!');
+            });
+        }
+
+        function downloadReadme() {
+            const blob = new Blob([generatedReadme], { type: 'text/markdown' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'README.md';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showToast('Downloaded README.md');
+        }
+    </script>
+</body>
+</html>

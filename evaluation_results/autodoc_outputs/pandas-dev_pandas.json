@@ -1,0 +1,327 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "pandas",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": "Powerful data structures for data analysis, time series, and statistics",
+      "confidence": "EXPLICIT"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "LICENSE",
+      "confidence": "EXPLICIT"
+    },
+    "version": {
+      "value": "10.9",
+      "confidence": "STRONG"
+    },
+    "entry_points": [
+      {
+        "path": "setup.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "web/pandas_web.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/generate_pip_deps_from_conda.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/validate_exception_location.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/validate_unwanted_patterns.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/check_test_naming.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/validate_docstrings.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/validate_rst_title_capitalization.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/check_for_inconsistent_pandas_namespace.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/run_stubtest.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/run_vulture.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/pandas_errors_documented.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/sort_whatsnew_note.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "scripts/validate_min_versions_in_sync.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "doc/make.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "doc/sphinxext/announce.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "doc/scripts/eval_performance.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "pandas/util/_doctools.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "pandas/tests/io/generate_legacy_storage_files.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "pandas/_libs/include/pandas/vendored/klib/khash.h",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "numpy",
+        "version": ">=1.26.0"
+      },
+      {
+        "name": "python-dateutil",
+        "version": ">=2.8.2"
+      },
+      {
+        "name": "tzdata",
+        "version": ">=2023.3"
+      },
+      {
+        "name": "pyarrow",
+        "version": ">=13.0.0"
+      },
+      {
+        "name": "bottleneck",
+        "version": ">=1.4.2"
+      },
+      {
+        "name": "numba",
+        "version": ">=0.60.0"
+      },
+      {
+        "name": "numexpr",
+        "version": ">=2.10.2"
+      },
+      {
+        "name": "scipy",
+        "version": ">=1.14.1"
+      },
+      {
+        "name": "xarray",
+        "version": ">=2024.10.0"
+      },
+      {
+        "name": "fsspec",
+        "version": ">=2024.10.0"
+      },
+      {
+        "name": "s3fs",
+        "version": ">=2024.10.0"
+      },
+      {
+        "name": "gcsfs",
+        "version": ">=2024.10.0"
+      },
+      {
+        "name": "odfpy",
+        "version": ">=1.4.1"
+      },
+      {
+        "name": "openpyxl",
+        "version": ">=3.1.5"
+      },
+      {
+        "name": "python-calamine",
+        "version": ">=0.3.0"
+      },
+      {
+        "name": "pyxlsb",
+        "version": ">=1.0.10"
+      },
+      {
+        "name": "xlrd",
+        "version": ">=2.0.1"
+      },
+      {
+        "name": "xlsxwriter",
+        "version": ">=3.2.0"
+      },
+      {
+        "name": "pyiceberg",
+        "version": ">=0.8.1"
+      },
+      {
+        "name": "tables",
+        "version": ">=3.10.1"
+      },
+      {
+        "name": "pyreadstat",
+        "version": ">=1.2.8"
+      },
+      {
+        "name": "SQLAlchemy",
+        "version": ">=2.0.36"
+      },
+      {
+        "name": "psycopg2",
+        "version": ">=2.9.10"
+      },
+      {
+        "name": "adbc-driver-postgresql",
+        "version": ">=1.2.0"
+      },
+      {
+        "name": "pymysql",
+        "version": ">=1.1.1"
+      },
+      {
+        "name": "adbc-driver-sqlite",
+        "version": ">=1.2.0"
+      },
+      {
+        "name": "beautifulsoup4",
+        "version": ">=4.12.3"
+      },
+      {
+        "name": "html5lib",
+        "version": ">=1.1"
+      },
+      {
+        "name": "lxml",
+        "version": ">=5.3.0"
+      },
+      {
+        "name": "matplotlib",
+        "version": ">=3.9.3"
+      },
+      {
+        "name": "jinja2",
+        "version": ">=3.1.5"
+      },
+      {
+        "name": "tabulate",
+        "version": ">=0.9.0"
+      },
+      {
+        "name": "PyQt5",
+        "version": ">=5.15.9"
+      },
+      {
+        "name": "qtpy",
+        "version": ">=2.4.2"
+      },
+      {
+        "name": "zstandard",
+        "version": ">=0.23.0"
+      },
+      {
+        "name": "pytz",
+        "version": ">=2024.2"
+      },
+      {
+        "name": "fastparquet",
+        "version": ">=2024.11.0"
+      },
+      {
+        "name": "hypothesis",
+        "version": ">=6.116.0"
+      },
+      {
+        "name": "pytest",
+        "version": ">=8.3.4"
+      },
+      {
+        "name": "pytest-xdist",
+        "version": ">=3.6.1"
+      },
+      {
+        "name": "pandas",
+        "version": null
+      },
+      {
+        "name": "__future__",
+        "version": null
+      },
+      {
+        "name": "operator",
+        "version": null
+      },
+      {
+        "name": "dateutil",
+        "version": null
+      },
+      {
+        "name": "decimal",
+        "version": null
+      },
+      {
+        "name": "textwrap",
+        "version": null
+      }
+    ],
+    "authors": [
+      {
+        "name": "The Pandas Development Team",
+        "email": "pandas-dev@python.org"
+      }
+    ],
+    "has_tests": true,
+    "has_ci_config": true,
+    "file_count": 2485,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# pandas\n![License: LICENSE](https://img.shields.io/badge/License-LICENSE-blue.svg)\n![Python: >=3.11](https://img.shields.io/badge/Python-%3E%3D3.11-blue.svg)\n\nPowerful data structures for data analysis, time series, and statistics\n\nIt leverages numpy, python-dateutil, tzdata, pyarrow as core dependencies.\n\nThe project includes comprehensive test coverage for reliability, continuous integration for automated testing, detailed documentation for users.\n\nInstall pandas using pip for seamless integration into your Python environment.\n\n## Key Features\n\n- Includes comprehensive test suite for reliability\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\nframeworks: NumPy, Pandas\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Testing](#testing)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n**Requires Python >=3.11**\n\n```bash\n# Clone the repository\ngit clone https://github.com/pandas-dev/pandas\ncd pandas\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython setup.py\npython web/pandas_web.py\npython scripts/generate_pip_deps_from_conda.py\npython scripts/validate_exception_location.py\npython scripts/validate_unwanted_patterns.py\npython scripts/check_test_naming.py\npython scripts/validate_docstrings.py\npython scripts/validate_rst_title_capitalization.py\npython scripts/check_for_inconsistent_pandas_namespace.py\npython scripts/run_stubtest.py\npython scripts/run_vulture.py\npython scripts/pandas_errors_documented.py\npython scripts/sort_whatsnew_note.py\npython scripts/validate_min_versions_in_sync.py\npython doc/make.py\npython doc/sphinxext/announce.py\npython doc/scripts/eval_performance.py\npython pandas/util/_doctools.py\npython pandas/tests/io/generate_legacy_storage_files.py\npython pandas/_libs/include/pandas/vendored/klib/khash.h\n```\n\n\n## Project Structure\n\n```\npandas/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 pandas/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 tests/                                  # Test suite\n\u2502   \u251c\u2500\u2500 __init__.py                         # Tests init\n\u2502   \u251c\u2500\u2500 conftest.py                         # Pytest fixtures\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 unit/                               # Unit tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Unit tests init\n\u2502   \u2502   \u251c\u2500\u2500 test_core.py                    # Core module tests\n\u2502   \u2502   \u251c\u2500\u2500 test_models.py                  # Model tests\n\u2502   \u2502   \u2514\u2500\u2500 test_utils.py                   # Utility tests\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 integration/                        # Integration tests\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Integration init\n\u2502   \u2502   \u2514\u2500\u2500 test_api.py                     # API integration\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 fixtures/                           # Test fixtures\n\u2502       \u251c\u2500\u2500 sample_data.json                # Sample test data\n\u2502       \u2514\u2500\u2500 mock_responses.py               # Mock responses\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `pandas/` | Main package containing all source modules |\n| `pandas/cli/` | Command-line interface implementation |\n| `pandas/core/` | Core business logic and processing |\n| `pandas/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: numpy, python-dateutil, tzdata, pyarrow, bottleneck\n\n\n## Testing\n\nRun the test suite using pytest:\n\n```bash\npytest\n```\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| numpy | >=1.26.0 | pyproject.toml [project.dependencies] |\n| python-dateutil | >=2.8.2 | pyproject.toml [project.dependencies] |\n| tzdata | >=2023.3 | pyproject.toml [project.dependencies] |\n| pyarrow | >=13.0.0 | pyproject.toml [project.optional-dependencies.pyarrow] |\n| bottleneck | >=1.4.2 | pyproject.toml [project.optional-dependencies.performance] |\n| numba | >=0.60.0 | pyproject.toml [project.optional-dependencies.performance] |\n| numexpr | >=2.10.2 | pyproject.toml [project.optional-dependencies.performance] |\n| scipy | >=1.14.1 | pyproject.toml [project.optional-dependencies.computation] |\n| xarray | >=2024.10.0 | pyproject.toml [project.optional-dependencies.computation] |\n| fsspec | >=2024.10.0 | pyproject.toml [project.optional-dependencies.fss] |\n| s3fs | >=2024.10.0 | pyproject.toml [project.optional-dependencies.aws] |\n| gcsfs | >=2024.10.0 | pyproject.toml [project.optional-dependencies.gcp] |\n| odfpy | >=1.4.1 | pyproject.toml [project.optional-dependencies.excel] |\n| openpyxl | >=3.1.5 | pyproject.toml [project.optional-dependencies.excel] |\n| python-calamine | >=0.3.0 | pyproject.toml [project.optional-dependencies.excel] |\n| pyxlsb | >=1.0.10 | pyproject.toml [project.optional-dependencies.excel] |\n| xlrd | >=2.0.1 | pyproject.toml [project.optional-dependencies.excel] |\n| xlsxwriter | >=3.2.0 | pyproject.toml [project.optional-dependencies.excel] |\n| pyiceberg | >=0.8.1 | pyproject.toml [project.optional-dependencies.iceberg] |\n| tables | >=3.10.1 | pyproject.toml [project.optional-dependencies.hdf5] |\n| pyreadstat | >=1.2.8 | pyproject.toml [project.optional-dependencies.spss] |\n| SQLAlchemy | >=2.0.36 | pyproject.toml [project.optional-dependencies.postgresql] |\n| psycopg2 | >=2.9.10 | pyproject.toml [project.optional-dependencies.postgresql] |\n| adbc-driver-postgresql | >=1.2.0 | pyproject.toml [project.optional-dependencies.postgresql] |\n| pymysql | >=1.1.1 | pyproject.toml [project.optional-dependencies.mysql] |\n| adbc-driver-sqlite | >=1.2.0 | pyproject.toml [project.optional-dependencies.sql-other] |\n| beautifulsoup4 | >=4.12.3 | pyproject.toml [project.optional-dependencies.html] |\n| html5lib | >=1.1 | pyproject.toml [project.optional-dependencies.html] |\n| lxml | >=5.3.0 | pyproject.toml [project.optional-dependencies.html] |\n| matplotlib | >=3.9.3 | pyproject.toml [project.optional-dependencies.plot] |\n| jinja2 | >=3.1.5 | pyproject.toml [project.optional-dependencies.output-formatting] |\n| tabulate | >=0.9.0 | pyproject.toml [project.optional-dependencies.output-formatting] |\n| PyQt5 | >=5.15.9 | pyproject.toml [project.optional-dependencies.clipboard] |\n| qtpy | >=2.4.2 | pyproject.toml [project.optional-dependencies.clipboard] |\n| zstandard | >=0.23.0 | pyproject.toml [project.optional-dependencies.compression] |\n| pytz | >=2024.2 | pyproject.toml [project.optional-dependencies.timezone] |\n| fastparquet | >=2024.11.0 | pyproject.toml [project.optional-dependencies.all] |\n| hypothesis | >=6.116.0 | pyproject.toml [project.optional-dependencies.all] |\n| pytest | >=8.3.4 | pyproject.toml [project.optional-dependencies.all] |\n| pytest-xdist | >=3.6.1 | pyproject.toml [project.optional-dependencies.all] |\n| pandas | \u26a0\ufe0f Version unknown | Code import analysis |\n| __future__ | \u26a0\ufe0f Version unknown | Code import analysis |\n| operator | \u26a0\ufe0f Version unknown | Code import analysis |\n| dateutil | \u26a0\ufe0f Version unknown | Code import analysis |\n| decimal | \u26a0\ufe0f Version unknown | Code import analysis |\n| textwrap | \u26a0\ufe0f Version unknown | Code import analysis |\n\n### Development Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| hypothesis | >=6.116.0 | pyproject.toml [project.optional-dependencies.test] |\n| pytest | >=8.3.4 | pyproject.toml [project.optional-dependencies.test] |\n| pytest-xdist | >=3.6.1 | pyproject.toml [project.optional-dependencies.test] |\n| meson-python | >=0.13.1 | pyproject.toml [build-system] |\n| meson | >=1.2.1,<2 | pyproject.toml [build-system] |\n| wheel | \u26a0\ufe0f Version unknown | pyproject.toml [build-system] |\n| Cython | <4.0.0a0 | pyproject.toml [build-system] |\n| numpy | >=2.0.0rc1 | pyproject.toml [build-system] |\n| versioneer | \u26a0\ufe0f Version unknown | pyproject.toml [build-system] |\n| pip | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| cython | <4.0.0a0 | requirements-dev.txt |\n| pytest-cov | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| pytest-qt | >=4.4.0 | requirements-dev.txt |\n| pytest-localserver | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| PyQt5 | >=5.15.9 | requirements-dev.txt |\n| coverage | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| python-dateutil | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| adbc-driver-postgresql | >=1.2.0 | requirements-dev.txt |\n| adbc-driver-sqlite | >=1.2.0 | requirements-dev.txt |\n| beautifulsoup4 | >=4.12.3 | requirements-dev.txt |\n| bottleneck | >=1.4.2 | requirements-dev.txt |\n| fastparquet | >=2024.11.0 | requirements-dev.txt |\n| fsspec | >=2024.10.0 | requirements-dev.txt |\n| html5lib | >=1.1 | requirements-dev.txt |\n| gcsfs | >=2024.10.0 | requirements-dev.txt |\n| jinja2 | >=3.1.5 | requirements-dev.txt |\n| lxml | >=5.3.0 | requirements-dev.txt |\n| matplotlib | >=3.9.3 | requirements-dev.txt |\n| numba | >=0.60.0 | requirements-dev.txt |\n| numexpr | >=2.10.2 | requirements-dev.txt |\n| openpyxl | >=3.1.5 | requirements-dev.txt |\n| odfpy | >=1.4.1 | requirements-dev.txt |\n| psycopg2-binary | >=2.9.10 | requirements-dev.txt |\n| pyarrow | >=13.0.0 | requirements-dev.txt |\n| pyiceberg | >=0.8.1 | requirements-dev.txt |\n| pymysql | >=1.1.1 | requirements-dev.txt |\n| pyreadstat | >=1.2.8 | requirements-dev.txt |\n| tables | >=3.10.1 | requirements-dev.txt |\n| python-calamine | >=0.3.0 | requirements-dev.txt |\n| pytz | >=2024.2 | requirements-dev.txt |\n| pyxlsb | >=1.0.10 | requirements-dev.txt |\n| s3fs | >=2024.10.0 | requirements-dev.txt |\n| scipy | >=1.14.1 | requirements-dev.txt |\n| SQLAlchemy | >=2.0.36 | requirements-dev.txt |\n| tabulate | >=0.9.0 | requirements-dev.txt |\n| xarray | >=2024.10.0 | requirements-dev.txt |\n| xlrd | >=2.0.1 | requirements-dev.txt |\n| xlsxwriter | >=3.2.0 | requirements-dev.txt |\n| zstandard | >=0.23.0 | requirements-dev.txt |\n| dask | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| seaborn | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| ipython | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| moto | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| asv | >=0.6.1 | requirements-dev.txt |\n| flake8 | ==7.1.0 | requirements-dev.txt |\n| mypy | ==1.17.1 | requirements-dev.txt |\n| tokenize-rt | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| pre-commit | >=4.2.0 | requirements-dev.txt |\n| gitpython | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| natsort | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| pickleshare | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| numpydoc | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| pydata-sphinx-theme | ==0.16 | requirements-dev.txt |\n| pytest-cython | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| sphinx | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| sphinx-design | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| sphinx-copybutton | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| scipy-stubs | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| types-python-dateutil | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| types-PyMySQL | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| types-pytz | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| types-PyYAML | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| types-setuptools | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| nbconvert | >=7.11.0 | requirements-dev.txt |\n| nbsphinx | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| pandoc | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| ipywidgets | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| nbformat | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| notebook | >=7.0.6 | requirements-dev.txt |\n| ipykernel | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| markdown | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| feedparser | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| pyyaml | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| requests | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| pygments | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| jupyterlite-core | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| jupyterlite-pyodide-kernel | \u26a0\ufe0f Version unknown | requirements-dev.txt |\n| tzdata | >=2023.3 | requirements-dev.txt |\n\n> **Note:** 44 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nThis project is licensed under the **LICENSE** license.\n\n## Authors\n\n- **The Pandas Development Team** - pandas-dev@python.org\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "pandas-dev/pandas"
+}

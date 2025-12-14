@@ -1,0 +1,338 @@
+{
+  "generated": true,
+  "error": null,
+  "metadata": {
+    "name": {
+      "value": "elasticsearch",
+      "confidence": "EXPLICIT"
+    },
+    "description": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "primary_language": {
+      "value": "Python",
+      "confidence": "STRONG"
+    },
+    "license": {
+      "value": "Custom",
+      "confidence": "WEAK"
+    },
+    "version": {
+      "value": null,
+      "confidence": "UNKNOWN"
+    },
+    "entry_points": [
+      {
+        "path": "test/immutable-collections-patch/src/main/java/org/elasticsearch/jdk/patch/ImmutableCollectionsPatcher.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/logger-usage/src/main/java/org/elasticsearch/test/loggerusage/ESLoggerUsageChecker.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/metadata-extractor/src/main/java/org/elasticsearch/extractor/features/ClusterFeaturesMetadataExtractor.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "test/fixtures/old-elasticsearch/src/main/java/oldes/OldElasticsearch.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "distribution/tools/cli-launcher/src/main/java/org/elasticsearch/launcher/CliToolLauncher.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "distribution/tools/java-version-checker/src/main/java/org/elasticsearch/tools/java_version_checker/JavaVersionChecker.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "qa/vector/src/main/java/org/elasticsearch/test/knn/KnnIndexTester.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "server/src/internalClusterTest/java/org/elasticsearch/versioning/ConcurrentSeqNoVersioningIT.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "server/src/test/java/org/elasticsearch/search/aggregations/bucket/BucketUtilsTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "server/src/main/java/org/elasticsearch/Version.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "server/src/main/java/org/elasticsearch/bootstrap/Elasticsearch.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "server/src/main/java/org/elasticsearch/injection/guice/Guice.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/core/src/main/java/org/elasticsearch/jdk/JarHell.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/core/src/main/java/org/elasticsearch/jdk/JdkJarHellCheck.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/native/src/test/java/org/elasticsearch/nativeaccess/VectorSystemPropertyTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/plugin-scanner/src/main/java/org/elasticsearch/plugin/scanner/NamedComponentScanner.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/entitlement/tools/jdk-api-extractor/src/main/java/org/elasticsearch/entitlement/tools/jdkapi/JdkApiExtractor.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/entitlement/tools/public-callers-finder/src/main/java/org/elasticsearch/entitlement/tools/publiccallersfinder/Main.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/entitlement/tools/securitymanager-scanner/src/main/java/org/elasticsearch/entitlement/tools/securitymanager/scanner/Main.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "libs/entitlement/src/test/java/org/elasticsearch/entitlement/initialization/DynamicInstrumentationUtils.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/src/main/java/org/elasticsearch/benchmark/tdigest/TDigestBench.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/src/main/java/org/elasticsearch/benchmark/exponentialhistogram/ExponentialHistogramGenerationBench.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/src/main/java/org/elasticsearch/benchmark/h3/H3Benchmark.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/src/main/java/org/elasticsearch/benchmark/search/query/range/DateFieldMapperDocValuesSkipperBenchmark.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "benchmarks/src/main/java/org/elasticsearch/benchmark/index/codec/tsdb/TSDBDocValuesMergeBenchmark.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/lang-painless/src/test/java/org/elasticsearch/painless/ContextExampleTests.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/lang-painless/src/doc/java/org/elasticsearch/painless/ContextDocGenerator.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "modules/lang-painless/src/doc/java/org/elasticsearch/painless/ContextApiSpecGenerator.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "dev-tools/prepare_release_update_documentation.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "client/benchmark/src/main/java/org/elasticsearch/client/benchmark/BenchmarkMain.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "client/benchmark/src/main/java/org/elasticsearch/client/benchmark/rest/RestClientBenchmark.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/watcher/src/test/java/org/elasticsearch/xpack/watcher/test/bench/ScheduleEngineTriggerBenchmark.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/watcher/src/test/java/org/elasticsearch/xpack/watcher/test/bench/WatcherScheduleEngineBenchmark.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/watcher/src/test/java/org/elasticsearch/xpack/watcher/test/bench/WatcherExecutorServiceBenchmark.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/security/cli/src/test/java/org/elasticsearch/xpack/security/cli/PemToKeystore.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/eql/qa/common/src/main/java/org/elasticsearch/test/eql/DataLoader.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/eql/qa/correctness/src/javaRestTest/java/org/elasticsearch/xpack/eql/EqlDataLoader.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/esql/tools/src/main/java/org/elasticsearch/xpack/esql/tools/ProfileParser.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/esql/qa/testFixtures/src/main/java/org/elasticsearch/xpack/esql/CsvTestsDataLoader.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/sql/connectors/tableau/tdvt/tdvt_run.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/sql/qa/server/src/main/java/org/elasticsearch/xpack/sql/qa/geo/GeoDataLoader.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/sql/qa/server/src/main/java/org/elasticsearch/xpack/sql/qa/jdbc/DataLoader.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/sql/sql-cli/src/main/java/org/elasticsearch/xpack/sql/cli/Cli.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/sql/src/test/java/org/elasticsearch/xpack/sql/expression/function/scalar/datetime/ToCharTestScript.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/plugin/sql/src/test/java/org/elasticsearch/xpack/sql/expression/function/scalar/datetime/DateFormatRandomDatasetGenerator.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "x-pack/dev-tools/smoke_test_xpack_rc.py",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-tools/reaper/src/main/java/org/elasticsearch/gradle/reaper/Reaper.java",
+        "entry_type": "main",
+        "command": null
+      },
+      {
+        "path": "build-tools/src/main/java/org/elasticsearch/gradle/NamedComponentScannerMock.java",
+        "entry_type": "main",
+        "command": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "org",
+        "version": null
+      },
+      {
+        "name": "com",
+        "version": null
+      },
+      {
+        "name": "software",
+        "version": null
+      },
+      {
+        "name": "fixture",
+        "version": null
+      },
+      {
+        "name": "joptsimple",
+        "version": null
+      },
+      {
+        "name": "jdk",
+        "version": null
+      },
+      {
+        "name": "groovy",
+        "version": null
+      },
+      {
+        "name": "de",
+        "version": null
+      },
+      {
+        "name": "junit",
+        "version": null
+      },
+      {
+        "name": "reactor",
+        "version": null
+      },
+      {
+        "name": "co",
+        "version": null
+      },
+      {
+        "name": "vec_common",
+        "version": null
+      },
+      {
+        "name": "x86intrin",
+        "version": null
+      },
+      {
+        "name": "stdint",
+        "version": null
+      },
+      {
+        "name": "immintrin",
+        "version": null
+      }
+    ],
+    "authors": [],
+    "has_tests": false,
+    "has_ci_config": true,
+    "file_count": 35775,
+    "installation_method": "pip",
+    "usage_type": "library"
+  },
+  "readme": "# elasticsearch\n![License: Custom](https://img.shields.io/badge/License-Custom-blue.svg)\n\nelasticsearch is a Python project.\n\nIt leverages org, com, software, fixture as core dependencies.\n\nThe project includes continuous integration for automated testing, detailed documentation for users.\n\nInstall elasticsearch using pip for seamless integration into your Python environment.\n\n<!-- TODO: Add detailed project description - Expand with specific use cases, key differentiators, and target audience -->\n\n## Key Features\n\n- Supports continuous integration workflows\n- Offers detailed documentation for users and contributors\n- Implements type hints for improved code quality\n\n**Primary Language:** Python\n\n## Table of Contents\n\n- [Key Features](#key-features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Project Structure](#project-structure)\n- [Configuration](#configuration)\n- [Architecture](#architecture)\n- [Dependencies](#dependencies)\n- [Contributing](#contributing)\n- [License](#license)\n- [Authors](#authors)\n\n## Installation\n\n```bash\n# Clone the repository\ngit clone https://github.com/elastic/elasticsearch\ncd elasticsearch\n\n# Install the package\npip install .\n\n# Or install in development mode\npip install -e .\n```\n\n## Usage\n\n### Running Scripts\n\n```bash\npython test/immutable-collections-patch/src/main/java/org/elasticsearch/jdk/patch/ImmutableCollectionsPatcher.java\npython test/logger-usage/src/main/java/org/elasticsearch/test/loggerusage/ESLoggerUsageChecker.java\npython test/metadata-extractor/src/main/java/org/elasticsearch/extractor/features/ClusterFeaturesMetadataExtractor.java\npython test/fixtures/old-elasticsearch/src/main/java/oldes/OldElasticsearch.java\npython distribution/tools/cli-launcher/src/main/java/org/elasticsearch/launcher/CliToolLauncher.java\npython distribution/tools/java-version-checker/src/main/java/org/elasticsearch/tools/java_version_checker/JavaVersionChecker.java\npython qa/vector/src/main/java/org/elasticsearch/test/knn/KnnIndexTester.java\npython server/src/internalClusterTest/java/org/elasticsearch/versioning/ConcurrentSeqNoVersioningIT.java\npython server/src/test/java/org/elasticsearch/search/aggregations/bucket/BucketUtilsTests.java\npython server/src/main/java/org/elasticsearch/Version.java\npython server/src/main/java/org/elasticsearch/bootstrap/Elasticsearch.java\npython server/src/main/java/org/elasticsearch/injection/guice/Guice.java\npython libs/core/src/main/java/org/elasticsearch/jdk/JarHell.java\npython libs/core/src/main/java/org/elasticsearch/jdk/JdkJarHellCheck.java\npython libs/native/src/test/java/org/elasticsearch/nativeaccess/VectorSystemPropertyTests.java\npython libs/plugin-scanner/src/main/java/org/elasticsearch/plugin/scanner/NamedComponentScanner.java\npython libs/entitlement/tools/jdk-api-extractor/src/main/java/org/elasticsearch/entitlement/tools/jdkapi/JdkApiExtractor.java\npython libs/entitlement/tools/public-callers-finder/src/main/java/org/elasticsearch/entitlement/tools/publiccallersfinder/Main.java\npython libs/entitlement/tools/securitymanager-scanner/src/main/java/org/elasticsearch/entitlement/tools/securitymanager/scanner/Main.java\npython libs/entitlement/src/test/java/org/elasticsearch/entitlement/initialization/DynamicInstrumentationUtils.java\npython benchmarks/src/main/java/org/elasticsearch/benchmark/tdigest/TDigestBench.java\npython benchmarks/src/main/java/org/elasticsearch/benchmark/exponentialhistogram/ExponentialHistogramGenerationBench.java\npython benchmarks/src/main/java/org/elasticsearch/benchmark/h3/H3Benchmark.java\npython benchmarks/src/main/java/org/elasticsearch/benchmark/search/query/range/DateFieldMapperDocValuesSkipperBenchmark.java\npython benchmarks/src/main/java/org/elasticsearch/benchmark/index/codec/tsdb/TSDBDocValuesMergeBenchmark.java\npython modules/lang-painless/src/test/java/org/elasticsearch/painless/ContextExampleTests.java\npython modules/lang-painless/src/doc/java/org/elasticsearch/painless/ContextDocGenerator.java\npython modules/lang-painless/src/doc/java/org/elasticsearch/painless/ContextApiSpecGenerator.java\npython dev-tools/prepare_release_update_documentation.py\npython client/benchmark/src/main/java/org/elasticsearch/client/benchmark/BenchmarkMain.java\npython client/benchmark/src/main/java/org/elasticsearch/client/benchmark/rest/RestClientBenchmark.java\npython x-pack/plugin/watcher/src/test/java/org/elasticsearch/xpack/watcher/test/bench/ScheduleEngineTriggerBenchmark.java\npython x-pack/plugin/watcher/src/test/java/org/elasticsearch/xpack/watcher/test/bench/WatcherScheduleEngineBenchmark.java\npython x-pack/plugin/watcher/src/test/java/org/elasticsearch/xpack/watcher/test/bench/WatcherExecutorServiceBenchmark.java\npython x-pack/plugin/security/cli/src/test/java/org/elasticsearch/xpack/security/cli/PemToKeystore.java\npython x-pack/plugin/eql/qa/common/src/main/java/org/elasticsearch/test/eql/DataLoader.java\npython x-pack/plugin/eql/qa/correctness/src/javaRestTest/java/org/elasticsearch/xpack/eql/EqlDataLoader.java\npython x-pack/plugin/esql/tools/src/main/java/org/elasticsearch/xpack/esql/tools/ProfileParser.java\npython x-pack/plugin/esql/qa/testFixtures/src/main/java/org/elasticsearch/xpack/esql/CsvTestsDataLoader.java\npython x-pack/plugin/sql/connectors/tableau/tdvt/tdvt_run.py\npython x-pack/plugin/sql/qa/server/src/main/java/org/elasticsearch/xpack/sql/qa/geo/GeoDataLoader.java\npython x-pack/plugin/sql/qa/server/src/main/java/org/elasticsearch/xpack/sql/qa/jdbc/DataLoader.java\npython x-pack/plugin/sql/sql-cli/src/main/java/org/elasticsearch/xpack/sql/cli/Cli.java\npython x-pack/plugin/sql/src/test/java/org/elasticsearch/xpack/sql/expression/function/scalar/datetime/ToCharTestScript.java\npython x-pack/plugin/sql/src/test/java/org/elasticsearch/xpack/sql/expression/function/scalar/datetime/DateFormatRandomDatasetGenerator.java\npython x-pack/dev-tools/smoke_test_xpack_rc.py\npython build-tools/reaper/src/main/java/org/elasticsearch/gradle/reaper/Reaper.java\npython build-tools/src/main/java/org/elasticsearch/gradle/NamedComponentScannerMock.java\n```\n\n\n## Project Structure\n\n```\nelasticsearch/\n\u251c\u2500\u2500 .gitignore                              # Git ignore patterns\n\u251c\u2500\u2500 README.md                               # Project documentation\n\u251c\u2500\u2500 LICENSE                                 # Open source license\n\u251c\u2500\u2500 CHANGELOG.md                            # Version history\n\u251c\u2500\u2500 CONTRIBUTING.md                         # Contribution guidelines\n\u2502\n\u251c\u2500\u2500 dist/                                   # Distribution packages\n\u2502   \u251c\u2500\u2500 *.whl                               # Wheel distributions\n\u2502   \u2514\u2500\u2500 *.tar.gz                            # Source distributions\n\u2502\n\u251c\u2500\u2500 docs/                                   # Project documentation\n\u2502   \u251c\u2500\u2500 index.md                            # Documentation home\n\u2502   \u251c\u2500\u2500 getting-started.md                  # Quick start guide\n\u2502   \u251c\u2500\u2500 api/                                # API reference\n\u2502   \u2502   \u251c\u2500\u2500 overview.md                     # API overview\n\u2502   \u2502   \u251c\u2500\u2500 endpoints.md                    # Endpoint documentation\n\u2502   \u2502   \u2514\u2500\u2500 models.md                       # Data model docs\n\u2502   \u251c\u2500\u2500 guides/                             # User guides\n\u2502   \u2502   \u251c\u2500\u2500 installation.md                 # Install instructions\n\u2502   \u2502   \u251c\u2500\u2500 configuration.md                # Config guide\n\u2502   \u2502   \u2514\u2500\u2500 troubleshooting.md              # Common issues\n\u2502   \u2514\u2500\u2500 images/                             # Documentation assets\n\u2502       \u2514\u2500\u2500 architecture.png                # Architecture diagram\n\u2502\n\u251c\u2500\u2500 elasticsearch/                              # Main package\n\u2502   \u251c\u2500\u2500 __init__.py                         # Package initialization\n\u2502   \u251c\u2500\u2500 __main__.py                         # CLI entry point\n\u2502   \u251c\u2500\u2500 py.typed                            # PEP 561 type marker\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 cli/                                 # Command-line interface\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # CLI module init\n\u2502   \u2502   \u251c\u2500\u2500 main.py                         # Main CLI entry\n\u2502   \u2502   \u251c\u2500\u2500 commands/                       # CLI commands\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 __init__.py                 # Commands init\n\u2502   \u2502   \u2502   \u251c\u2500\u2500 run.py                      # Run command\n\u2502   \u2502   \u2502   \u2514\u2500\u2500 config.py                   # Config command\n\u2502   \u2502   \u2514\u2500\u2500 utils.py                        # CLI utilities\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 core/                                # Core business logic\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Core module init\n\u2502   \u2502   \u251c\u2500\u2500 engine.py                       # Main processing engine\n\u2502   \u2502   \u251c\u2500\u2500 processor.py                    # Data processor\n\u2502   \u2502   \u2514\u2500\u2500 validator.py                    # Input validation\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 models/                              # Data models\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Models init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base model class\n\u2502   \u2502   \u251c\u2500\u2500 entities.py                     # Domain entities\n\u2502   \u2502   \u2514\u2500\u2500 schemas.py                      # Pydantic schemas\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 services/                            # Service layer\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Services init\n\u2502   \u2502   \u251c\u2500\u2500 base.py                         # Base service class\n\u2502   \u2502   \u2514\u2500\u2500 impl/                           # Implementations\n\u2502   \u2502       \u251c\u2500\u2500 __init__.py                 # Impl init\n\u2502   \u2502       \u2514\u2500\u2500 default.py                  # Default service\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 utils/                               # Utility modules\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Utils init\n\u2502   \u2502   \u251c\u2500\u2500 helpers.py                      # Helper functions\n\u2502   \u2502   \u251c\u2500\u2500 decorators.py                   # Custom decorators\n\u2502   \u2502   \u2514\u2500\u2500 constants.py                    # Constants\n\u2502   \u2502\n\u2502   \u251c\u2500\u2500 config/                              # Configuration\n\u2502   \u2502   \u251c\u2500\u2500 __init__.py                     # Config init\n\u2502   \u2502   \u251c\u2500\u2500 settings.py                     # Settings management\n\u2502   \u2502   \u2514\u2500\u2500 defaults.py                     # Default values\n\u2502   \u2502\n\u2502   \u2514\u2500\u2500 exceptions/                          # Custom exceptions\n\u2502       \u251c\u2500\u2500 __init__.py                     # Exceptions init\n\u2502       \u251c\u2500\u2500 base.py                         # Base exception\n\u2502       \u2514\u2500\u2500 errors.py                       # Error classes\n\u2502\n\u251c\u2500\u2500 scripts/                                # Automation scripts\n\u2502   \u251c\u2500\u2500 build.sh                            # Build script\n\u2502   \u251c\u2500\u2500 test.sh                             # Test runner\n\u2502   \u251c\u2500\u2500 lint.sh                             # Linting script\n\u2502   \u2514\u2500\u2500 release.sh                          # Release script\n\u2502\n\u251c\u2500\u2500 pyproject.toml                          # Project configuration (PEP 518/621)\n\u251c\u2500\u2500 setup.py                                # Legacy setup (if needed)\n\u251c\u2500\u2500 requirements.txt                        # Runtime dependencies\n\u251c\u2500\u2500 requirements-dev.txt                    # Development dependencies\n\u251c\u2500\u2500 pytest.ini                              # Pytest configuration\n\u251c\u2500\u2500 mypy.ini                                # Type checker config\n\u251c\u2500\u2500 .pre-commit-config.yaml                 # Pre-commit hooks\n\u2514\u2500\u2500 tox.ini                                 # Multi-env testing\n```\n\n### Directory Overview\n\n| Directory | Purpose |\n|-----------|--------|\n| `elasticsearch/` | Main package containing all source modules |\n| `elasticsearch/cli/` | Command-line interface implementation |\n| `elasticsearch/core/` | Core business logic and processing |\n| `elasticsearch/models/` | Data models and schemas |\n| `tests/` | Unit and integration tests |\n| `docs/` | Project documentation |\n\n## Configuration\n\n### Environment Variables\n\nNo environment variables are required for basic usage.\n\n\n## Architecture\n\n### Components\n\n- Core dependencies: org, com, software, fixture, joptsimple\n\n\n## Dependencies\n\n### Runtime Dependencies\n\n| Package | Version | Source |\n|---------|---------|--------|\n| org | \u26a0\ufe0f Version unknown | Code import analysis |\n| com | \u26a0\ufe0f Version unknown | Code import analysis |\n| software | \u26a0\ufe0f Version unknown | Code import analysis |\n| fixture | \u26a0\ufe0f Version unknown | Code import analysis |\n| joptsimple | \u26a0\ufe0f Version unknown | Code import analysis |\n| jdk | \u26a0\ufe0f Version unknown | Code import analysis |\n| groovy | \u26a0\ufe0f Version unknown | Code import analysis |\n| de | \u26a0\ufe0f Version unknown | Code import analysis |\n| junit | \u26a0\ufe0f Version unknown | Code import analysis |\n| reactor | \u26a0\ufe0f Version unknown | Code import analysis |\n| co | \u26a0\ufe0f Version unknown | Code import analysis |\n| vec_common | \u26a0\ufe0f Version unknown | Code import analysis |\n| x86intrin | \u26a0\ufe0f Version unknown | Code import analysis |\n| stdint | \u26a0\ufe0f Version unknown | Code import analysis |\n| immintrin | \u26a0\ufe0f Version unknown | Code import analysis |\n\n> **Note:** 15 dependencies have unknown versions. Manual verification required.\n\n\n## Contributing\n\nContributions are welcome! Here's how you can help:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\nPlease ensure your code passes all CI checks before submitting.\n\n## License\n\nNo license information available.\n\n> \u26a0\ufe0f **Note:** This project does not have a clearly identified license. Please check the repository for a LICENSE file or contact the maintainers before using this code in your projects.\n\n## Authors\n\n<!-- TODO: Add author information - List the project authors and maintainers -->\n\n---\n\n## About This README\n\nThis README was automatically generated by [AutoDoc](https://github.com/divyajyoti/autodoc).\n\n**Important**: This is a *draft* document. Please review and enhance it:\n\n1. Verify all automatically extracted information is correct\n2. Fill in any sections marked with `<!-- TODO: ... -->` comments\n3. Add project-specific context, examples, and documentation\n4. Review sections marked for low-confidence data\n5. Remove this notice once you've reviewed the document\n\nAutoDoc extracted metadata from your project files but cannot understand the\nfull context of your project. Human review is essential for quality documentation.\n",
+  "repo": "elastic/elasticsearch"
+}
